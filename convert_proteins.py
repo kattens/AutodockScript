@@ -2,8 +2,8 @@ import os, sys, re, subprocess
 from pathlib import Path
 
 base_dir = Path(__file__).resolve().parent
-input_folder = base_dir / "malrecep"
-output_folder = base_dir / "NEW_malaria_pdbqt"
+input_folder = base_dir / "malaria"
+output_folder = base_dir / "malaria_pdbqt"
 output_folder.mkdir(parents=True, exist_ok=True)
 log_file_path = base_dir / "failed_conversions_proteins.txt"
 failed = []

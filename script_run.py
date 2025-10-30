@@ -2,25 +2,29 @@ import os
 import subprocess
 import pandas as pd
 import numpy as np
+import json
 
-# --- CONFIG: set your ligand/receptor filenames here ---
-LIGAND_FILENAME   = "24826799.pdbqt"  # e.g. in ./output/
-RECEPTOR_FILENAME = "5DYK.pdbqt"                               # e.g. in ./NEW_malaria_pdbqt/
 
 # Path to AutoDock Vina executable
 vina_executable = r"C:\Program Files (x86)\PyRx\vina.exe"
 
-# --- Paths ---
+# Paths 
 base_dir = os.path.dirname(os.path.abspath(__file__))
-output_folder = os.path.join(base_dir, "final_docking_output")
+output_folder = os.path.join(base_dir, "docking_output")
 log_folder = os.path.join(base_dir, "docking_logs")
-lig_folder = os.path.join(base_dir, "output")
-prot_folder = os.path.join(base_dir, "NEW_malaria_pdbqt")
+lig_folder = os.path.join(base_dir, "ligand_pdbqt")
+prot_folder = os.path.join(base_dir, "malaria_pdbqt")
 csv_folder = os.path.join(base_dir, "top10_affinities")
 
-# Ensure dirs exist
-for folder in [output_folder, log_folder, csv_folder]:
-    os.makedirs(folder, exist_ok=True)
+# optional: precomputed centers/sizes from CSV contact files
+binding_centers_path = os.path.join(base_dir, "binding_centers.json")
+if os.path.exists(binding_centers_path):
+    with open(binding_centers_path, "r") as f:
+        BINDING_CENTERS = json.load(f)
+    print(f"[info] loaded binding centers from {binding_centers_path} ({len(BINDING_CENTERS)} entries)")
+else:
+    BINDING_CENTERS = {}
+    print("[info] binding_centers.json not found, will use receptor-based auto box.")
 
 
 def estimate_docking_box_from_pdbqt(pdbqt_path, buffer=5.0):
@@ -55,6 +59,7 @@ def estimate_docking_box_from_pdbqt(pdbqt_path, buffer=5.0):
     maxc = coords.max(axis=0)
     size = (maxc - minc) + buffer
     return (tuple(center), tuple(size))
+
 
 def run_vina(size, center, log_path, out_path, receptor, ligand):
     cmd = [
@@ -132,11 +137,19 @@ def run_docking_with_filenames(ligand_filename, receptor_filename):
     rec_base = os.path.splitext(os.path.basename(receptor_path))[0]
     prefix = f"{lig_base}_vs_{rec_base}"
 
-    # Estimate box (center from receptor), use fixed size cube if desired
-    center, _ = estimate_docking_box_from_pdbqt(receptor_path)
-    size = (25.0, 25.0, 25.0)
-
-    print(f"Docking box center: {center}, size: {size}")
+    # === NEW: try CSV-based center/size first ===
+    # receptor file is e.g. 3AM5_A_TCL.pdbqt -> stem = 3AM5_A_TCL
+    rec_stem = rec_base
+    if rec_stem in BINDING_CENTERS:
+        data = BINDING_CENTERS[rec_stem]
+        center = tuple(data["center"])
+        size   = tuple(data["size"])
+        print(f"[site-box] Using CSV-based box for {rec_stem}: center={center}, size={size}")
+    else:
+        # fallback to receptor-based estimation
+        center, _ = estimate_docking_box_from_pdbqt(receptor_path)
+        size = (25.0, 25.0, 25.0)
+        print(f"[auto-box] Using receptor-based box for {rec_stem}: center={center}, size={size}")
 
     # Output paths
     out_pdbqt = os.path.join(output_folder, f"{prefix}.pdbqt")
@@ -154,4 +167,43 @@ def run_docking_with_filenames(ligand_filename, receptor_filename):
 
 
 if __name__ == "__main__":
-    run_docking_with_filenames(LIGAND_FILENAME, RECEPTOR_FILENAME)
+    # Ensure output dirs exist
+    os.makedirs(output_folder, exist_ok=True)
+    os.makedirs(log_folder, exist_ok=True)
+    os.makedirs(csv_folder, exist_ok=True)
+
+    # Collect ligands matching "*_ligand.pdbqt"
+    processed = 0
+    skipped = 0
+
+    for lig_file in sorted(os.listdir(lig_folder)):
+        if not lig_file.lower().endswith(".pdbqt"):
+            continue
+        name_no_ext = os.path.splitext(lig_file)[0]
+
+        # Expect suffix "_ligand" at the end of the stem
+        if not name_no_ext.lower().endswith("_ligand"):
+            # not a ligand file in our convention, skip
+            continue
+
+        # Derive the base "name" and the matching receptor filename
+        base = name_no_ext[: -len("_ligand")]
+        rec_file = f"{base}_malaria.pdbqt"
+
+        lig_path = os.path.join(lig_folder, lig_file)
+        rec_path = os.path.join(prot_folder, rec_file)
+
+        if not os.path.exists(rec_path):
+            print(f"[skip] Matching receptor not found for '{lig_file}'. "
+                  f"Looked for '{rec_file}' in {prot_folder}")
+            skipped += 1
+            continue
+
+        try:
+            run_docking_with_filenames(lig_file, rec_file)
+            processed += 1
+        except Exception as e:
+            print(f"[error] {base}: {e}")
+            skipped += 1
+
+    print(f"\nDone. Processed: {processed} | Skipped/Errors: {skipped}\n")
