@@ -1,0 +1,45 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N3_3  and  C10_10 
+REMARK    2  A    between atoms: N3_3  and  C13_13 
+REMARK    3  A    between atoms: N6_6  and  C9_9 
+REMARK    4  A    between atoms: N6_6  and  C19_19 
+REMARK    5  A    between atoms: C14_14  and  C16_16 
+ROOT
+HETATM    1  N1    D T1999       8.862 -10.088  -4.277  1.00 93.32    -0.040 NA
+HETATM    2  N2    D T1999      11.059 -10.122  -3.308  1.00 93.32    -0.058 NA
+HETATM    3  C9    D T1999       9.693  -9.950  -3.171  1.00 93.32     0.751 A 
+HETATM    4  C10   D T1999       9.429 -10.402  -5.516  1.00 93.32     0.184 A 
+HETATM    5  C11   D T1999      10.803 -10.571  -5.639  1.00 93.32     0.061 A 
+HETATM    6  C12   D T1999      11.616 -10.432  -4.535  1.00 93.32     0.121 A 
+ENDROOT
+BRANCH   3   7
+HETATM    7  N6    D T1999       9.239  -9.655  -1.870  1.00 93.32    -0.059 NA
+BRANCH   7   8
+HETATM    8  C19   D T1999       7.923  -9.542  -1.399  1.00 93.32     0.101 A 
+HETATM    9  C20   D T1999       6.866  -9.103  -2.183  1.00 93.32     0.041 A 
+HETATM   10  C21   D T1999       5.619  -8.998  -1.564  1.00 93.32     0.102 A 
+HETATM   11  N8    D T1999       4.431  -8.596  -2.058  1.00 93.32    -0.223 NA
+HETATM   12  C22   D T1999       5.445  -9.311  -0.239  1.00 93.32     0.101 A 
+HETATM   13  C25   D T1999       3.575  -8.554  -1.001  1.00 93.32     0.199 C 
+HETATM   14  N7    D T1999       4.165  -9.092   0.085  1.00 93.32    -0.223 NA
+HETATM   15  C23   D T1999       6.490  -9.745   0.550  1.00 93.32     0.022 A 
+HETATM   16  C24   D T1999       7.738  -9.856  -0.052  1.00 93.32     0.021 A 
+ENDBRANCH   7   8
+ENDBRANCH   3   7
+BRANCH   4  17
+HETATM   17  N3    D T1999       8.650 -10.560  -6.699  1.00 93.32    -0.205 NA
+BRANCH  17  18
+HETATM   18  C13   D T1999       7.243 -10.421  -6.793  1.00 93.32     0.186 C 
+HETATM   19  N4    D T1999       6.524 -10.498  -7.923  1.00 93.32    -0.129 NA
+HETATM   20  N5    D T1999       5.294 -10.357  -7.696  1.00 93.32    -0.151 NA
+HETATM   21  C14   D T1999       5.161  -9.984  -6.413  1.00 93.32     0.083 C 
+HETATM   22  C15   D T1999       6.359 -10.175  -5.780  1.00 93.32     0.057 C 
+BRANCH  21  23
+HETATM   23  C16   D T1999       3.900  -9.463  -5.763  1.00 93.32     0.042 A 
+HETATM   24  C17   D T1999       3.574 -10.125  -4.406  1.00 93.32     0.006 A 
+HETATM   25  C18   D T1999       2.696 -10.344  -5.609  1.00 93.32     0.006 A 
+ENDBRANCH  21  23
+ENDBRANCH  17  18
+ENDBRANCH   4  17
+TORSDOF 5

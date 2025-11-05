@@ -1,0 +1,51 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_5  and  N2_12 
+REMARK    2  A    between atoms: N2_12  and  C10_13 
+REMARK    3  A    between atoms: C10_13  and  C11_14 
+REMARK    4  A    between atoms: C11_14  and  C12_15 
+REMARK    5  A    between atoms: C12_15  and  C13_16 
+REMARK    6  A    between atoms: C13_16  and  N3_17 
+REMARK    7  A    between atoms: N3_17  and  C14_18 
+REMARK    8  A    between atoms: N3_17  and  C16_20 
+ROOT
+HETATM    1 CL     D T1001      11.606   4.550 -11.761  1.00 22.69    -0.082 Cl
+HETATM    2  N1    D T1001      12.930   9.516 -11.480  1.00 34.43    -0.244 NA
+HETATM    3  C1    D T1001      12.937  10.797 -11.903  1.00 35.26     0.101 A 
+HETATM    4  C2    D T1001      12.267  11.186 -13.056  1.00 34.24     0.039 A 
+HETATM    5  C3    D T1001      11.548  10.218 -13.882  1.00 31.96     0.079 A 
+HETATM    6  C4    D T1001      11.543   8.809 -13.434  1.00 33.68     0.035 A 
+HETATM    7  C5    D T1001      10.866   7.708 -14.118  1.00 34.90     0.004 A 
+HETATM    8  C6    D T1001      10.898   6.401 -13.611  1.00 32.93     0.012 A 
+HETATM    9  C7    D T1001      11.604   6.147 -12.390  1.00 31.88     0.059 A 
+HETATM   10  C8    D T1001      12.271   7.165 -11.689  1.00 32.37     0.031 A 
+HETATM   11  C9    D T1001      12.251   8.495 -12.190  1.00 35.42     0.084 A 
+ENDROOT
+BRANCH   5  12
+HETATM   12  N2    D T1001      10.882  10.571 -15.025  1.00 30.60    -0.273 NA
+BRANCH  12  13
+HETATM   13  C10   D T1001      10.889  11.905 -15.717  1.00 29.84     0.103 C 
+HETATM   14  C18   D T1001       9.902  11.905 -16.874  1.00 30.59     0.026 C 
+BRANCH  13  15
+HETATM   15  C11   D T1001      12.323  12.252 -16.145  1.00 31.56     0.026 C 
+BRANCH  15  16
+HETATM   16  C12   D T1001      12.962  11.349 -17.185  1.00 32.62     0.037 C 
+BRANCH  16  17
+HETATM   17  C13   D T1001      14.467  11.565 -17.191  1.00 31.65     0.250 C 
+BRANCH  17  18
+HETATM   18  N3    D T1001      14.875  12.971 -17.530  1.00 36.76     0.137 N 
+BRANCH  18  19
+HETATM   19  C14   D T1001      16.325  13.288 -17.102  1.00 36.54     0.250 C 
+HETATM   20  C15   D T1001      16.872  14.681 -17.400  1.00 37.02     0.037 C 
+ENDBRANCH  18  19
+BRANCH  18  21
+HETATM   21  C16   D T1001      14.461  13.393 -18.912  1.00 33.74     0.250 C 
+HETATM   22  C17   D T1001      15.337  12.898 -20.015  1.00 35.69     0.037 C 
+ENDBRANCH  18  21
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  13  15
+ENDBRANCH  12  13
+ENDBRANCH   5  12
+TORSDOF 8

@@ -1,0 +1,74 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NBL_6  and  CAS_7 
+REMARK    2  A    between atoms: CAS_7  and  CAO_8 
+REMARK    3  A    between atoms: CAO_8  and  CAP_9 
+REMARK    4  A    between atoms: CAP_9  and  OBB_10 
+REMARK    5  A    between atoms: OBB_10  and  CBH_11 
+REMARK    6  A    between atoms: CBG_13  and  OAZ_14 
+REMARK    7  A    between atoms: C6_22  and  NAY_23 
+REMARK    8  A    between atoms: NAY_23  and  CBE_24 
+REMARK    9  A    between atoms: CBD_29  and  NAX_30 
+REMARK       I    between atoms: NAX_30  and  CBC_31 
+REMARK   10  A    between atoms: CBC_31  and  CBF_33 
+ROOT
+HETATM    1  CBH   D T1356       9.984   6.844  -6.061  1.00 30.53     0.118 A 
+HETATM    2  CAM   D T1356       8.928   7.001  -6.966  1.00 29.88     0.045 A 
+HETATM    3  CBG   D T1356      10.443   5.547  -5.754  1.00 30.48     0.117 A 
+HETATM    4  CAN   D T1356       9.847   4.428  -6.334  1.00 29.67     0.031 A 
+HETATM    5  C5    D T1356       8.795   4.580  -7.242  1.00 29.79     0.056 A 
+HETATM    6  C4    D T1356       8.340   5.873  -7.554  1.00 29.99     0.088 A 
+HETATM    7  N3    D T1356       7.329   6.040  -8.422  1.00 29.16    -0.224 NA
+HETATM    8  C2    D T1356       6.718   4.935  -9.024  1.00 30.02     0.200 A 
+HETATM    9  N1    D T1356       7.174   3.641  -8.720  1.00 29.74    -0.205 NA
+HETATM   10  C6    D T1356       8.185   3.469  -7.849  1.00 29.94     0.166 A 
+ENDROOT
+BRANCH  10  11
+HETATM   11  NAY   D T1356       8.652   2.238  -7.512  1.00 31.31    -0.227 NA
+BRANCH  11  12
+HETATM   12  CBE   D T1356       8.030   1.111  -7.953  1.00 32.67     0.083 A 
+HETATM   13  CAK   D T1356       8.798   0.046  -8.428  1.00 33.73     0.021 A 
+HETATM   14  CAI   D T1356       8.192  -1.130  -8.880  1.00 34.14     0.021 A 
+HETATM   15  CBD   D T1356       6.797  -1.272  -8.843  1.00 33.99     0.085 A 
+HETATM   16  CAH   D T1356       6.029  -0.208  -8.372  1.00 33.61     0.021 A 
+HETATM   17  CAJ   D T1356       6.639   0.965  -7.924  1.00 33.42     0.021 A 
+BRANCH  15  18
+HETATM   18  NAX   D T1356       6.158  -2.379  -9.293  1.00 34.41    -0.208 NA
+HETATM   19  CBC   D T1356       6.776  -3.583  -9.365  1.00 37.04     0.279 C 
+HETATM   20  OAB   D T1356       7.943  -3.801  -9.027  1.00 38.15    -0.265 OA
+BRANCH  19  21
+HETATM   21  CBF   D T1356       5.981  -4.615  -9.872  1.00 37.03     0.058 A 
+HETATM   22  CAF   D T1356       6.451  -5.930  -9.856  1.00 38.06     0.005 A 
+HETATM   23  CAD   D T1356       5.666  -6.960 -10.367  1.00 38.28     0.000 A 
+HETATM   24  CAC   D T1356       4.409  -6.681 -10.901  1.00 38.02     0.000 A 
+HETATM   25  CAE   D T1356       3.935  -5.373 -10.914  1.00 37.90     0.000 A 
+HETATM   26  CAG   D T1356       4.723  -4.342 -10.409  1.00 37.23     0.005 A 
+ENDBRANCH  19  21
+ENDBRANCH  15  18
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+BRANCH   3  27
+HETATM   27  OAZ   D T1356      11.466   5.392  -4.847  1.00 30.66    -0.326 OA
+HETATM   28  CAA   D T1356      12.712   6.015  -5.170  1.00 33.36     0.181 C 
+ENDBRANCH   3  27
+BRANCH   1  29
+HETATM   29  OBB   D T1356      10.618   7.890  -5.437  1.00 30.55    -0.329 OA
+BRANCH  29  30
+HETATM   30  CAP   D T1356      10.380   9.239  -5.897  1.00 33.72     0.151 C 
+BRANCH  30  31
+HETATM   31  CAO   D T1356      11.395  10.187  -5.232  1.00 37.07     0.068 C 
+BRANCH  31  32
+HETATM   32  CAS   D T1356      10.739  10.830  -4.001  1.00 39.71     0.253 C 
+BRANCH  32  33
+HETATM   33  NBL   D T1356      11.599  11.623  -3.090  1.00 41.70     0.142 N 
+HETATM   34  CAT   D T1356      12.401  12.679  -3.750  1.00 43.12     0.282 C 
+HETATM   35  CAQ   D T1356      13.147  13.517  -2.689  1.00 43.52     0.178 C 
+HETATM   36  OBA   D T1356      12.770  13.077  -1.337  1.00 44.22    -0.350 OA
+HETATM   37  CAR   D T1356      13.042  11.655  -1.088  1.00 43.52     0.178 C 
+HETATM   38  CAU   D T1356      12.466  10.789  -2.227  1.00 42.73     0.282 C 
+ENDBRANCH  32  33
+ENDBRANCH  31  32
+ENDBRANCH  30  31
+ENDBRANCH  29  30
+ENDBRANCH   1  29
+TORSDOF 10

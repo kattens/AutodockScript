@@ -1,0 +1,53 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CBC_7  and  CAO_8 
+REMARK    2  A    between atoms: CAO_8  and  OAT_9 
+REMARK    3  A    between atoms: OAT_9  and  CAY_10 
+REMARK    4  A    between atoms: CAX_12  and  OAS_13 
+REMARK    5  A    between atoms: C6_21  and  NAR_22 
+REMARK    6  A    between atoms: NAR_22  and  CAW_23 
+ROOT
+HETATM    1  CAY   D T3015       4.321   3.371  10.277  1.00 27.56     0.118 A 
+HETATM    2  CAI   D T3015       3.172   2.619  10.449  1.00 26.69     0.045 A 
+HETATM    3  CAX   D T3015       4.307   4.481   9.452  1.00 27.38     0.117 A 
+HETATM    4  CAJ   D T3015       3.125   4.828   8.788  1.00 26.81     0.031 A 
+HETATM    5  C5    D T3015       1.968   4.064   8.960  1.00 27.31     0.056 A 
+HETATM    6  C4    D T3015       1.997   2.963   9.803  1.00 26.48     0.088 A 
+HETATM    7  N3    D T3015       0.879   2.213   9.963  1.00 27.11    -0.224 NA
+HETATM    8  C2    D T3015      -0.250   2.529   9.336  1.00 26.78     0.200 A 
+HETATM    9  N1    D T3015      -0.324   3.595   8.549  1.00 25.67    -0.205 NA
+HETATM   10  C6    D T3015       0.744   4.379   8.322  1.00 27.45     0.166 A 
+ENDROOT
+BRANCH   1  11
+HETATM   11  OAT   D T3015       5.510   3.075  10.880  1.00 28.48    -0.329 OA
+BRANCH  11  12
+HETATM   12  CAO   D T3015       5.494   2.126  11.930  1.00 34.10     0.149 C 
+BRANCH  12  13
+HETATM   13  CBC   D T3015       6.965   2.006  12.303  1.00 37.94     0.034 C 
+HETATM   14  CAK   D T3015       7.205   0.745  13.112  1.00 39.50     0.038 C 
+HETATM   15  CAM   D T3015       8.700   0.558  13.389  1.00 42.92     0.250 C 
+HETATM   16  NBD   D T3015       9.344   1.755  13.988  1.00 44.82     0.139 N 
+HETATM   17  CAB   D T3015      10.773   1.617  13.638  1.00 45.53     0.285 C 
+HETATM   18  CAN   D T3015       8.918   3.089  13.459  1.00 44.14     0.250 C 
+HETATM   19  CAL   D T3015       7.416   3.181  13.172  1.00 40.98     0.038 C 
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+BRANCH   3  20
+HETATM   20  OAS   D T3015       5.505   5.171   9.339  1.00 27.35    -0.326 OA
+HETATM   21  CAA   D T3015       5.522   6.438   8.643  1.00 26.97     0.181 C 
+ENDBRANCH   3  20
+BRANCH  10  22
+HETATM   22  NAR   D T3015       0.630   5.512   7.449  1.00 28.41    -0.224 NA
+BRANCH  22  23
+HETATM   23  CAW   D T3015      -0.623   5.935   6.951  1.00 30.70     0.110 A 
+HETATM   24  CAF   D T3015      -0.861   5.976   5.587  1.00 30.33     0.022 A 
+HETATM   25  CAE   D T3015      -2.093   6.424   5.123  1.00 31.71     0.008 A 
+HETATM   26  CAU   D T3015      -3.064   6.815   6.047  1.00 32.99     0.037 A 
+HETATM   27 BR     D T3015      -4.817   7.433   5.606  1.00 41.09    -0.049 Br
+HETATM   28  CAH   D T3015      -2.811   6.775   7.391  1.00 31.01     0.038 A 
+HETATM   29  CAV   D T3015      -1.611   6.340   7.835  1.00 32.00     0.158 A 
+HETATM   30  FAC   D T3015      -1.461   6.351   9.162  1.00 33.90    -0.203 F 
+ENDBRANCH  22  23
+ENDBRANCH  10  22
+TORSDOF 6

@@ -1,0 +1,36 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C7_8  and  C10_12 
+REMARK    2  A    between atoms: N9_10  and  C1'_11 
+REMARK    3  A    between atoms: C4'_19  and  C5'_21 
+ROOT
+HETATM    1  N1    D T 601      -8.079   0.656  -7.457  1.00 22.46    -0.210 NA
+HETATM    2  C2    D T 601      -9.176   0.109  -8.078  1.00 17.33     0.201 A 
+HETATM    3  N3    D T 601     -10.433   0.550  -7.742  1.00 21.38    -0.207 NA
+HETATM    4  C4    D T 601     -10.572   1.528  -6.791  1.00 21.15     0.150 A 
+HETATM    5  C5    D T 601      -9.483   2.073  -6.183  1.00 22.48     0.071 A 
+HETATM    6  C6    D T 601      -8.219   1.620  -6.521  1.00 22.92     0.156 A 
+HETATM    7  N6    D T 601      -6.820   1.824  -6.220  1.00 23.12    -0.080 NA
+HETATM    8  C7    D T 601      -9.924   3.024  -5.281  1.00 19.57     0.076 A 
+HETATM    9  C8    D T 601     -11.299   3.064  -5.339  1.00 12.70     0.084 A 
+HETATM   10  N9    D T 601     -11.693   2.170  -6.280  1.00 22.69    -0.287 N 
+ENDROOT
+BRANCH  10  11
+HETATM   11  C1'   D T 601     -13.068   1.802  -6.664  1.00 23.36     0.240 C 
+HETATM   12  C2'   D T 601     -13.512   0.592  -5.844  1.00 24.93     0.234 C 
+HETATM   13  O2'   D T 601     -14.538  -0.081  -6.555  1.00 35.12    -0.216 OA
+HETATM   14  C3'   D T 601     -14.075   1.283  -4.620  1.00 25.54     0.216 C 
+HETATM   15  O3'   D T 601     -14.900   0.452  -3.830  1.00 30.30    -0.218 OA
+HETATM   16  C4'   D T 601     -14.808   2.463  -5.238  1.00 31.54     0.183 C 
+HETATM   17  O4'   D T 601     -13.941   2.864  -6.337  1.00 29.87    -0.331 OA
+BRANCH  16  18
+HETATM   18  C5'   D T 601     -15.076   3.640  -4.334  1.00 31.76     0.214 C 
+HETATM   19  O5'   D T 601     -13.869   4.294  -3.979  1.00 34.06    -0.218 OA
+ENDBRANCH  16  18
+ENDBRANCH  10  11
+BRANCH   8  20
+HETATM   20  C10   D T 601      -9.210   3.978  -4.285  1.00 29.97     0.268 C 
+HETATM   21  N11   D T 601      -9.969   5.095  -3.683  1.00 35.69    -0.057 NA
+HETATM   22  O12   D T 601      -8.028   3.800  -3.998  1.00 30.21    -0.271 OA
+ENDBRANCH   8  20
+TORSDOF 3

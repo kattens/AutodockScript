@@ -1,0 +1,17 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N2_13  and  C19_21 
+REMARK    2  A    between atoms: C24_26  and  C25_27 
+REMARK    3  A    between atoms: C25_27  and  C26_28 
+ROOT
+HETATM    1  C25   D T4001      38.614  25.098   3.145  1.00267.77    -0.009 C 
+ENDROOT
+BRANCH   1   2
+HETATM    2  C24   D T4001      37.333  24.914   3.205  1.00256.23    -0.026 C 
+HETATM    3  C23   D T4001      36.102  23.739   3.132  1.00273.17     0.031 C 
+ENDBRANCH   1   2
+BRANCH   1   4
+HETATM    4  C26   D T4001      39.626  24.336   3.801  1.00319.60    -0.026 C 
+HETATM    5  C27   D T4001      40.909  24.731   4.275  1.00376.98     0.031 C 
+ENDBRANCH   1   4
+TORSDOF 3

@@ -14,7 +14,7 @@ def run(cmd):
 
 def has_adt():
     try:
-        import AutoDockTools_py3  # noqa
+        import AutoDockTools_py3  
         return True
     except Exception:
         return False

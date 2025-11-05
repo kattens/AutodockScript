@@ -1,0 +1,54 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NBC_2  and  CBB_4 
+REMARK    2  A    between atoms: CBB_4  and  CBA_5 
+REMARK    3  A    between atoms: CBA_5  and  CAY_6 
+REMARK    4  A    between atoms: CAY_6  and  NAH_7 
+REMARK    5  A    between atoms: CAG_15  and  CAI_16 
+REMARK    6  A    between atoms: CAJ_22  and  CAK_23 
+ROOT
+HETATM    1  CAI   D T1368       5.399   1.618  -7.471  1.00 47.54     0.064 A 
+HETATM    2  CAT   D T1368       4.799   0.545  -8.125  1.00 46.36     0.282 A 
+HETATM    3  OAZ   D T1368       4.762  -0.630  -7.769  1.00 44.28    -0.265 OA
+HETATM    4  NAU   D T1368       4.228   1.059  -9.214  1.00 46.45    -0.169 NA
+HETATM    5  CAV   D T1368       4.398   2.375  -9.336  1.00 47.61     0.282 A 
+HETATM    6  OAX   D T1368       3.951   3.097 -10.223  1.00 47.90    -0.265 OA
+HETATM    7  CAJ   D T1368       5.154   2.756  -8.231  1.00 48.30     0.064 A 
+ENDROOT
+BRANCH   1   8
+HETATM    8  CAG   D T1368       6.009   1.533  -6.221  1.00 49.01     0.023 A 
+HETATM    9  CAW   D T1368       5.818   2.482  -5.305  1.00 50.91     0.076 A 
+HETATM   10  NAH   D T1368       6.447   2.104  -4.187  1.00 50.74    -0.326 N 
+HETATM   11  CAE   D T1368       7.059   0.930  -4.331  1.00 49.51     0.060 A 
+HETATM   12  CAF   D T1368       7.798   0.111  -3.482  1.00 49.09     0.017 A 
+HETATM   13  CAD   D T1368       6.786   0.543  -5.637  1.00 48.06     0.017 A 
+HETATM   14  CAA   D T1368       8.263  -1.114  -3.951  1.00 50.27     0.002 A 
+HETATM   15  CAB   D T1368       7.992  -1.510  -5.258  1.00 50.31     0.000 A 
+HETATM   16  CAC   D T1368       7.256  -0.681  -6.102  1.00 49.26     0.002 A 
+BRANCH  10  17
+HETATM   17  CAY   D T1368       6.393   2.836  -2.911  1.00 53.65     0.108 C 
+BRANCH  17  18
+HETATM   18  CBA   D T1368       6.276   4.356  -3.073  1.00 61.14     0.048 C 
+BRANCH  18  19
+HETATM   19  CBB   D T1368       7.610   5.037  -3.393  1.00 65.34     0.099 C 
+BRANCH  19  20
+HETATM   20  NBC   D T1368       8.531   5.138  -2.245  1.00 68.16    -0.365 N 
+HETATM   21  CBD   D T1368       9.961   4.989  -2.545  1.00 68.53     0.121 C 
+HETATM   22  CBE   D T1368       8.072   4.735  -0.906  1.00 68.44     0.121 C 
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  10  17
+ENDBRANCH   1   8
+BRANCH   7  23
+HETATM   23  CAK   D T1368       5.614   4.052  -8.002  1.00 49.21     0.025 A 
+HETATM   24  CAM   D T1368       6.797   4.550  -7.481  1.00 47.19     0.019 A 
+HETATM   25  CAP   D T1368       7.945   3.945  -6.977  1.00 47.05     0.002 A 
+HETATM   26  CAN   D T1368       6.709   5.935  -7.506  1.00 48.17     0.081 A 
+HETATM   27  CAQ   D T1368       8.990   4.730  -6.498  1.00 49.31     0.000 A 
+HETATM   28  CAR   D T1368       8.894   6.120  -6.523  1.00 47.76     0.002 A 
+HETATM   29  CAS   D T1368       7.751   6.727  -7.031  1.00 48.79     0.019 A 
+HETATM   30  NAO   D T1368       5.515   6.209  -8.033  1.00 49.87    -0.244 NA
+HETATM   31  CAL   D T1368       4.850   5.090  -8.336  1.00 50.14     0.099 A 
+ENDBRANCH   7  23
+TORSDOF 6

@@ -1,36 +1,37 @@
 import os
-import subprocess
-import pandas as pd
-import numpy as np
+import sys
 import json
+import subprocess
+from pathlib import Path
+import numpy as np
+import pandas as pd
 
+vina_executable = r"C:\Program Files (x86)\PyRx\vina.exe" #on windows
+#vina_executable = r"/usr/local/bin/vina"   # Mac
 
-# Path to AutoDock Vina executable
-vina_executable = r"C:\Program Files (x86)\PyRx\vina.exe"
+base_dir = Path(__file__).resolve().parent
+output_folder = base_dir / "docking_output"
+log_folder = base_dir / "docking_logs"
+lig_folder = base_dir / "ligand_pdbqt"
+prot_folder = base_dir / "Malaria_Dataset_only"
+csv_folder = base_dir / "top10_affinities"
 
-# Paths 
-base_dir = os.path.dirname(os.path.abspath(__file__))
-output_folder = os.path.join(base_dir, "docking_output")
-log_folder = os.path.join(base_dir, "docking_logs")
-lig_folder = os.path.join(base_dir, "ligand_pdbqt")
-prot_folder = os.path.join(base_dir, "malaria_pdbqt")
-csv_folder = os.path.join(base_dir, "top10_affinities")
+binding_centers_path = base_dir / "Center_boxes.json"
+# ------------------------------------------
 
-# optional: precomputed centers/sizes from CSV contact files
-binding_centers_path = os.path.join(base_dir, "binding_centers.json")
-if os.path.exists(binding_centers_path):
+# Load precomputed centers if present
+if binding_centers_path.exists():
     with open(binding_centers_path, "r") as f:
         BINDING_CENTERS = json.load(f)
     print(f"[info] loaded binding centers from {binding_centers_path} ({len(BINDING_CENTERS)} entries)")
 else:
     BINDING_CENTERS = {}
-    print("[info] binding_centers.json not found, will use receptor-based auto box.")
+    print("[info] Center_boxes.json not found, will use receptor-based auto box.")
 
-
-def estimate_docking_box_from_pdbqt(pdbqt_path, buffer=5.0):
+def estimate_docking_box_from_pdbqt(pdbqt_path: Path, buffer: float = 5.0):
     """
-    Robust center/size estimation from PDBQT via fixed-width slicing.
-    Skips hydrogens. Returns (center_xyz, size_xyz).
+    Estimate center/size from receptor PDBQT (skips hydrogens).
+    Returns (center_xyz, size_xyz) where center/size are tuples of 3 floats.
     """
     xs, ys, zs = [], [], []
     with open(pdbqt_path, "r") as f:
@@ -41,16 +42,13 @@ def estimate_docking_box_from_pdbqt(pdbqt_path, buffer=5.0):
             if atom_name.startswith("H"):
                 continue
             try:
-                x = float(line[30:38])
-                y = float(line[38:46])
-                z = float(line[46:54])
+                x = float(line[30:38]); y = float(line[38:46]); z = float(line[46:54])
                 xs.append(x); ys.append(y); zs.append(z)
             except ValueError:
-                # Skip malformed coordinate lines
                 continue
 
     if not xs:
-        print("Warning: no heavy-atom coords parsed; using (0,0,0) and 25 Å.")
+        print(f"[warn] no heavy-atom coords parsed; using (0,0,0) and 25 Å for {pdbqt_path.name}.")
         return (0.0, 0.0, 0.0), (25.0, 25.0, 25.0)
 
     coords = np.array(list(zip(xs, ys, zs)))
@@ -60,48 +58,67 @@ def estimate_docking_box_from_pdbqt(pdbqt_path, buffer=5.0):
     size = (maxc - minc) + buffer
     return (tuple(center), tuple(size))
 
+def build_box_for_receptor(receptor_path: Path):
+    rec_stem = receptor_path.stem
+    if rec_stem in BINDING_CENTERS:
+        data = BINDING_CENTERS[rec_stem]
+        center = tuple(data["center"])
+        size   = tuple(data["size"])
+        print(f"[site-box] {rec_stem}: center={center}, size={size}")
+        return center, size
+    center, _ = estimate_docking_box_from_pdbqt(receptor_path)
+    size = (25.0, 25.0, 25.0)
+    print(f"[auto-box] {rec_stem}: center={center}, size={size}")
+    return center, size
 
-def run_vina(size, center, log_path, out_path, receptor, ligand):
+def run_vina(size, center, log_path: Path, out_path: Path, receptor: Path, ligand: Path):
+    """
+    Run vina 1.2.x: no --log option. Capture stdout and write it to log_path.
+    """
     cmd = [
-        vina_executable,
-        "--receptor", receptor,
-        "--ligand", ligand,
+        str(vina_executable),
+        "--receptor", str(receptor),
+        "--ligand", str(ligand),
         "--center_x", str(center[0]),
         "--center_y", str(center[1]),
         "--center_z", str(center[2]),
         "--size_x", str(size[0]),
         "--size_y", str(size[1]),
         "--size_z", str(size[2]),
-        "--out", out_path,
-        "--log", log_path,
+        "--out", str(out_path),
         "--cpu", "1",
-    ]
-    # show the exact command (quoted) for easy copy-paste
-    pretty = " ".join(f'"{c}"' if " " in c else c for c in cmd)
-    print("\nRunning AutoDock Vina with:\n", pretty, "\n")
 
-    # capture Vina stdout+stderr
+    ]
+
+    pretty = " ".join(f'"{c}"' if " " in c else c for c in cmd)
+    print("\n[run] AutoDock Vina:\n", pretty, "\n")
+
     proc = subprocess.run(cmd, text=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
-    print(proc.stdout)  # show everything Vina said
+    # Save stdout as our log file (since --log is not supported)
+    log_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(log_path, "w") as lf:
+        lf.write(proc.stdout or "")
+    # Also echo to console
+    print(proc.stdout)
 
     if proc.returncode != 0:
-        raise RuntimeError(f"Vina failed (exit {proc.returncode}). See output above.")
+        raise RuntimeError(f"Vina failed (exit {proc.returncode}). See log: {log_path}")
 
-
-def parse_affinities(log_path):
+def parse_affinities(log_path: Path):
     """
-    Read top-poses table from Vina log. Returns up to top-10 affinities (kcal/mol).
+    Parse top-poses table from a Vina 1.2.x log (captured stdout).
+    Returns up to top-10 affinities (kcal/mol).
     """
     affinities = []
-    if not os.path.exists(log_path):
+    if not log_path.exists():
         return affinities
     with open(log_path, "r") as f:
         for line in f:
-            # Vina table lines begin with rank number 1..N
             s = line.strip()
             if not s:
                 continue
-            if s.split()[0].isdigit():
+            first = s.split()[0]
+            if first.isdigit():
                 parts = s.split()
                 if len(parts) >= 2:
                     try:
@@ -110,100 +127,71 @@ def parse_affinities(log_path):
                         pass
     return affinities[:10]
 
-
-def save_to_csv(affinities, prefix, csv_folder):
+def save_to_csv(affinities, prefix: str, csv_dir: Path):
     df = pd.DataFrame({
         "Rank": list(range(1, len(affinities) + 1)),
         "Binding_Affinity_kcal/mol": affinities
     })
-    csv_file = os.path.join(csv_folder, f"{prefix}.csv")
+    csv_dir.mkdir(parents=True, exist_ok=True)
+    csv_file = csv_dir / f"{prefix}.csv"
     df.to_csv(csv_file, index=False)
-    print(f"Top 10 affinities saved to {csv_file}")
+    print(f"[ok] saved CSV: {csv_file}")
 
-
-def run_docking_with_filenames(ligand_filename, receptor_filename):
-    # Build file paths
-    ligand_path  = os.path.join(lig_folder, ligand_filename)
-    receptor_path = os.path.join(prot_folder, receptor_filename)
-
-    # Basic checks
-    if not os.path.exists(ligand_path):
-        raise FileNotFoundError(f"Ligand not found: {ligand_path}")
-    if not os.path.exists(receptor_path):
-        raise FileNotFoundError(f"Receptor not found: {receptor_path}")
-
-    # Prefix for outputs
-    lig_base = os.path.splitext(os.path.basename(ligand_path))[0]
-    rec_base = os.path.splitext(os.path.basename(receptor_path))[0]
+def run_docking_pair(ligand_path: Path, receptor_path: Path):
+    lig_base = ligand_path.stem
+    rec_base = receptor_path.stem
     prefix = f"{lig_base}_vs_{rec_base}"
 
-    # === NEW: try CSV-based center/size first ===
-    # receptor file is e.g. 3AM5_A_TCL.pdbqt -> stem = 3AM5_A_TCL
-    rec_stem = rec_base
-    if rec_stem in BINDING_CENTERS:
-        data = BINDING_CENTERS[rec_stem]
-        center = tuple(data["center"])
-        size   = tuple(data["size"])
-        print(f"[site-box] Using CSV-based box for {rec_stem}: center={center}, size={size}")
-    else:
-        # fallback to receptor-based estimation
-        center, _ = estimate_docking_box_from_pdbqt(receptor_path)
-        size = (25.0, 25.0, 25.0)
-        print(f"[auto-box] Using receptor-based box for {rec_stem}: center={center}, size={size}")
+    center, size = build_box_for_receptor(receptor_path)
 
-    # Output paths
-    out_pdbqt = os.path.join(output_folder, f"{prefix}.pdbqt")
-    log_path  = os.path.join(log_folder,   f"{prefix}.log")
+    out_pdbqt = output_folder / f"{prefix}.pdbqt"
+    log_path  = log_folder   / f"{prefix}.log"
 
-    # Run Vina
-    run_vina(size, center, log_path, out_pdbqt, receptor_path, ligand_path)
+    # Skip if output already exists
+    if out_pdbqt.exists():
+        print(f"[skip] {out_pdbqt.name} already exists, skipping.")
+        return
 
-    # Parse results
+    run_vina(size=size, center=center, log_path=log_path, out_path=out_pdbqt,
+             receptor=receptor_path, ligand=ligand_path)
+
     affinities = parse_affinities(log_path)
     if affinities:
         save_to_csv(affinities, prefix, csv_folder)
     else:
-        print("No binding affinities parsed. Check the Vina log:", log_path)
-
+        print(f"[warn] No affinities parsed. Check log: {log_path}")
 
 if __name__ == "__main__":
     # Ensure output dirs exist
-    os.makedirs(output_folder, exist_ok=True)
-    os.makedirs(log_folder, exist_ok=True)
-    os.makedirs(csv_folder, exist_ok=True)
+    output_folder.mkdir(parents=True, exist_ok=True)
+    log_folder.mkdir(parents=True, exist_ok=True)
+    csv_folder.mkdir(parents=True, exist_ok=True)
 
-    # Collect ligands matching "*_ligand.pdbqt"
+    # Build stem -> path maps
+    lig_map = {p.stem: p for p in lig_folder.glob("*.pdbqt")}
+    rec_map = {p.stem: p for p in prot_folder.glob("*.pdbqt")}
+
+    print(f"[inventory] ligands: {len(lig_map)} | receptors: {len(rec_map)}")
+
+    # Match by identical stem in both folders
+    common = sorted(set(lig_map.keys()) & set(rec_map.keys()))
+    print(f"[match] matched pairs by stem: {len(common)}")
+
+    if not common:
+        print("[fatal] No matched pairs found. Ensure both folders contain .pdbqt files with identical names (stems).")
+        sys.exit(1)
+
     processed = 0
-    skipped = 0
+    errors = 0
 
-    for lig_file in sorted(os.listdir(lig_folder)):
-        if not lig_file.lower().endswith(".pdbqt"):
-            continue
-        name_no_ext = os.path.splitext(lig_file)[0]
-
-        # Expect suffix "_ligand" at the end of the stem
-        if not name_no_ext.lower().endswith("_ligand"):
-            # not a ligand file in our convention, skip
-            continue
-
-        # Derive the base "name" and the matching receptor filename
-        base = name_no_ext[: -len("_ligand")]
-        rec_file = f"{base}_malaria.pdbqt"
-
-        lig_path = os.path.join(lig_folder, lig_file)
-        rec_path = os.path.join(prot_folder, rec_file)
-
-        if not os.path.exists(rec_path):
-            print(f"[skip] Matching receptor not found for '{lig_file}'. "
-                  f"Looked for '{rec_file}' in {prot_folder}")
-            skipped += 1
-            continue
-
+    for stem in common:
+        lig_path = lig_map[stem]
+        rec_path = rec_map[stem]
         try:
-            run_docking_with_filenames(lig_file, rec_file)
+            run_docking_pair(lig_path, rec_path)
             processed += 1
         except Exception as e:
-            print(f"[error] {base}: {e}")
-            skipped += 1
+            print(f"[error] {stem}: {e}")
+            errors += 1
 
-    print(f"\nDone. Processed: {processed} | Skipped/Errors: {skipped}\n")
+    print(f"\nDone. Processed: {processed} | Errors: {errors}\n")

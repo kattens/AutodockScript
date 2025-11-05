@@ -10,18 +10,13 @@ import subprocess
 
 
 base_dir = os.path.dirname(os.path.abspath(__file__))
-
-
-input_folder = os.path.join(base_dir,'ligand')
-
-# Where to save the output PDBQT files
-output_folder = os.path.join('ligand_pdbqt')
+input_folder = os.path.join(base_dir,'raw_ligand_pdb')
+output_folder = os.path.join('raw_ligand_pdbqt')
 if not os.path.exists(output_folder):
     os.makedirs(output_folder, exist_ok=True)
 
 log_file_path = os.path.join(base_dir, "failed_conversions.txt")
 failed = []
-
 
 prepare_script = os.path.join(base_dir,'prep_ligands.py')
 

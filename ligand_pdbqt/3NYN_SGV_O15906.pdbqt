@@ -1,0 +1,36 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C7_8  and  C10_12 
+REMARK    2  A    between atoms: N9_10  and  C1'_11 
+REMARK    3  A    between atoms: C4'_19  and  C5'_21 
+ROOT
+HETATM    1  N1    D T 577       7.320   4.096  -7.274  1.00 85.37    -0.203 NA
+HETATM    2  C2    D T 577       8.424   4.380  -6.551  1.00 86.80     0.202 A 
+HETATM    3  N3    D T 577       9.105   3.455  -5.842  1.00 86.97    -0.206 NA
+HETATM    4  C4    D T 577       8.715   2.158  -5.816  1.00 86.50     0.151 A 
+HETATM    5  C5    D T 577       7.519   1.774  -6.582  1.00 85.57     0.078 A 
+HETATM    6  C6    D T 577       6.821   2.844  -7.336  1.00 85.00     0.188 A 
+HETATM    7  N6    D T 577       5.718   2.607  -8.068  1.00 84.84    -0.127 N 
+HETATM    8  C7    D T 577       7.417   0.329  -6.312  1.00 85.86     0.083 A 
+HETATM    9  C8    D T 577       8.458  -0.021  -5.483  1.00 86.68     0.084 A 
+HETATM   10  N9    D T 577       9.206   1.067  -5.209  1.00 87.05    -0.287 N 
+ENDROOT
+BRANCH  10  11
+HETATM   11  C1'   D T 577      10.415   1.087  -4.345  1.00 88.13     0.240 C 
+HETATM   12  C2'   D T 577       9.972   1.613  -2.996  1.00 88.30     0.234 C 
+HETATM   13  O2'   D T 577      11.045   2.324  -2.365  1.00 89.07    -0.216 OA
+HETATM   14  C3'   D T 577       9.596   0.349  -2.264  1.00 88.03     0.216 C 
+HETATM   15  O3'   D T 577       9.753   0.509  -0.857  1.00 88.96    -0.218 OA
+HETATM   16  C4'   D T 577      10.535  -0.710  -2.831  1.00 88.80     0.183 C 
+HETATM   17  O4'   D T 577      10.942  -0.225  -4.114  1.00 88.48    -0.331 OA
+BRANCH  16  18
+HETATM   18  C5'   D T 577       9.928  -2.115  -2.942  1.00 89.18     0.214 C 
+HETATM   19  O5'   D T 577       8.765  -2.262  -2.100  1.00 89.91    -0.218 OA
+ENDBRANCH  16  18
+ENDBRANCH  10  11
+BRANCH   8  20
+HETATM   20  C10   D T 577       6.315  -0.474  -6.906  1.00 85.71     0.298 C 
+HETATM   21  N11   D T 577       6.552  -1.739  -7.224  1.00 86.33    -0.102 N 
+HETATM   22  O12   D T 577       5.221   0.024  -7.086  1.00 85.41    -0.264 OA
+ENDBRANCH   8  20
+TORSDOF 3

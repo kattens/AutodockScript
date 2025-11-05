@@ -1,0 +1,28 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5_4  and  O7_13 
+REMARK    2  A    between atoms: C8_10  and  O7_13 
+ROOT
+HETATM    1  O7    D T 502       8.122   1.932  -5.942  1.00 24.96    -0.304 OA
+ENDROOT
+BRANCH   1   2
+HETATM    2  C5    D T 502       8.110   1.857  -7.301  1.00 24.69     0.125 A 
+HETATM    3  C6    D T 502       7.853   0.630  -7.895  1.00 25.95     0.154 A 
+HETATM    4  C1    D T 502       7.754   0.531  -9.302  1.00 27.27     0.041 A 
+HETATM    5  O17   D T 502       7.734  -0.476  -7.087  1.00 23.71    -0.188 OA
+HETATM    6  C2    D T 502       7.918   1.679 -10.089  1.00 21.79     0.060 A 
+HETATM    7  C3    D T 502       8.186   2.908  -9.486  1.00 27.99     0.014 A 
+HETATM    8 CL14   D T 502       7.779   1.581 -11.796  1.00  9.14    -0.082 Cl
+HETATM    9  C4    D T 502       8.279   3.003  -8.081  1.00 29.15     0.028 A 
+ENDBRANCH   1   2
+BRANCH   1  10
+HETATM   10  C8    D T 502       9.295   1.726  -5.276  1.00 22.86     0.111 A 
+HETATM   11  C9    D T 502       9.310   1.933  -3.865  1.00 16.25     0.081 A 
+HETATM   12  C10   D T 502      10.507   1.752  -3.152  1.00 16.94     0.025 A 
+HETATM   13 CL16   D T 502       7.885   2.443  -3.026  1.00  2.00    -0.080 Cl
+HETATM   14  C11   D T 502      11.687   1.368  -3.845  1.00 21.46     0.059 A 
+HETATM   15  C12   D T 502      11.669   1.162  -5.248  1.00 21.21     0.013 A 
+HETATM   16 CL15   D T 502      13.164   1.172  -2.969  1.00  9.25    -0.082 Cl
+HETATM   17  C13   D T 502      10.471   1.341  -5.963  1.00 21.49     0.026 A 
+ENDBRANCH   1  10
+TORSDOF 2

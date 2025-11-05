@@ -1,0 +1,47 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N6_6  and  O7_7 
+REMARK    2  A    between atoms: O7_7  and  C8_8 
+REMARK    3  A    between atoms: C8_8  and  C9_9 
+REMARK    4  A    between atoms: C9_9  and  C10_10 
+REMARK    5  A    between atoms: C10_10  and  O11_11 
+REMARK    6  A    between atoms: O11_11  and  C12_12 
+ROOT
+HETATM    1  C8    D T 609     -21.144   0.740  14.438  1.00 42.96     0.177 C 
+ENDROOT
+BRANCH   1   2
+HETATM    2  O7    D T 609     -20.537   0.966  13.069  1.00 45.57    -0.242 OA
+BRANCH   2   3
+HETATM    3  N6    D T 609     -19.087   0.779  12.830  1.00 35.78    -0.046 N 
+HETATM    4  C1    D T 609     -18.751   0.339  11.426  1.00 32.37     0.209 C 
+HETATM    5  N2    D T 609     -17.297   0.050  11.271  1.00 31.22    -0.064 NA
+HETATM    6  CM1   D T 609     -19.574  -0.911  11.075  1.00 29.06     0.051 C 
+HETATM    7  CM2   D T 609     -19.152   1.461  10.443  1.00 32.53     0.051 C 
+HETATM    8  C3    D T 609     -16.397   0.523  12.142  1.00 33.38     0.781 C 
+HETATM    9  N4    D T 609     -16.789   1.277  13.210  1.00 32.85     0.137 NA
+HETATM   10  NH1   D T 609     -15.092   0.255  11.953  1.00 33.22     0.062 N 
+HETATM   11  C5    D T 609     -18.103   1.412  13.561  1.00 34.53     0.785 C 
+HETATM   12  NH2   D T 609     -18.409   2.153  14.600  1.00 32.63     0.063 N 
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  13
+HETATM   13  C9    D T 609     -22.621   1.322  14.354  1.00 41.72     0.068 C 
+BRANCH  13  14
+HETATM   14  C10   D T 609     -23.289   0.771  13.002  1.00 44.58     0.151 C 
+BRANCH  14  15
+HETATM   15  O11   D T 609     -23.235  -0.711  13.038  1.00 45.50    -0.334 OA
+BRANCH  15  16
+HETATM   16  C12   D T 609     -23.824  -1.414  11.924  1.00 41.06     0.084 A 
+HETATM   17  C13   D T 609     -23.835  -2.875  11.967  1.00 38.83     0.059 A 
+HETATM   18  C14   D T 609     -24.380  -3.642  10.885  1.00 39.01     0.078 A 
+HETATM   19 CL1    D T 609     -23.175  -3.699  13.333  1.00 34.26    -0.085 Cl
+HETATM   20  C15   D T 609     -24.925  -2.981   9.714  1.00 39.27     0.048 A 
+HETATM   21  C16   D T 609     -24.930  -1.506   9.650  1.00 40.25     0.049 A 
+HETATM   22 CL2    D T 609     -25.557  -3.972   8.395  1.00 32.41    -0.086 Cl
+HETATM   23  C17   D T 609     -24.383  -0.732  10.762  1.00 40.73     0.090 A 
+HETATM   24 CL3    D T 609     -25.585  -0.643   8.237  1.00 40.57    -0.086 Cl
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH   1  13
+TORSDOF 6

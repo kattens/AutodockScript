@@ -1,0 +1,68 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O02_2  and  CAX_24 
+REMARK    2  A    between atoms: CAC_3  and  CAM_13 
+REMARK    3  A    between atoms: CAC_3  and  NBH_34 
+REMARK    4  A    between atoms: CAM_13  and  CAN_14 
+REMARK    5  A    between atoms: CAN_14  and  OAW_23 
+REMARK    6  A    between atoms: NAU_21  and  CBB_28 
+REMARK    7  A    between atoms: NAU_21  and  CBE_31 
+REMARK    8  A    between atoms: OAV_22  and  CBC_29 
+REMARK    9  A    between atoms: OAW_23  and  CBD_30 
+ROOT
+HETATM    1  NAD   D T 445      -8.278   4.405  -5.839  1.00172.85    -0.191 NA
+HETATM    2  CAG   D T 445      -8.758   3.620  -6.351  1.00172.72     0.104 C 
+HETATM    3  CAH   D T 445      -8.802   1.460  -7.762  1.00173.65     0.111 A 
+HETATM    4  CAK   D T 445     -11.324  -0.874  -9.228  1.00175.08     0.045 A 
+HETATM    5  CAL   D T 445     -12.985   1.013  -7.964  1.00173.14     0.029 A 
+HETATM    6  NAT   D T 445      -9.399   0.402  -8.443  1.00174.21    -0.243 NA
+HETATM    7  CBA   D T 445      -9.501   2.461  -7.096  1.00172.91     0.105 A 
+HETATM    8  CBC   D T 445     -13.557  -0.061  -8.653  1.00173.92     0.116 A 
+HETATM    9  CBD   D T 445     -12.733  -1.028  -9.306  1.00174.94     0.118 A 
+HETATM   10  CBE   D T 445     -10.905   2.359  -7.113  1.00172.61     0.094 A 
+HETATM   11  CBF   D T 445     -10.765   0.264  -8.500  1.00174.22     0.085 A 
+HETATM   12  CBG   D T 445     -11.550   1.235  -7.850  1.00173.34     0.038 A 
+ENDROOT
+BRANCH  10  13
+HETATM   13  NAU   D T 445     -11.738   3.426  -6.439  1.00171.92    -0.244 NA
+BRANCH  13  14
+HETATM   14  CBB   D T 445     -11.587   4.199  -5.194  1.00169.02     0.094 A 
+HETATM   15  CAJ   D T 445     -10.587   5.095  -4.895  1.00169.48     0.045 A 
+HETATM   16  CAX   D T 445     -10.529   5.872  -3.635  1.00166.40     0.106 A 
+HETATM   17  CAY   D T 445     -11.552   5.719  -2.710  1.00162.90     0.081 A 
+HETATM   18 CL1    D T 445     -11.599   6.599  -1.221  1.00167.07    -0.080 Cl
+HETATM   19  CAI   D T 445     -12.591   4.828  -3.014  1.00162.68     0.026 A 
+HETATM   20  CAZ   D T 445     -12.635   4.088  -4.212  1.00165.75     0.076 A 
+HETATM   21 CL2    D T 445     -13.968   3.038  -4.432  1.00297.59    -0.081 Cl
+BRANCH  16  22
+HETATM   22  O02   D T 445      -9.487   6.747  -3.369  1.00167.55    -0.327 OA
+HETATM   23  C01   D T 445      -9.610   8.195  -3.305  1.00  7.55     0.181 C 
+ENDBRANCH  16  22
+ENDBRANCH  13  14
+ENDBRANCH  10  13
+BRANCH   8  24
+HETATM   24  OAV   D T 445     -14.975  -0.117  -8.602  1.00174.06    -0.326 OA
+HETATM   25  CAA   D T 445     -15.586  -0.722  -7.522  1.00171.51     0.181 C 
+ENDBRANCH   8  24
+BRANCH   9  26
+HETATM   26  OAW   D T 445     -13.340  -2.242  -9.926  1.00176.22    -0.329 OA
+BRANCH  26  27
+HETATM   27  CAN   D T 445     -13.837  -2.138 -11.210  1.00172.41     0.151 C 
+BRANCH  27  28
+HETATM   28  CAM   D T 445     -15.360  -2.189 -11.103  1.00172.95     0.068 C 
+BRANCH  28  29
+HETATM   29  CAC   D T 445     -15.987  -2.220 -12.499  1.00176.18     0.253 C 
+BRANCH  29  30
+HETATM   30  NBH   D T 445     -16.598  -3.544 -12.671  1.00176.27     0.141 N 
+HETATM   31  CAP   D T 445     -16.930  -3.837 -14.067  1.00179.63     0.285 C 
+HETATM   32  CAR   D T 445     -17.615  -5.179 -14.242  1.00181.97     0.285 C 
+HETATM   33  NBI   D T 445     -18.755  -5.323 -13.372  1.00180.77     0.143 N 
+HETATM   34  CAO   D T 445     -19.362  -6.649 -13.512  1.00184.53     0.285 C 
+HETATM   35  CAS   D T 445     -18.362  -5.038 -12.022  1.00176.33     0.285 C 
+HETATM   36  CAQ   D T 445     -17.746  -3.672 -11.831  1.00174.56     0.285 C 
+ENDBRANCH  29  30
+ENDBRANCH  28  29
+ENDBRANCH  27  28
+ENDBRANCH  26  27
+ENDBRANCH   9  26
+TORSDOF 9

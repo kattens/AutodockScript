@@ -1,0 +1,65 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S1_2  and  N7_4 
+REMARK    2  A    between atoms: S1_2  and  C21_9 
+REMARK    3  A    between atoms: N7_4  and  C23_5 
+REMARK    4  A    between atoms: C17_14  and  N1_15 
+REMARK    5  A    between atoms: N1_15  and  C1_16 
+REMARK    6  A    between atoms: C4_18  and  N4_23 
+REMARK    7  A    between atoms: N4_23  and  C6_24 
+REMARK    8  A    between atoms: C9_27  and  N5_30 
+ROOT
+HETATM    1  C1    D T1201       3.483  10.731   2.156  1.00 25.50     0.178 A 
+HETATM    2  N3    D T1201       4.652  10.476   2.766  1.00 24.51    -0.041 NA
+HETATM    3  C4    D T1201       4.680   9.743   3.881  1.00 26.00     0.751 A 
+HETATM    4  N2    D T1201       3.561   9.244   4.422  1.00 27.09    -0.058 NA
+HETATM    5  C3    D T1201       2.386   9.478   3.830  1.00 26.64     0.117 A 
+HETATM    6  C2    D T1201       2.294  10.237   2.675  1.00 22.40     0.034 A 
+HETATM    7  C5    D T1201       0.949  10.477   2.033  1.00 20.91     0.036 C 
+ENDROOT
+BRANCH   1   8
+HETATM    8  N1    D T1201       3.523  11.478   1.028  1.00 26.87    -0.227 NA
+BRANCH   8   9
+HETATM    9  C17   D T1201       4.459  12.327   0.524  1.00 26.69     0.084 A 
+HETATM   10  C18   D T1201       5.596  12.711   1.241  1.00 27.53     0.019 A 
+HETATM   11  C19   D T1201       6.545  13.568   0.673  1.00 30.18     0.002 A 
+HETATM   12  C20   D T1201       6.361  14.032  -0.631  1.00 27.75     0.013 A 
+HETATM   13  C21   D T1201       5.222  13.637  -1.337  1.00 29.98     0.106 A 
+HETATM   14  C22   D T1201       4.282  12.792  -0.770  1.00 25.75     0.032 A 
+BRANCH  13  15
+HETATM   15  S1    D T1201       4.926  14.141  -3.015  1.00 33.88     0.281 S 
+HETATM   16  O2    D T1201       4.296  13.036  -3.664  1.00 32.26    -0.199 OA
+HETATM   17  O1    D T1201       6.190  14.556  -3.554  1.00 41.11    -0.199 OA
+BRANCH  15  18
+HETATM   18  N7    D T1201       3.692  15.385  -2.877  1.00 34.20    -0.189 NA
+BRANCH  18  19
+HETATM   19  C23   D T1201       3.917  16.801  -2.673  1.00 42.34     0.097 C 
+HETATM   20  C26   D T1201       4.322  17.417  -4.005  1.00 28.35     0.025 C 
+HETATM   21  C25   D T1201       4.992  17.040  -1.622  1.00 32.55     0.025 C 
+HETATM   22  C24   D T1201       2.599  17.417  -2.218  1.00 33.84     0.025 C 
+ENDBRANCH  18  19
+ENDBRANCH  15  18
+ENDBRANCH  13  15
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+BRANCH   3  23
+HETATM   23  N4    D T1201       5.870   9.487   4.497  1.00 27.54    -0.059 NA
+BRANCH  23  24
+HETATM   24  C6    D T1201       7.162   9.826   4.224  1.00 28.50     0.100 A 
+HETATM   25  C11   D T1201       7.453  10.587   3.095  1.00 28.34     0.021 A 
+HETATM   26  C10   D T1201       8.756  10.950   2.809  1.00 24.65     0.018 A 
+HETATM   27  C9    D T1201       9.796  10.548   3.643  1.00 32.26     0.056 A 
+HETATM   28  C8    D T1201       9.521   9.788   4.786  1.00 24.70     0.018 A 
+HETATM   29  C7    D T1201       8.204   9.430   5.067  1.00 27.68     0.021 A 
+BRANCH  27  30
+HETATM   30  N5    D T1201      11.096  10.969   3.312  1.00 35.69    -0.344 N 
+HETATM   31  C15   D T1201      11.295  12.217   2.538  1.00 37.46     0.137 C 
+HETATM   32  C14   D T1201      12.230  13.230   3.175  1.00 37.22     0.274 C 
+HETATM   33  N6    D T1201      13.513  12.572   3.440  1.00 55.55     0.143 N 
+HETATM   34  C16   D T1201      14.448  13.568   3.986  1.00 64.64     0.286 C 
+HETATM   35  C13   D T1201      13.298  11.489   4.418  1.00 53.32     0.274 C 
+HETATM   36  C12   D T1201      12.360  10.415   3.860  1.00 47.69     0.137 C 
+ENDBRANCH  27  30
+ENDBRANCH  23  24
+ENDBRANCH   3  23
+TORSDOF 8

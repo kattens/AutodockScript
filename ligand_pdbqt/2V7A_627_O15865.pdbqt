@@ -1,0 +1,60 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: N1_1  and  C25_25 
+REMARK    1  A    between atoms: C3_3  and  N5_5 
+REMARK       I    between atoms: N5_5  and  C6_6 
+REMARK    2  A    between atoms: C6_6  and  C7_7 
+REMARK    3  A    between atoms: N17_17  and  C24_24 
+REMARK    4  A    between atoms: C25_25  and  C20_32 
+REMARK    5  A    between atoms: C27_27  and  C20_32 
+REMARK    6  A    between atoms: C20_32  and  O34_35 
+ROOT
+HETATM    1  N1    D T1504      -9.372   3.917  -5.040  1.00 17.57    -0.308 N 
+HETATM    2  N2    D T1504      -7.294   1.542  -6.817  1.00 15.62    -0.149 NA
+HETATM    3  C3    D T1504      -9.407   0.887  -7.117  1.00 16.85     0.186 A 
+HETATM    4  N4    D T1504      -8.133   0.542  -7.379  1.00 16.47    -0.129 NA
+HETATM    5  C13   D T1504      -8.100   2.458  -6.243  1.00 16.13     0.104 A 
+HETATM    6  C14   D T1504      -9.465   2.066  -6.402  1.00 16.03     0.055 A 
+HETATM    7  C15   D T1504     -10.377   3.046  -5.732  1.00 17.80     0.136 C 
+HETATM    8  C16   D T1504      -7.967   3.715  -5.454  1.00 15.77     0.152 C 
+HETATM    9  C25   D T1504      -9.665   4.835  -4.106  1.00 17.72     0.266 C 
+HETATM   10  O26   D T1504      -8.798   5.524  -3.570  1.00 20.29    -0.269 OA
+ENDROOT
+BRANCH   3  11
+HETATM   11  N5    D T1504     -10.431   0.067  -7.541  1.00 18.99    -0.187 NA
+HETATM   12  C6    D T1504     -11.703   0.408  -7.662  1.00 22.32     0.281 C 
+HETATM   13  O8    D T1504     -12.141   1.521  -7.438  1.00 19.91    -0.265 OA
+BRANCH  12  14
+HETATM   14  C7    D T1504     -12.648  -0.635  -8.119  1.00 23.69     0.058 A 
+HETATM   15  C9    D T1504     -13.990  -0.451  -7.823  1.00 24.20     0.006 A 
+HETATM   16  C10   D T1504     -14.937  -1.371  -8.224  1.00 24.36     0.017 A 
+HETATM   17  C24   D T1504     -14.516  -2.484  -8.918  1.00 26.38     0.060 A 
+HETATM   18  C11   D T1504     -13.153  -2.674  -9.212  1.00 25.51     0.017 A 
+HETATM   19  C12   D T1504     -12.205  -1.747  -8.819  1.00 23.62     0.006 A 
+BRANCH  17  20
+HETATM   20  N17   D T1504     -15.478  -3.421  -9.331  1.00 29.22    -0.324 N 
+HETATM   21  C18   D T1504     -16.659  -3.440  -8.851  1.00 32.43     0.088 C 
+HETATM   22  C19   D T1504     -17.158  -4.628  -8.480  1.00 34.59     0.066 C 
+HETATM   23  N20   D T1504     -16.627  -5.862  -9.001  1.00 35.81    -0.247 NA
+HETATM   24  C21   D T1504     -15.254  -5.727  -9.563  1.00 34.06     0.101 C 
+HETATM   25  C23   D T1504     -16.591  -6.907  -7.960  1.00 33.95     0.094 C 
+HETATM   26  C22   D T1504     -15.101  -4.419 -10.337  1.00 31.87     0.124 C 
+ENDBRANCH  17  20
+ENDBRANCH  12  14
+ENDBRANCH   3  11
+BRANCH   9  27
+HETATM   27  C20   D T1504     -11.094   5.014  -3.694  1.00 16.01     0.216 C 
+BRANCH  27  28
+HETATM   28  C27   D T1504     -11.451   3.883  -2.783  1.00 17.19     0.014 A 
+HETATM   29  C28   D T1504     -12.640   3.151  -3.010  1.00 16.33    -0.001 A 
+HETATM   30  C31   D T1504     -12.967   2.075  -2.186  1.00 15.88    -0.000 A 
+HETATM   31  C35   D T1504     -12.103   1.744  -1.123  1.00 16.13    -0.000 A 
+HETATM   32  C33   D T1504     -10.929   2.467  -0.888  1.00 13.90    -0.000 A 
+HETATM   33  C29   D T1504     -10.607   3.538  -1.706  1.00 15.13    -0.001 A 
+ENDBRANCH  27  28
+BRANCH  27  34
+HETATM   34  O34   D T1504     -11.232   6.298  -3.082  1.00 17.91    -0.340 OA
+HETATM   35  C36   D T1504     -12.581   6.634  -2.700  1.00 15.51     0.175 C 
+ENDBRANCH  27  34
+ENDBRANCH   9  27
+TORSDOF 6

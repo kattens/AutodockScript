@@ -1,0 +1,73 @@
+REMARK  16 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4_4  and  N11_11 
+REMARK    2  A    between atoms: C7_7  and  N26_26 
+REMARK    3  A    between atoms: C9_9  and  O20_20 
+REMARK    4  A    between atoms: N11_11  and  C16_16 
+REMARK    5  A    between atoms: O20_20  and  C21_21 
+REMARK       I    between atoms: N26_26  and  C27_27 
+REMARK    6  A    between atoms: C27_27  and  C28_28 
+REMARK    7  A    between atoms: C30_30  and  C31_31 
+REMARK    8  A    between atoms: C31_31  and  N32_32 
+REMARK    9  A    between atoms: C4_38  and  N11_45 
+REMARK   10  A    between atoms: C7_41  and  N26_60 
+REMARK   11  A    between atoms: C9_43  and  O20_54 
+REMARK   12  A    between atoms: N11_45  and  C16_50 
+REMARK   13  A    between atoms: O20_54  and  C21_55 
+REMARK       I    between atoms: N26_60  and  C27_61 
+REMARK   14  A    between atoms: C27_61  and  C28_62 
+REMARK   15  A    between atoms: C30_64  and  C31_65 
+REMARK   16  A    between atoms: C31_65  and  N32_66 
+ROOT
+HETATM    1  C1    D T1102      -7.871 -14.887 -13.897  1.00167.82     0.200 A 
+HETATM    2  N2    D T1102      -7.014 -15.582 -13.085  1.00157.47    -0.205 NA
+HETATM    3  N3    D T1102      -9.104 -14.537 -13.401  1.00173.48    -0.224 NA
+HETATM    4  C4    D T1102      -7.352 -15.939 -11.799  1.00150.96     0.166 A 
+HETATM    5  C5    D T1102      -9.470 -14.879 -12.116  1.00165.96     0.088 A 
+HETATM    6  C6    D T1102      -8.602 -15.586 -11.287  1.00156.68     0.055 A 
+HETATM    7  C7    D T1102     -10.289 -15.507  -9.555  1.00160.55     0.107 A 
+HETATM    8  C8    D T1102      -9.026 -15.901  -9.990  1.00153.79     0.026 A 
+HETATM    9  C9    D T1102     -11.142 -14.806 -10.394  1.00170.20     0.113 A 
+HETATM   10  C10   D T1102     -10.725 -14.493 -11.681  1.00172.41     0.045 A 
+ENDROOT
+BRANCH   4  11
+HETATM   11  N11   D T1102      -6.386 -16.635 -11.037  1.00145.03    -0.227 NA
+BRANCH  11  12
+HETATM   12  C16   D T1102      -5.048 -16.908 -11.453  1.00141.31     0.084 A 
+HETATM   13  C14   D T1102      -4.489 -16.598 -12.698  1.00146.64     0.033 A 
+HETATM   14  C12   D T1102      -3.171 -16.917 -12.975  1.00142.41     0.087 A 
+HETATM   15  C13   D T1102      -2.399 -17.544 -12.020  1.00133.30     0.151 A 
+HETATM   16 CL1    D T1102      -2.483 -16.537 -14.506  1.00149.27    -0.080 Cl
+HETATM   17  C15   D T1102      -2.934 -17.858 -10.789  1.00130.36     0.032 A 
+HETATM   18  F18   D T1102      -1.143 -17.848 -12.284  1.00132.33    -0.203 F 
+HETATM   19  C17   D T1102      -4.248 -17.538 -10.509  1.00135.39     0.021 A 
+ENDBRANCH  11  12
+ENDBRANCH   4  11
+BRANCH   7  20
+HETATM   20  N26   D T1102     -10.817 -15.764  -8.267  1.00157.15    -0.206 NA
+HETATM   21  C27   D T1102     -10.317 -16.375  -7.126  1.00156.15     0.279 C 
+HETATM   22  O29   D T1102      -9.215 -16.877  -7.014  1.00144.00    -0.265 OA
+BRANCH  21  23
+HETATM   23  C28   D T1102     -11.322 -16.371  -6.039  1.00162.13     0.060 C 
+HETATM   24  C30   D T1102     -11.167 -16.939  -4.839  1.00160.84     0.014 C 
+BRANCH  24  25
+HETATM   25  C31   D T1102     -12.378 -16.795  -3.924  1.00169.44     0.277 C 
+BRANCH  25  26
+HETATM   26  N32   D T1102     -12.047 -16.694  -2.502  1.00171.25     0.146 N 
+HETATM   27  C33   D T1102     -11.032 -15.649  -2.261  1.00165.61     0.286 C 
+HETATM   28  C34   D T1102     -13.261 -16.354  -1.751  1.00180.89     0.286 C 
+ENDBRANCH  25  26
+ENDBRANCH  24  25
+ENDBRANCH  21  23
+ENDBRANCH   7  20
+BRANCH   9  29
+HETATM   29  O20   D T1102     -12.368 -14.460  -9.885  1.00178.70    -0.329 OA
+BRANCH  29  30
+HETATM   30  C21   D T1102     -13.341 -13.588 -10.465  1.00194.33     0.153 C 
+HETATM   31  C22   D T1102     -14.349 -13.104  -9.416  1.00198.27     0.172 C 
+HETATM   32  O23   D T1102     -15.380 -14.089  -9.326  1.00206.62    -0.352 OA
+HETATM   33  C24   D T1102     -15.502 -14.626 -10.641  1.00213.68     0.145 C 
+HETATM   34  C25   D T1102     -14.245 -14.298 -11.433  1.00205.93     0.065 C 
+ENDBRANCH  29  30
+ENDBRANCH   9  29
+TORSDOF 16

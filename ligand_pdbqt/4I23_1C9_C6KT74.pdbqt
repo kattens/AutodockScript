@@ -1,0 +1,36 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  O11_20 
+REMARK    2  A    between atoms: C10_10  and  N14_11 
+REMARK    3  A    between atoms: N14_11  and  C15_12 
+ROOT
+HETATM    1  C1    D T9001      -8.492  -5.500   6.871  1.00 83.47     0.092 A 
+HETATM    2  C2    D T9001      -9.726  -4.898   7.285  1.00 83.68     0.109 A 
+HETATM    3  C3    D T9001      -9.709  -3.786   8.191  1.00 82.47     0.044 A 
+HETATM    4  C4    D T9001      -8.518  -3.252   8.701  1.00 82.50     0.088 A 
+HETATM    5  C5    D T9001      -7.263  -3.846   8.300  1.00 84.12     0.055 A 
+HETATM    6  C6    D T9001      -7.274  -4.969   7.384  1.00 83.53     0.021 A 
+HETATM    7  N7    D T9001      -8.602  -2.195   9.554  1.00 81.78    -0.224 NA
+HETATM    8  C8    D T9001      -7.435  -1.691  10.032  1.00 83.59     0.200 A 
+HETATM    9  N9    D T9001      -6.195  -2.148   9.740  1.00 84.30    -0.205 NA
+HETATM   10  C10   D T9001      -6.094  -3.230   8.872  1.00 85.59     0.166 A 
+HETATM   11  N13   D T9001      -8.466  -6.596   5.977  1.00 82.67    -0.099 NA
+ENDROOT
+BRANCH  10  12
+HETATM   12  N14   D T9001      -4.790  -3.743   8.541  1.00 86.44    -0.227 NA
+BRANCH  12  13
+HETATM   13  C15   D T9001      -3.574  -3.483   9.233  1.00 87.38     0.084 A 
+HETATM   14  C16   D T9001      -3.506  -3.508  10.665  1.00 88.13     0.033 A 
+HETATM   15  C17   D T9001      -2.296  -3.241  11.346  1.00 88.88     0.087 A 
+HETATM   16  C18   D T9001      -1.127  -2.940  10.598  1.00 88.55     0.151 A 
+HETATM   17 CL     D T9001      -2.276  -3.282  13.076  1.00 89.26    -0.080 Cl
+HETATM   18  C19   D T9001      -1.161  -2.910   9.175  1.00 87.62     0.032 A 
+HETATM   19  F21   D T9001       0.031  -2.681  11.230  1.00 88.92    -0.203 F 
+HETATM   20  C20   D T9001      -2.381  -3.178   8.494  1.00 87.82     0.021 A 
+ENDBRANCH  12  13
+ENDBRANCH  10  12
+BRANCH   2  21
+HETATM   21  O11   D T9001     -10.877  -5.465   6.744  1.00 85.44    -0.327 OA
+HETATM   22  C12   D T9001     -12.070  -5.454   7.535  1.00 84.41     0.181 C 
+ENDBRANCH   2  21
+TORSDOF 3

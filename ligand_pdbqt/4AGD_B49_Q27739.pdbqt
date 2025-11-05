@@ -1,0 +1,56 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C22_10  and  C19_16 
+REMARK       I    between atoms: C22_10  and  N25_19 
+REMARK    2  A    between atoms: C12_12  and  C18_15 
+REMARK    3  A    between atoms: N25_19  and  C37_23 
+REMARK    4  A    between atoms: C37_23  and  C38_24 
+REMARK    5  A    between atoms: C38_24  and  N4_25 
+REMARK    6  A    between atoms: N4_25  and  C39_26 
+REMARK    7  A    between atoms: N4_25  and  C40_27 
+ROOT
+HETATM    1  C4    D T2000      -5.693   2.484 -16.328  1.00 48.44     0.052 C 
+HETATM    2  C13   D T2000      -2.071   2.720 -15.146  1.00 48.75     0.002 A 
+HETATM    3  C3    D T2000      -0.595   3.170 -14.839  1.00 43.40     0.033 C 
+HETATM    4  C14   D T2000      -4.251   2.452 -15.796  1.00 49.83     0.064 A 
+HETATM    5  C18   D T2000      -2.586   1.476 -14.724  1.00 45.93     0.077 A 
+HETATM    6  C19   D T2000      -3.183   3.382 -15.863  1.00 51.55     0.069 A 
+HETATM    7  N23   D T2000      -3.856   1.374 -15.131  1.00 47.90    -0.250 NA
+ENDROOT
+BRANCH   5   8
+HETATM    8  C12   D T2000      -1.837   0.465 -13.950  1.00 43.39     0.024 C 
+HETATM    9  C20   D T2000      -2.214  -0.821 -13.472  1.00 43.86     0.061 A 
+HETATM   10  C17   D T2000      -1.405  -1.805 -12.639  1.00 43.90     0.025 A 
+HETATM   11  C21   D T2000      -3.475  -1.587 -13.628  1.00 40.96     0.279 A 
+HETATM   12  C7    D T2000      -0.060  -1.732 -12.104  1.00 45.29     0.031 A 
+HETATM   13  C16   D T2000      -2.210  -2.928 -12.413  1.00 41.24     0.085 A 
+HETATM   14  C15   D T2000       0.419  -2.813 -11.356  1.00 46.91     0.140 A 
+HETATM   15  C5    D T2000      -0.428  -3.940 -11.143  1.00 46.93     0.031 A 
+HETATM   16  F29   D T2000       1.648  -2.832 -10.832  1.00 48.65    -0.204 F 
+HETATM   17  C6    D T2000      -1.748  -4.013 -11.665  1.00 43.16     0.021 A 
+HETATM   18  N24   D T2000      -3.418  -2.787 -13.000  1.00 38.68    -0.208 NA
+HETATM   19  O27   D T2000      -4.439  -1.202 -14.234  1.00 39.38    -0.265 OA
+ENDBRANCH   5   8
+BRANCH   6  20
+HETATM   20  C22   D T2000      -3.266   4.741 -16.548  1.00 57.19     0.276 C 
+HETATM   21  N25   D T2000      -4.410   5.145 -17.145  1.00 64.68    -0.232 NA
+HETATM   22  O28   D T2000      -2.340   5.558 -16.611  1.00 55.46    -0.266 OA
+BRANCH  21  23
+HETATM   23  C37   D T2000      -4.523   6.454 -17.804  1.00 72.35     0.164 C 
+BRANCH  23  24
+HETATM   24  C38   D T2000      -5.686   7.433 -17.464  1.00 75.73     0.276 C 
+BRANCH  24  25
+HETATM   25  N4    D T2000      -5.601   8.592 -18.430  1.00 81.36     0.139 N 
+BRANCH  25  26
+HETATM   26  C39   D T2000      -5.767   9.885 -17.632  1.00 83.55     0.250 C 
+HETATM   27  C42   D T2000      -5.519  11.333 -18.224  1.00 84.17     0.037 C 
+ENDBRANCH  25  26
+BRANCH  25  28
+HETATM   28  C40   D T2000      -6.589   8.412 -19.630  1.00 83.04     0.250 C 
+HETATM   29  C41   D T2000      -6.105   8.100 -21.080  1.00 82.57     0.037 C 
+ENDBRANCH  25  28
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH  21  23
+ENDBRANCH   6  20
+TORSDOF 7

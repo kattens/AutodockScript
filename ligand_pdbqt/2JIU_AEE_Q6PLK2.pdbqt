@@ -1,0 +1,56 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NBF_3  and  CAN_4 
+REMARK    2  A    between atoms: NBG_8  and  CAS_9 
+REMARK    3  A    between atoms: CAS_9  and  CAX_10 
+REMARK    4  A    between atoms: CAY_15  and  CBA_16 
+REMARK    5  A    between atoms: NAV_25  and  CBE_26 
+REMARK    6  A    between atoms: CBE_26  and  CAZ_28 
+ROOT
+HETATM    1  CBA   D T2017       4.283   5.479  -9.155  1.00 70.26     0.083 A 
+HETATM    2  NAW   D T2017       3.386   4.873  -9.934  1.00 69.72    -0.227 NA
+HETATM    3  CAM   D T2017       4.980   4.554  -8.492  1.00 68.99     0.025 A 
+HETATM    4  C5    D T2017       4.524   3.359  -8.851  1.00 68.84     0.073 A 
+HETATM    5  C4    D T2017       3.510   3.561  -9.767  1.00 68.77     0.167 A 
+HETATM    6  N3    D T2017       2.876   2.503 -10.291  1.00 68.59    -0.205 NA
+HETATM    7  C2    D T2017       3.216   1.274  -9.935  1.00 69.65     0.202 A 
+HETATM    8  N1    D T2017       4.183   1.045  -9.059  1.00 69.48    -0.205 NA
+HETATM    9  C6    D T2017       4.855   2.060  -8.499  1.00 69.36     0.163 A 
+HETATM   10  NAV   D T2017       5.825   1.826  -7.620  1.00 70.92    -0.250 NA
+ENDROOT
+BRANCH   1  11
+HETATM   11  CAY   D T2017       4.463   6.853  -9.050  1.00 71.68     0.018 A 
+HETATM   12  CAK   D T2017       3.861   7.705  -9.969  1.00 73.27     0.001 A 
+HETATM   13  CAI   D T2017       4.042   9.079  -9.864  1.00 74.78    -0.002 A 
+HETATM   14  CAX   D T2017       4.824   9.602  -8.841  1.00 77.32     0.011 A 
+HETATM   15  CAJ   D T2017       5.426   8.750  -7.922  1.00 74.40    -0.002 A 
+HETATM   16  CAL   D T2017       5.245   7.376  -8.026  1.00 72.43     0.001 A 
+BRANCH  14  17
+HETATM   17  CAS   D T2017       5.022  11.115  -8.726  1.00 81.79     0.277 C 
+BRANCH  17  18
+HETATM   18  NBG   D T2017       3.784  11.734  -8.230  1.00 86.70     0.146 N 
+HETATM   19  CAQ   D T2017       3.481  12.932  -9.027  1.00 87.93     0.286 C 
+HETATM   20  CAO   D T2017       4.629  13.935  -8.900  1.00 90.08     0.285 C 
+HETATM   21  NBF   D T2017       4.795  14.313  -7.488  1.00 91.56     0.141 N 
+HETATM   22  CAP   D T2017       5.102  13.115  -6.694  1.00 90.83     0.285 C 
+HETATM   23  CAR   D T2017       3.954  12.112  -6.820  1.00 89.55     0.286 C 
+BRANCH  21  24
+HETATM   24  CAN   D T2017       3.553  14.924  -6.995  1.00 91.78     0.251 C 
+HETATM   25  CAA   D T2017       3.734  16.440  -6.891  1.00 91.26     0.037 C 
+ENDBRANCH  21  24
+ENDBRANCH  17  18
+ENDBRANCH  14  17
+ENDBRANCH   1  11
+BRANCH  10  26
+HETATM   26  CBE   D T2017       5.846   0.562  -6.868  1.00 72.13     0.127 C 
+HETATM   27  CAB   D T2017       6.785   0.698  -5.668  1.00 72.05     0.031 C 
+BRANCH  26  28
+HETATM   28  CAZ   D T2017       6.338  -0.565  -7.777  1.00 72.85    -0.000 A 
+HETATM   29  CAG   D T2017       5.920  -1.871  -7.553  1.00 73.42    -0.002 A 
+HETATM   30  CAD   D T2017       6.368  -2.896  -8.379  1.00 73.74    -0.000 A 
+HETATM   31  CAC   D T2017       7.232  -2.614  -9.430  1.00 73.88    -0.000 A 
+HETATM   32  CAE   D T2017       7.650  -1.308  -9.654  1.00 74.18    -0.000 A 
+HETATM   33  CAH   D T2017       7.203  -0.283  -8.828  1.00 74.00    -0.002 A 
+ENDBRANCH  26  28
+ENDBRANCH  10  26
+TORSDOF 6

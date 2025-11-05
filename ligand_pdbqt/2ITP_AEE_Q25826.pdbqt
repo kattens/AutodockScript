@@ -1,0 +1,56 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NBF_3  and  CAN_4 
+REMARK    2  A    between atoms: NBG_8  and  CAS_9 
+REMARK    3  A    between atoms: CAS_9  and  CAX_10 
+REMARK    4  A    between atoms: CAY_15  and  CBA_16 
+REMARK    5  A    between atoms: NAV_25  and  CBE_26 
+REMARK    6  A    between atoms: CBE_26  and  CAZ_28 
+ROOT
+HETATM    1  CBA   D T2019      -2.236  -0.447  14.329  1.00 67.38     0.083 A 
+HETATM    2  NAW   D T2019      -3.445  -1.016  14.213  1.00 64.38    -0.227 NA
+HETATM    3  CAM   D T2019      -2.217   0.686  13.624  1.00 64.23     0.025 A 
+HETATM    4  C5    D T2019      -3.419   0.856  13.084  1.00 64.03     0.073 A 
+HETATM    5  C4    D T2019      -4.202  -0.224  13.460  1.00 64.35     0.167 A 
+HETATM    6  N3    D T2019      -5.479  -0.301  13.028  1.00 65.15    -0.205 NA
+HETATM    7  C2    D T2019      -6.001   0.644  12.237  1.00 64.91     0.202 A 
+HETATM    8  N1    D T2019      -5.277   1.691  11.863  1.00 65.23    -0.205 NA
+HETATM    9  C6    D T2019      -3.986   1.835  12.267  1.00 65.21     0.163 A 
+HETATM   10  NAV   D T2019      -3.256   2.893  11.882  1.00 66.46    -0.250 NA
+ENDROOT
+BRANCH   1  11
+HETATM   11  CAY   D T2019      -1.156  -0.988  15.030  1.00 67.34     0.018 A 
+HETATM   12  CAK   D T2019      -1.339  -2.066  15.908  1.00 69.05     0.001 A 
+HETATM   13  CAI   D T2019      -0.239  -2.607  16.579  1.00 70.54    -0.002 A 
+HETATM   14  CAX   D T2019       1.032  -2.066  16.365  1.00 71.07     0.011 A 
+HETATM   15  CAJ   D T2019       1.219  -1.010  15.479  1.00 68.91    -0.002 A 
+HETATM   16  CAL   D T2019       0.122  -0.476  14.813  1.00 67.71     0.001 A 
+BRANCH  14  17
+HETATM   17  CAS   D T2019       2.247  -2.681  17.056  1.00 74.21     0.277 C 
+BRANCH  17  18
+HETATM   18  NBG   D T2019       2.509  -3.949  16.292  1.00 81.39     0.146 N 
+HETATM   19  CAQ   D T2019       2.316  -5.157  17.137  1.00 83.32     0.286 C 
+HETATM   20  CAO   D T2019       3.569  -5.395  18.014  1.00 86.22     0.285 C 
+HETATM   21  NBF   D T2019       4.820  -5.564  17.203  1.00 86.50     0.141 N 
+HETATM   22  CAP   D T2019       5.062  -4.493  16.183  1.00 84.69     0.285 C 
+HETATM   23  CAR   D T2019       3.787  -3.926  15.495  1.00 81.90     0.286 C 
+BRANCH  21  24
+HETATM   24  CAN   D T2019       4.929  -6.944  16.648  1.00 86.80     0.251 C 
+HETATM   25  CAA   D T2019       4.809  -8.003  17.771  1.00 86.31     0.037 C 
+ENDBRANCH  21  24
+ENDBRANCH  17  18
+ENDBRANCH  14  17
+ENDBRANCH   1  11
+BRANCH  10  26
+HETATM   26  CBE   D T2019      -3.665   3.662  10.700  1.00 69.45     0.127 C 
+HETATM   27  CAB   D T2019      -2.491   4.425  10.067  1.00 70.81     0.031 C 
+BRANCH  26  28
+HETATM   28  CAZ   D T2019      -4.798   4.605  11.124  1.00 71.15    -0.000 A 
+HETATM   29  CAG   D T2019      -5.107   4.743  12.499  1.00 70.34    -0.002 A 
+HETATM   30  CAD   D T2019      -6.145   5.578  12.928  1.00 69.22    -0.000 A 
+HETATM   31  CAC   D T2019      -6.864   6.276  11.949  1.00 70.75    -0.000 A 
+HETATM   32  CAE   D T2019      -6.558   6.146  10.579  1.00 71.52    -0.000 A 
+HETATM   33  CAH   D T2019      -5.532   5.301  10.148  1.00 71.18    -0.002 A 
+ENDBRANCH  26  28
+ENDBRANCH  10  26
+TORSDOF 6

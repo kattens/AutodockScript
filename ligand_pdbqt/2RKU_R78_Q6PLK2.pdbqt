@@ -1,0 +1,65 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N3_2  and  C8_7 
+REMARK    2  A    between atoms: C5_4  and  C9_34 
+REMARK    3  A    between atoms: C7_6  and  N5_28 
+REMARK       I    between atoms: C21_13  and  N6_18 
+REMARK    4  A    between atoms: C21_13  and  C18_23 
+REMARK    5  A    between atoms: C22_14  and  N6_18 
+REMARK    6  A    between atoms: C16_24  and  O3_25 
+REMARK    7  A    between atoms: N5_28  and  C1_29 
+ROOT
+HETATM    1  N1    D T 500       3.526   3.764  -9.894  1.00 27.06    -0.056 NA
+HETATM    2  N3    D T 500       6.544   2.940  -7.276  1.00 26.37    -0.328 N 
+HETATM    3  C4    D T 500       3.611   2.513  -9.405  1.00 25.67     0.138 A 
+HETATM    4  C5    D T 500       6.726   1.577  -6.731  1.00 25.49     0.162 A 
+HETATM    5  C6    D T 500       5.664   0.607  -7.064  1.00 25.40     0.258 A 
+HETATM    6  C1    D T 500       4.422   4.716  -9.575  1.00 25.59     0.752 A 
+HETATM    7  N2    D T 500       5.408   4.455  -8.713  1.00 26.47    -0.041 NA
+HETATM    8  C2    D T 500       5.504   3.218  -8.164  1.00 27.25     0.176 A 
+HETATM    9  O1    D T 500       5.741  -0.532  -6.537  1.00 25.90    -0.270 OA
+HETATM   10  N4    D T 500       4.686   0.917  -7.923  1.00 24.91    -0.292 N 
+HETATM   11  C11   D T 500       3.641  -0.052  -8.312  1.00 26.11     0.134 C 
+HETATM   12  C3    D T 500       4.609   2.216  -8.506  1.00 25.06     0.117 A 
+ENDROOT
+BRANCH   6  13
+HETATM   13  N5    D T 500       4.234   5.928 -10.122  1.00 28.04    -0.057 NA
+BRANCH  13  14
+HETATM   14  C7    D T 500       4.984   7.061  -9.963  1.00 28.56     0.122 A 
+HETATM   15  C20   D T 500       5.917   7.257  -8.947  1.00 29.54     0.022 A 
+HETATM   16  C19   D T 500       6.652   8.460  -8.891  1.00 31.30     0.006 A 
+HETATM   17  C18   D T 500       6.379   9.447  -9.850  1.00 30.71     0.060 A 
+HETATM   18  C17   D T 500       5.428   9.245 -10.841  1.00 29.59     0.030 A 
+HETATM   19  C16   D T 500       4.733   8.050 -10.911  1.00 30.85     0.113 A 
+BRANCH  17  20
+HETATM   20  C21   D T 500       7.101  10.769  -9.900  1.00 33.20     0.275 C 
+HETATM   21  O2    D T 500       6.530  11.722 -10.426  1.00 35.96    -0.266 OA
+HETATM   22  N6    D T 500       8.335  10.851  -9.440  1.00 37.33    -0.236 NA
+BRANCH  22  23
+HETATM   23  C22   D T 500       9.040  12.130  -9.524  1.00 43.13     0.111 C 
+HETATM   24  C29   D T 500      10.262  11.865 -10.399  1.00 44.78     0.060 C 
+HETATM   25  C28   D T 500      11.344  12.947 -10.266  1.00 46.83     0.252 C 
+HETATM   26  N7    D T 500      11.653  13.272  -8.857  1.00 47.55     0.139 N 
+HETATM   27  C24   D T 500      10.422  13.635  -8.130  1.00 48.06     0.252 C 
+HETATM   28  C30   D T 500      12.535  14.452  -8.800  1.00 49.74     0.285 C 
+HETATM   29  C23   D T 500       9.490  12.427  -8.107  1.00 44.59     0.060 C 
+ENDBRANCH  22  23
+ENDBRANCH  17  20
+BRANCH  19  30
+HETATM   30  O3    D T 500       3.797   7.801 -11.898  1.00 30.91    -0.327 OA
+HETATM   31  C31   D T 500       3.583   8.637 -13.050  1.00 35.09     0.181 C 
+ENDBRANCH  19  30
+ENDBRANCH  13  14
+ENDBRANCH   6  13
+BRANCH   2  32
+HETATM   32  C8    D T 500       7.432   4.080  -6.955  1.00 26.27     0.083 C 
+HETATM   33  C15   D T 500       8.548   4.481  -7.911  1.00 26.00     0.022 C 
+HETATM   34  C14   D T 500       9.561   5.151  -6.997  1.00 27.32     0.002 C 
+HETATM   35  C13   D T 500       9.212   4.887  -5.542  1.00 30.42     0.002 C 
+HETATM   36  C12   D T 500       8.016   3.945  -5.561  1.00 25.87     0.022 C 
+ENDBRANCH   2  32
+BRANCH   4  37
+HETATM   37  C9    D T 500       7.939   0.992  -7.521  1.00 27.17     0.032 C 
+HETATM   38  C10   D T 500       7.842   0.945  -9.069  1.00 25.21     0.003 C 
+ENDBRANCH   4  37
+TORSDOF 7

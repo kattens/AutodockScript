@@ -1,0 +1,45 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAV_22  and  CAW_23 
+REMARK    2  A    between atoms: CAX_24  and  NBD_30 
+REMARK    3  A    between atoms: CAY_25  and  CAZ_26 
+ROOT
+HETATM    1  CAK   D T   3      -4.563  -4.849 -11.507  1.00 20.96     0.102 A 
+HETATM    2  CAL   D T   3      -0.677  -6.759 -10.673  1.00 13.59     0.124 A 
+HETATM    3  CAM   D T   3      -4.010  -7.183 -11.543  1.00 18.11     0.104 A 
+HETATM    4  NAS   D T   3      -3.277  -4.500 -11.193  1.00 13.25    -0.225 NA
+HETATM    5  NAT   D T   3      -1.724  -7.555 -11.001  1.00 15.72    -0.162 NA
+HETATM    6  CAW   D T   3      -4.941  -6.177 -11.735  1.00 22.75     0.038 A 
+HETATM    7  CAZ   D T   3      -1.024  -5.485 -10.654  1.00 12.88     0.057 A 
+HETATM    8  CBC   D T   3      -2.362  -5.482 -11.003  1.00 11.55     0.165 A 
+HETATM    9  NBE   D T   3      -2.725  -6.848 -11.194  1.00 16.74    -0.211 N 
+ENDROOT
+BRANCH   6  10
+HETATM   10  CAV   D T   3      -6.265  -6.554 -12.035  1.00 21.40     0.003 A 
+HETATM   11  CAE   D T   3      -7.306  -5.702 -11.704  1.00 24.66     0.002 A 
+HETATM   12  CAG   D T   3      -8.635  -6.036 -11.961  1.00 27.57     0.017 A 
+HETATM   13  CAX   D T   3      -8.944  -7.272 -12.495  1.00 20.12     0.056 A 
+HETATM   14  CAH   D T   3      -7.921  -8.150 -12.787  1.00 21.49     0.017 A 
+HETATM   15  CAF   D T   3      -6.572  -7.813 -12.573  1.00 24.93     0.002 A 
+BRANCH  13  16
+HETATM   16  NBD   D T   3     -10.332  -7.584 -12.667  1.00 29.07    -0.344 N 
+HETATM   17  CAP   D T   3     -10.788  -8.977 -12.655  1.00 43.49     0.140 C 
+HETATM   18  CAN   D T   3     -12.006  -9.015 -11.744  1.00 58.34     0.314 C 
+HETATM   19  NAU   D T   3     -13.150  -8.322 -12.377  1.00 37.54     0.343 N 
+HETATM   20  CAO   D T   3     -12.787  -6.994 -12.928  1.00 35.80     0.314 C 
+HETATM   21  CAQ   D T   3     -11.355  -6.536 -12.537  1.00 24.02     0.140 C 
+ENDBRANCH  13  16
+ENDBRANCH   6  10
+BRANCH   7  22
+HETATM   22  CAY   D T   3      -0.166  -4.345 -10.356  1.00 18.73     0.007 A 
+HETATM   23  CAD   D T   3       1.090  -4.300 -10.935  1.00 18.59     0.021 A 
+HETATM   24  CAC   D T   3       1.973  -3.227 -10.704  1.00 18.90     0.099 A 
+HETATM   25  NAR   D T   3       1.650  -2.254  -9.847  1.00 18.61    -0.244 NA
+HETATM   26  CBA   D T   3       0.460  -2.249  -9.230  1.00 14.95     0.081 A 
+HETATM   27  CAI   D T   3       0.142  -1.225  -8.341  1.00 16.02     0.019 A 
+HETATM   28  CBB   D T   3      -0.468  -3.297  -9.437  1.00 17.98     0.018 A 
+HETATM   29  CAA   D T   3      -1.055  -1.205  -7.649  1.00 23.51     0.002 A 
+HETATM   30  CAB   D T   3      -1.982  -2.222  -7.848  1.00 19.31     0.000 A 
+HETATM   31  CAJ   D T   3      -1.674  -3.239  -8.752  1.00 21.46     0.002 A 
+ENDBRANCH   7  22
+TORSDOF 3
