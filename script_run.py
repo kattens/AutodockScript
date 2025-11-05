@@ -13,7 +13,7 @@ base_dir = Path(__file__).resolve().parent
 output_folder = base_dir / "docking_output"
 log_folder = base_dir / "docking_logs"
 lig_folder = base_dir / "ligand_pdbqt"
-prot_folder = base_dir / "Malaria_Dataset_only"
+prot_folder = base_dir / "malaria_pdbqt"
 csv_folder = base_dir / "top10_affinities"
 
 binding_centers_path = base_dir / "Center_boxes.json"
