@@ -1,0 +1,558 @@
+MODEL 1
+REMARK VINA RESULT:    -7.564      0.000      0.000
+REMARK INTER + INTRA:         -11.801
+REMARK INTER:                 -10.660
+REMARK INTRA:                  -1.141
+REMARK UNBOUND:                -1.141
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  N13_22 
+REMARK    2  A    between atoms: C2_2  and  O11_20 
+REMARK    3  A    between atoms: C10_10  and  N14_11 
+REMARK    4  A    between atoms: N14_11  and  C15_12 
+REMARK       I    between atoms: N13_22  and  C26_23 
+REMARK    5  A    between atoms: C26_23  and  C24_24 
+REMARK    6  A    between atoms: C24_24  and  C23_25 
+REMARK    7  A    between atoms: C23_25  and  C25_26 
+ROOT
+HETATM    1  C1    D T9001       6.709   6.503  -5.440  1.00 30.38     0.107 A 
+HETATM    2  C2    D T9001       5.888   7.242  -6.358  1.00 29.65     0.113 A 
+HETATM    3  C3    D T9001       4.948   6.532  -7.171  1.00 28.21     0.045 A 
+HETATM    4  C4    D T9001       4.806   5.131  -7.099  1.00 27.21     0.088 A 
+HETATM    5  C5    D T9001       5.642   4.387  -6.187  1.00 26.27     0.055 A 
+HETATM    6  C6    D T9001       6.580   5.089  -5.370  1.00 29.22     0.026 A 
+HETATM    7  N7    D T9001       3.885   4.537  -7.896  1.00 25.99    -0.224 NA
+HETATM    8  C8    D T9001       3.775   3.195  -7.807  1.00 24.59     0.200 A 
+HETATM    9  N9    D T9001       4.503   2.390  -7.002  1.00 25.70    -0.205 NA
+HETATM   10  C10   D T9001       5.445   2.978  -6.184  1.00 27.48     0.166 A 
+ENDROOT
+BRANCH  10  11
+HETATM   11  N14   D T9001       6.235   2.154  -5.323  1.00 23.22    -0.227 NA
+BRANCH  11  12
+HETATM   12  C15   D T9001       5.808   1.514  -4.132  1.00 24.25     0.084 A 
+HETATM   13  C16   D T9001       5.880   2.164  -2.858  1.00 25.06     0.033 A 
+HETATM   14  C17   D T9001       5.460   1.517  -1.686  1.00 28.28     0.087 A 
+HETATM   15  C18   D T9001       4.954   0.197  -1.751  1.00 25.55     0.151 A 
+HETATM   16 CL     D T9001       5.584   2.364  -0.191  1.00 31.70    -0.080 Cl
+HETATM   17  C19   D T9001       4.868  -0.475  -2.997  1.00 24.70     0.032 A 
+HETATM   18  F21   D T9001       4.550  -0.441  -0.643  1.00 27.22    -0.203 F 
+HETATM   19  C20   D T9001       5.294   0.183  -4.184  1.00 24.32     0.021 A 
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+BRANCH   1  20
+HETATM   20  N13   D T9001       7.610   7.235  -4.617  1.00 34.61    -0.210 NA
+HETATM   21  C26   D T9001       7.240   7.696  -3.342  1.00 36.24     0.256 C 
+HETATM   22  O27   D T9001       6.145   7.529  -2.802  1.00 39.97    -0.270 OA
+BRANCH  21  23
+HETATM   23  C24   D T9001       8.354   8.486  -2.675  1.00 35.38     0.092 C 
+BRANCH  23  24
+HETATM   24  C23   D T9001       7.885   9.878  -2.215  1.00 34.93     0.051 C 
+BRANCH  24  25
+HETATM   25  C25   D T9001       7.509  10.713  -3.445  1.00 37.23     0.339 C 
+HETATM   26  N33   D T9001       7.107  12.111  -3.043  1.00 41.10     0.618 N 
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH  21  23
+ENDBRANCH   1  20
+BRANCH   2  27
+HETATM   27  O11   D T9001       6.096   8.618  -6.363  1.00 31.09    -0.327 OA
+HETATM   28  C12   D T9001       5.037   9.504  -5.993  1.00 29.66     0.181 C 
+ENDBRANCH   2  27
+TORSDOF 7
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -7.531      3.834      7.797
+REMARK INTER + INTRA:         -11.753
+REMARK INTER:                 -10.564
+REMARK INTRA:                  -1.189
+REMARK UNBOUND:                -1.141
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  N13_22 
+REMARK    2  A    between atoms: C2_2  and  O11_20 
+REMARK    3  A    between atoms: C10_10  and  N14_11 
+REMARK    4  A    between atoms: N14_11  and  C15_12 
+REMARK       I    between atoms: N13_22  and  C26_23 
+REMARK    5  A    between atoms: C26_23  and  C24_24 
+REMARK    6  A    between atoms: C24_24  and  C23_25 
+REMARK    7  A    between atoms: C23_25  and  C25_26 
+ROOT
+HETATM    1  C1    D T9001       5.747   2.635  -3.853  1.00 30.38     0.107 A 
+HETATM    2  C2    D T9001       5.452   1.945  -2.628  1.00 29.65     0.113 A 
+HETATM    3  C3    D T9001       6.026   2.427  -1.408  1.00 28.21     0.045 A 
+HETATM    4  C4    D T9001       6.872   3.554  -1.374  1.00 27.21     0.088 A 
+HETATM    5  C5    D T9001       7.180   4.238  -2.607  1.00 26.27     0.055 A 
+HETATM    6  C6    D T9001       6.609   3.765  -3.828  1.00 29.22     0.026 A 
+HETATM    7  N7    D T9001       7.365   3.950  -0.175  1.00 25.99    -0.224 NA
+HETATM    8  C8    D T9001       8.174   5.030  -0.176  1.00 24.59     0.200 A 
+HETATM    9  N9    D T9001       8.543   5.747  -1.260  1.00 25.70    -0.205 NA
+HETATM   10  C10   D T9001       8.050   5.357  -2.488  1.00 27.48     0.166 A 
+ENDROOT
+BRANCH  10  11
+HETATM   11  N14   D T9001       8.424   6.091  -3.657  1.00 23.22    -0.227 NA
+BRANCH  11  12
+HETATM   12  C15   D T9001       7.674   7.110  -4.297  1.00 24.25     0.084 A 
+HETATM   13  C16   D T9001       6.886   6.847  -5.464  1.00 25.06     0.033 A 
+HETATM   14  C17   D T9001       6.154   7.866  -6.091  1.00 28.28     0.087 A 
+HETATM   15  C18   D T9001       6.186   9.182  -5.571  1.00 25.55     0.151 A 
+HETATM   16 CL     D T9001       5.235   7.472  -7.494  1.00 31.70    -0.080 Cl
+HETATM   17  C19   D T9001       6.955   9.476  -4.416  1.00 24.70     0.032 A 
+HETATM   18  F21   D T9001       5.496  10.171  -6.158  1.00 27.22    -0.203 F 
+HETATM   19  C20   D T9001       7.696   8.442  -3.781  1.00 24.32     0.021 A 
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+BRANCH   1  20
+HETATM   20  N13   D T9001       5.137   2.159  -5.047  1.00 34.61    -0.210 NA
+HETATM   21  C26   D T9001       3.928   2.694  -5.525  1.00 36.24     0.256 C 
+HETATM   22  O27   D T9001       3.280   3.600  -4.998  1.00 39.97    -0.270 OA
+BRANCH  21  23
+HETATM   23  C24   D T9001       3.454   1.996  -6.789  1.00 35.38     0.092 C 
+BRANCH  23  24
+HETATM   24  C23   D T9001       4.371   2.281  -7.990  1.00 34.93     0.051 C 
+BRANCH  24  25
+HETATM   25  C25   D T9001       4.635   3.790  -8.074  1.00 37.23     0.339 C 
+HETATM   26  N33   D T9001       6.116   4.074  -8.130  1.00 41.10     0.618 N 
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH  21  23
+ENDBRANCH   1  20
+BRANCH   2  27
+HETATM   27  O11   D T9001       4.610   0.844  -2.756  1.00 31.09    -0.327 OA
+HETATM   28  C12   D T9001       5.112  -0.473  -2.514  1.00 29.66     0.181 C 
+ENDBRANCH   2  27
+TORSDOF 7
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -7.415      3.466      5.534
+REMARK INTER + INTRA:         -11.590
+REMARK INTER:                 -10.438
+REMARK INTRA:                  -1.152
+REMARK UNBOUND:                -1.141
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  N13_22 
+REMARK    2  A    between atoms: C2_2  and  O11_20 
+REMARK    3  A    between atoms: C10_10  and  N14_11 
+REMARK    4  A    between atoms: N14_11  and  C15_12 
+REMARK       I    between atoms: N13_22  and  C26_23 
+REMARK    5  A    between atoms: C26_23  and  C24_24 
+REMARK    6  A    between atoms: C24_24  and  C23_25 
+REMARK    7  A    between atoms: C23_25  and  C25_26 
+ROOT
+HETATM    1  C1    D T9001       6.727   4.945  -1.997  1.00 30.38     0.107 A 
+HETATM    2  C2    D T9001       7.323   4.182  -0.936  1.00 29.65     0.113 A 
+HETATM    3  C3    D T9001       7.026   2.785  -0.838  1.00 28.21     0.045 A 
+HETATM    4  C4    D T9001       6.165   2.138  -1.748  1.00 27.21     0.088 A 
+HETATM    5  C5    D T9001       5.555   2.908  -2.805  1.00 26.27     0.055 A 
+HETATM    6  C6    D T9001       5.849   4.302  -2.912  1.00 29.22     0.026 A 
+HETATM    7  N7    D T9001       5.945   0.810  -1.591  1.00 25.99    -0.224 NA
+HETATM    8  C8    D T9001       5.115   0.220  -2.475  1.00 24.59     0.200 A 
+HETATM    9  N9    D T9001       4.478   0.832  -3.498  1.00 25.70    -0.205 NA
+HETATM   10  C10   D T9001       4.691   2.184  -3.673  1.00 27.48     0.166 A 
+ENDROOT
+BRANCH  10  11
+HETATM   11  N14   D T9001       4.029   2.863  -4.743  1.00 23.22    -0.227 NA
+BRANCH  11  12
+HETATM   12  C15   D T9001       4.624   3.363  -5.930  1.00 24.25     0.084 A 
+HETATM   13  C16   D T9001       4.588   4.755  -6.265  1.00 25.06     0.033 A 
+HETATM   14  C17   D T9001       5.174   5.234  -7.445  1.00 28.28     0.087 A 
+HETATM   15  C18   D T9001       5.817   4.336  -8.330  1.00 25.55     0.151 A 
+HETATM   16 CL     D T9001       5.083   6.921  -7.780  1.00 31.70    -0.080 Cl
+HETATM   17  C19   D T9001       5.872   2.951  -8.028  1.00 24.70     0.032 A 
+HETATM   18  F21   D T9001       6.381   4.773  -9.465  1.00 27.22    -0.203 F 
+HETATM   19  C20   D T9001       5.277   2.467  -6.830  1.00 24.32     0.021 A 
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+BRANCH   1  20
+HETATM   20  N13   D T9001       7.066   6.323  -2.095  1.00 34.61    -0.210 NA
+HETATM   21  C26   D T9001       8.077   6.778  -2.958  1.00 36.24     0.256 C 
+HETATM   22  O27   D T9001       8.762   6.075  -3.704  1.00 39.97    -0.270 OA
+BRANCH  21  23
+HETATM   23  C24   D T9001       8.284   8.280  -2.856  1.00 35.38     0.092 C 
+BRANCH  23  24
+HETATM   24  C23   D T9001       7.074   9.071  -3.380  1.00 34.93     0.051 C 
+BRANCH  24  25
+HETATM   25  C25   D T9001       6.781   8.644  -4.823  1.00 37.23     0.339 C 
+HETATM   26  N33   D T9001       6.289   9.814  -5.640  1.00 41.10     0.618 N 
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH  21  23
+ENDBRANCH   1  20
+BRANCH   2  27
+HETATM   27  O11   D T9001       8.156   4.901  -0.084  1.00 31.09    -0.327 OA
+HETATM   28  C12   D T9001       8.141   4.641   1.321  1.00 29.66     0.181 C 
+ENDBRANCH   2  27
+TORSDOF 7
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -7.413      1.826      2.286
+REMARK INTER + INTRA:         -11.587
+REMARK INTER:                 -10.617
+REMARK INTRA:                  -0.970
+REMARK UNBOUND:                -1.141
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  N13_22 
+REMARK    2  A    between atoms: C2_2  and  O11_20 
+REMARK    3  A    between atoms: C10_10  and  N14_11 
+REMARK    4  A    between atoms: N14_11  and  C15_12 
+REMARK       I    between atoms: N13_22  and  C26_23 
+REMARK    5  A    between atoms: C26_23  and  C24_24 
+REMARK    6  A    between atoms: C24_24  and  C23_25 
+REMARK    7  A    between atoms: C23_25  and  C25_26 
+ROOT
+HETATM    1  C1    D T9001       6.922   6.995  -5.078  1.00 30.38     0.107 A 
+HETATM    2  C2    D T9001       6.114   7.192  -6.250  1.00 29.65     0.113 A 
+HETATM    3  C3    D T9001       5.538   6.049  -6.892  1.00 28.21     0.045 A 
+HETATM    4  C4    D T9001       5.742   4.739  -6.410  1.00 27.21     0.088 A 
+HETATM    5  C5    D T9001       6.566   4.542  -5.242  1.00 26.27     0.055 A 
+HETATM    6  C6    D T9001       7.141   5.677  -4.594  1.00 29.22     0.026 A 
+HETATM    7  N7    D T9001       5.152   3.714  -7.071  1.00 25.99    -0.224 NA
+HETATM    8  C8    D T9001       5.369   2.472  -6.589  1.00 24.59     0.200 A 
+HETATM    9  N9    D T9001       6.124   2.158  -5.514  1.00 25.70    -0.205 NA
+HETATM   10  C10   D T9001       6.732   3.190  -4.829  1.00 27.48     0.166 A 
+ENDROOT
+BRANCH  10  11
+HETATM   11  N14   D T9001       7.542   2.892  -3.689  1.00 23.22    -0.227 NA
+BRANCH  11  12
+HETATM   12  C15   D T9001       7.153   2.970  -2.327  1.00 24.25     0.084 A 
+HETATM   13  C16   D T9001       8.089   3.297  -1.293  1.00 25.06     0.033 A 
+HETATM   14  C17   D T9001       7.694   3.363   0.051  1.00 28.28     0.087 A 
+HETATM   15  C18   D T9001       6.348   3.106   0.405  1.00 25.55     0.151 A 
+HETATM   16 CL     D T9001       8.880   3.756   1.237  1.00 31.70    -0.080 Cl
+HETATM   17  C19   D T9001       5.395   2.781  -0.595  1.00 24.70     0.032 A 
+HETATM   18  F21   D T9001       5.949   3.161   1.684  1.00 27.22    -0.203 F 
+HETATM   19  C20   D T9001       5.798   2.714  -1.957  1.00 24.32     0.021 A 
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+BRANCH   1  20
+HETATM   20  N13   D T9001       7.453   8.149  -4.437  1.00 34.61    -0.210 NA
+HETATM   21  C26   D T9001       7.060   8.523  -3.142  1.00 36.24     0.256 C 
+HETATM   22  O27   D T9001       6.248   7.927  -2.431  1.00 39.97    -0.270 OA
+BRANCH  21  23
+HETATM   23  C24   D T9001       7.730   9.810  -2.690  1.00 35.38     0.092 C 
+BRANCH  23  24
+HETATM   24  C23   D T9001       7.414  10.991  -3.624  1.00 34.93     0.051 C 
+BRANCH  24  25
+HETATM   25  C25   D T9001       7.328  12.278  -2.795  1.00 37.23     0.339 C 
+HETATM   26  N33   D T9001       7.589  11.997  -1.336  1.00 41.10     0.618 N 
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH  21  23
+ENDBRANCH   1  20
+BRANCH   2  27
+HETATM   27  O11   D T9001       5.968   8.515  -6.654  1.00 31.09    -0.327 OA
+HETATM   28  C12   D T9001       4.733   9.200  -6.430  1.00 29.66     0.181 C 
+ENDBRANCH   2  27
+TORSDOF 7
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -7.403      2.528      3.841
+REMARK INTER + INTRA:         -11.574
+REMARK INTER:                 -10.350
+REMARK INTRA:                  -1.224
+REMARK UNBOUND:                -1.141
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  N13_22 
+REMARK    2  A    between atoms: C2_2  and  O11_20 
+REMARK    3  A    between atoms: C10_10  and  N14_11 
+REMARK    4  A    between atoms: N14_11  and  C15_12 
+REMARK       I    between atoms: N13_22  and  C26_23 
+REMARK    5  A    between atoms: C26_23  and  C24_24 
+REMARK    6  A    between atoms: C24_24  and  C23_25 
+REMARK    7  A    between atoms: C23_25  and  C25_26 
+ROOT
+HETATM    1  C1    D T9001       7.027   7.072  -4.539  1.00 30.38     0.107 A 
+HETATM    2  C2    D T9001       6.591   8.431  -4.704  1.00 29.65     0.113 A 
+HETATM    3  C3    D T9001       5.812   8.772  -5.856  1.00 28.21     0.045 A 
+HETATM    4  C4    D T9001       5.463   7.816  -6.832  1.00 27.21     0.088 A 
+HETATM    5  C5    D T9001       5.914   6.454  -6.673  1.00 26.27     0.055 A 
+HETATM    6  C6    D T9001       6.689   6.105  -5.526  1.00 29.22     0.026 A 
+HETATM    7  N7    D T9001       4.714   8.220  -7.887  1.00 25.99    -0.224 NA
+HETATM    8  C8    D T9001       4.399   7.284  -8.806  1.00 24.59     0.200 A 
+HETATM    9  N9    D T9001       4.767   5.985  -8.775  1.00 25.70    -0.205 NA
+HETATM   10  C10   D T9001       5.530   5.556  -7.708  1.00 27.48     0.166 A 
+ENDROOT
+BRANCH  10  11
+HETATM   11  N14   D T9001       5.941   4.188  -7.646  1.00 23.22    -0.227 NA
+BRANCH  11  12
+HETATM   12  C15   D T9001       5.420   3.182  -6.793  1.00 24.25     0.084 A 
+HETATM   13  C16   D T9001       4.074   3.227  -6.307  1.00 25.06     0.033 A 
+HETATM   14  C17   D T9001       3.574   2.229  -5.457  1.00 28.28     0.087 A 
+HETATM   15  C18   D T9001       4.405   1.152  -5.067  1.00 25.55     0.151 A 
+HETATM   16 CL     D T9001       1.945   2.357  -4.910  1.00 31.70    -0.080 Cl
+HETATM   17  C19   D T9001       5.743   1.077  -5.531  1.00 24.70     0.032 A 
+HETATM   18  F21   D T9001       3.948   0.190  -4.252  1.00 27.22    -0.203 F 
+HETATM   19  C20   D T9001       6.248   2.090  -6.392  1.00 24.32     0.021 A 
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+BRANCH   1  20
+HETATM   20  N13   D T9001       7.769   6.750  -3.369  1.00 34.61    -0.210 NA
+HETATM   21  C26   D T9001       7.153   6.212  -2.227  1.00 36.24     0.256 C 
+HETATM   22  O27   D T9001       5.953   5.960  -2.102  1.00 39.97    -0.270 OA
+BRANCH  21  23
+HETATM   23  C24   D T9001       8.142   5.992  -1.093  1.00 35.38     0.092 C 
+BRANCH  23  24
+HETATM   24  C23   D T9001       9.233   4.973  -1.462  1.00 34.93     0.051 C 
+BRANCH  24  25
+HETATM   25  C25   D T9001       8.570   3.647  -1.856  1.00 37.23     0.339 C 
+HETATM   26  N33   D T9001       8.710   3.396  -3.337  1.00 41.10     0.618 N 
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH  21  23
+ENDBRANCH   1  20
+BRANCH   2  27
+HETATM   27  O11   D T9001       6.981   9.305  -3.694  1.00 31.09    -0.327 OA
+HETATM   28  C12   D T9001       7.174  10.692  -3.982  1.00 29.66     0.181 C 
+ENDBRANCH   2  27
+TORSDOF 7
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -6.963      3.403      5.350
+REMARK INTER + INTRA:         -10.954
+REMARK INTER:                  -9.983
+REMARK INTRA:                  -0.970
+REMARK UNBOUND:                -1.141
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  N13_22 
+REMARK    2  A    between atoms: C2_2  and  O11_20 
+REMARK    3  A    between atoms: C10_10  and  N14_11 
+REMARK    4  A    between atoms: N14_11  and  C15_12 
+REMARK       I    between atoms: N13_22  and  C26_23 
+REMARK    5  A    between atoms: C26_23  and  C24_24 
+REMARK    6  A    between atoms: C24_24  and  C23_25 
+REMARK    7  A    between atoms: C23_25  and  C25_26 
+ROOT
+HETATM    1  C1    D T9001       4.956   3.298  -5.078  1.00 30.38     0.107 A 
+HETATM    2  C2    D T9001       5.011   2.127  -5.908  1.00 29.65     0.113 A 
+HETATM    3  C3    D T9001       5.111   0.842  -5.285  1.00 28.21     0.045 A 
+HETATM    4  C4    D T9001       5.160   0.693  -3.884  1.00 27.21     0.088 A 
+HETATM    5  C5    D T9001       5.120   1.871  -3.051  1.00 26.27     0.055 A 
+HETATM    6  C6    D T9001       5.017   3.156  -3.665  1.00 29.22     0.026 A 
+HETATM    7  N7    D T9001       5.244  -0.560  -3.374  1.00 25.99    -0.224 NA
+HETATM    8  C8    D T9001       5.292  -0.670  -2.031  1.00 24.59     0.200 A 
+HETATM    9  N9    D T9001       5.272   0.352  -1.148  1.00 25.70    -0.205 NA
+HETATM   10  C10   D T9001       5.186   1.634  -1.649  1.00 27.48     0.166 A 
+ENDROOT
+BRANCH  10  11
+HETATM   11  N14   D T9001       5.167   2.740  -0.742  1.00 23.22    -0.227 NA
+BRANCH  11  12
+HETATM   12  C15   D T9001       6.216   3.152   0.119  1.00 24.25     0.084 A 
+HETATM   13  C16   D T9001       7.386   3.811  -0.378  1.00 25.06     0.033 A 
+HETATM   14  C17   D T9001       8.419   4.206   0.484  1.00 28.28     0.087 A 
+HETATM   15  C18   D T9001       8.315   3.955   1.873  1.00 25.55     0.151 A 
+HETATM   16 CL     D T9001       9.797   4.989  -0.191  1.00 31.70    -0.080 Cl
+HETATM   17  C19   D T9001       7.169   3.305   2.398  1.00 24.70     0.032 A 
+HETATM   18  F21   D T9001       9.293   4.321   2.714  1.00 27.22    -0.203 F 
+HETATM   19  C20   D T9001       6.122   2.905   1.522  1.00 24.32     0.021 A 
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+BRANCH   1  20
+HETATM   20  N13   D T9001       4.821   4.561  -5.719  1.00 34.61    -0.210 NA
+HETATM   21  C26   D T9001       5.860   5.506  -5.720  1.00 36.24     0.256 C 
+HETATM   22  O27   D T9001       6.966   5.366  -5.195  1.00 39.97    -0.270 OA
+BRANCH  21  23
+HETATM   23  C24   D T9001       5.465   6.791  -6.430  1.00 35.38     0.092 C 
+BRANCH  23  24
+HETATM   24  C23   D T9001       6.606   7.822  -6.447  1.00 34.93     0.051 C 
+BRANCH  24  25
+HETATM   25  C25   D T9001       6.121   9.120  -5.791  1.00 37.23     0.339 C 
+HETATM   26  N33   D T9001       4.666   9.370  -6.105  1.00 41.10     0.618 N 
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH  21  23
+ENDBRANCH   1  20
+BRANCH   2  27
+HETATM   27  O11   D T9001       4.958   2.368  -7.278  1.00 31.09    -0.327 OA
+HETATM   28  C12   D T9001       3.797   1.999  -8.026  1.00 29.66     0.181 C 
+ENDBRANCH   2  27
+TORSDOF 7
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -6.962      4.101      7.044
+REMARK INTER + INTRA:         -10.952
+REMARK INTER:                 -10.130
+REMARK INTRA:                  -0.822
+REMARK UNBOUND:                -1.141
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  N13_22 
+REMARK    2  A    between atoms: C2_2  and  O11_20 
+REMARK    3  A    between atoms: C10_10  and  N14_11 
+REMARK    4  A    between atoms: N14_11  and  C15_12 
+REMARK       I    between atoms: N13_22  and  C26_23 
+REMARK    5  A    between atoms: C26_23  and  C24_24 
+REMARK    6  A    between atoms: C24_24  and  C23_25 
+REMARK    7  A    between atoms: C23_25  and  C25_26 
+ROOT
+HETATM    1  C1    D T9001       5.808   1.623  -2.472  1.00 30.38     0.107 A 
+HETATM    2  C2    D T9001       4.766   0.716  -2.866  1.00 29.65     0.113 A 
+HETATM    3  C3    D T9001       4.180   0.859  -4.165  1.00 28.21     0.045 A 
+HETATM    4  C4    D T9001       4.594   1.862  -5.065  1.00 27.21     0.088 A 
+HETATM    5  C5    D T9001       5.630   2.782  -4.662  1.00 26.27     0.055 A 
+HETATM    6  C6    D T9001       6.222   2.645  -3.370  1.00 29.22     0.026 A 
+HETATM    7  N7    D T9001       3.995   1.922  -6.279  1.00 25.99    -0.224 NA
+HETATM    8  C8    D T9001       4.409   2.895  -7.117  1.00 24.59     0.200 A 
+HETATM    9  N9    D T9001       5.360   3.818  -6.854  1.00 25.70    -0.205 NA
+HETATM   10  C10   D T9001       5.980   3.772  -5.623  1.00 27.48     0.166 A 
+ENDROOT
+BRANCH  10  11
+HETATM   11  N14   D T9001       6.988   4.737  -5.311  1.00 23.22    -0.227 NA
+BRANCH  11  12
+HETATM   12  C15   D T9001       6.813   6.139  -5.186  1.00 24.25     0.084 A 
+HETATM   13  C16   D T9001       5.939   6.871  -6.054  1.00 25.06     0.033 A 
+HETATM   14  C17   D T9001       5.781   8.258  -5.925  1.00 28.28     0.087 A 
+HETATM   15  C18   D T9001       6.490   8.960  -4.921  1.00 25.55     0.151 A 
+HETATM   16 CL     D T9001       4.717   9.067  -7.012  1.00 31.70    -0.080 Cl
+HETATM   17  C19   D T9001       7.362   8.265  -4.044  1.00 24.70     0.032 A 
+HETATM   18  F21   D T9001       6.355  10.287  -4.783  1.00 27.22    -0.203 F 
+HETATM   19  C20   D T9001       7.522   6.858  -4.177  1.00 24.32     0.021 A 
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+BRANCH   1  20
+HETATM   20  N13   D T9001       6.399   1.438  -1.191  1.00 34.61    -0.210 NA
+HETATM   21  C26   D T9001       6.002   2.195  -0.076  1.00 36.24     0.256 C 
+HETATM   22  O27   D T9001       5.132   3.068  -0.067  1.00 39.97    -0.270 OA
+BRANCH  21  23
+HETATM   23  C24   D T9001       6.805   1.848   1.167  1.00 35.38     0.092 C 
+BRANCH  23  24
+HETATM   24  C23   D T9001       6.880   3.022   2.158  1.00 34.93     0.051 C 
+BRANCH  24  25
+HETATM   25  C25   D T9001       8.261   3.682   2.052  1.00 37.23     0.339 C 
+HETATM   26  N33   D T9001       8.139   5.112   1.586  1.00 41.10     0.618 N 
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH  21  23
+ENDBRANCH   1  20
+BRANCH   2  27
+HETATM   27  O11   D T9001       4.421  -0.241  -1.916  1.00 31.09    -0.327 OA
+HETATM   28  C12   D T9001       4.507  -1.631  -2.236  1.00 29.66     0.181 C 
+ENDBRANCH   2  27
+TORSDOF 7
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -6.809      4.055      6.344
+REMARK INTER + INTRA:         -10.736
+REMARK INTER:                  -9.629
+REMARK INTRA:                  -1.107
+REMARK UNBOUND:                -1.141
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  N13_22 
+REMARK    2  A    between atoms: C2_2  and  O11_20 
+REMARK    3  A    between atoms: C10_10  and  N14_11 
+REMARK    4  A    between atoms: N14_11  and  C15_12 
+REMARK       I    between atoms: N13_22  and  C26_23 
+REMARK    5  A    between atoms: C26_23  and  C24_24 
+REMARK    6  A    between atoms: C24_24  and  C23_25 
+REMARK    7  A    between atoms: C23_25  and  C25_26 
+ROOT
+HETATM    1  C1    D T9001       6.725   3.922  -1.402  1.00 30.38     0.107 A 
+HETATM    2  C2    D T9001       5.917   2.905  -0.787  1.00 29.65     0.113 A 
+HETATM    3  C3    D T9001       5.122   2.056  -1.621  1.00 28.21     0.045 A 
+HETATM    4  C4    D T9001       5.106   2.189  -3.025  1.00 27.21     0.088 A 
+HETATM    5  C5    D T9001       5.906   3.221  -3.640  1.00 26.27     0.055 A 
+HETATM    6  C6    D T9001       6.705   4.070  -2.816  1.00 29.22     0.026 A 
+HETATM    7  N7    D T9001       4.334   1.337  -3.742  1.00 25.99    -0.224 NA
+HETATM    8  C8    D T9001       4.337   1.493  -5.082  1.00 24.59     0.200 A 
+HETATM    9  N9    D T9001       5.032   2.422  -5.773  1.00 25.70    -0.205 NA
+HETATM   10  C10   D T9001       5.824   3.297  -5.059  1.00 27.48     0.166 A 
+ENDROOT
+BRANCH  10  11
+HETATM   11  N14   D T9001       6.571   4.296  -5.759  1.00 23.22    -0.227 NA
+BRANCH  11  12
+HETATM   12  C15   D T9001       6.113   5.578  -6.154  1.00 24.25     0.084 A 
+HETATM   13  C16   D T9001       6.465   6.762  -5.428  1.00 25.06     0.033 A 
+HETATM   14  C17   D T9001       5.999   8.024  -5.825  1.00 28.28     0.087 A 
+HETATM   15  C18   D T9001       5.166   8.143  -6.962  1.00 25.55     0.151 A 
+HETATM   16 CL     D T9001       6.462   9.399  -4.896  1.00 31.70    -0.080 Cl
+HETATM   17  C19   D T9001       4.799   6.992  -7.704  1.00 24.70     0.032 A 
+HETATM   18  F21   D T9001       4.707   9.340  -7.357  1.00 27.22    -0.203 F 
+HETATM   19  C20   D T9001       5.272   5.713  -7.300  1.00 24.32     0.021 A 
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+BRANCH   1  20
+HETATM   20  N13   D T9001       7.534   4.730  -0.555  1.00 34.61    -0.210 NA
+HETATM   21  C26   D T9001       8.913   4.502  -0.411  1.00 36.24     0.256 C 
+HETATM   22  O27   D T9001       9.563   3.620  -0.974  1.00 39.97    -0.270 OA
+BRANCH  21  23
+HETATM   23  C24   D T9001       9.551   5.463   0.578  1.00 35.38     0.092 C 
+BRANCH  23  24
+HETATM   24  C23   D T9001       9.024   6.899   0.416  1.00 34.93     0.051 C 
+BRANCH  24  25
+HETATM   25  C25   D T9001       8.949   7.566   1.796  1.00 37.23     0.339 C 
+HETATM   26  N33   D T9001       9.225   9.046   1.693  1.00 41.10     0.618 N 
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH  21  23
+ENDBRANCH   1  20
+BRANCH   2  27
+HETATM   27  O11   D T9001       5.994   2.846   0.601  1.00 31.09    -0.327 OA
+HETATM   28  C12   D T9001       6.625   1.732   1.237  1.00 29.66     0.181 C 
+ENDBRANCH   2  27
+TORSDOF 7
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -6.796      2.588      3.516
+REMARK INTER + INTRA:         -10.718
+REMARK INTER:                  -9.778
+REMARK INTRA:                  -0.940
+REMARK UNBOUND:                -1.141
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  N13_22 
+REMARK    2  A    between atoms: C2_2  and  O11_20 
+REMARK    3  A    between atoms: C10_10  and  N14_11 
+REMARK    4  A    between atoms: N14_11  and  C15_12 
+REMARK       I    between atoms: N13_22  and  C26_23 
+REMARK    5  A    between atoms: C26_23  and  C24_24 
+REMARK    6  A    between atoms: C24_24  and  C23_25 
+REMARK    7  A    between atoms: C23_25  and  C25_26 
+ROOT
+HETATM    1  C1    D T9001       5.637   5.716  -5.160  1.00 30.38     0.107 A 
+HETATM    2  C2    D T9001       5.658   5.078  -6.447  1.00 29.65     0.113 A 
+HETATM    3  C3    D T9001       5.516   3.655  -6.516  1.00 28.21     0.045 A 
+HETATM    4  C4    D T9001       5.360   2.863  -5.360  1.00 27.21     0.088 A 
+HETATM    5  C5    D T9001       5.354   3.503  -4.066  1.00 26.27     0.055 A 
+HETATM    6  C6    D T9001       5.492   4.922  -3.989  1.00 29.22     0.026 A 
+HETATM    7  N7    D T9001       5.221   1.523  -5.514  1.00 25.99    -0.224 NA
+HETATM    8  C8    D T9001       5.077   0.792  -4.389  1.00 24.59     0.200 A 
+HETATM    9  N9    D T9001       5.065   1.271  -3.126  1.00 25.70    -0.205 NA
+HETATM   10  C10   D T9001       5.205   2.632  -2.951  1.00 27.48     0.166 A 
+ENDROOT
+BRANCH  10  11
+HETATM   11  N14   D T9001       5.200   3.171  -1.626  1.00 23.22    -0.227 NA
+BRANCH  11  12
+HETATM   12  C15   D T9001       6.241   3.078  -0.668  1.00 24.25     0.084 A 
+HETATM   13  C16   D T9001       5.971   2.850   0.720  1.00 25.06     0.033 A 
+HETATM   14  C17   D T9001       7.009   2.767   1.659  1.00 28.28     0.087 A 
+HETATM   15  C18   D T9001       8.353   2.910   1.240  1.00 25.55     0.151 A 
+HETATM   16 CL     D T9001       6.603   2.497   3.311  1.00 31.70    -0.080 Cl
+HETATM   17  C19   D T9001       8.656   3.136  -0.127  1.00 24.70     0.032 A 
+HETATM   18  F21   D T9001       9.361   2.837   2.122  1.00 27.22    -0.203 F 
+HETATM   19  C20   D T9001       7.602   3.219  -1.078  1.00 24.32     0.021 A 
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+BRANCH   1  20
+HETATM   20  N13   D T9001       5.744   7.134  -5.120  1.00 34.61    -0.210 NA
+HETATM   21  C26   D T9001       6.927   7.777  -4.721  1.00 36.24     0.256 C 
+HETATM   22  O27   D T9001       7.972   7.221  -4.376  1.00 39.97    -0.270 OA
+BRANCH  21  23
+HETATM   23  C24   D T9001       6.784   9.290  -4.719  1.00 35.38     0.092 C 
+BRANCH  23  24
+HETATM   24  C23   D T9001       7.599   9.950  -3.593  1.00 34.93     0.051 C 
+BRANCH  24  25
+HETATM   25  C25   D T9001       7.202  11.428  -3.486  1.00 37.23     0.339 C 
+HETATM   26  N33   D T9001       8.294  12.230  -2.823  1.00 41.10     0.618 N 
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH  21  23
+ENDBRANCH   1  20
+BRANCH   2  27
+HETATM   27  O11   D T9001       5.817   5.936  -7.531  1.00 31.09    -0.327 OA
+HETATM   28  C12   D T9001       4.746   6.124  -8.459  1.00 29.66     0.181 C 
+ENDBRANCH   2  27
+TORSDOF 7
+ENDMDL

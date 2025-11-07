@@ -1,0 +1,603 @@
+MODEL 1
+REMARK VINA RESULT:    -7.645      0.000      0.000
+REMARK INTER + INTRA:         -11.958
+REMARK INTER:                 -10.773
+REMARK INTRA:                  -1.185
+REMARK UNBOUND:                -1.185
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NBB_6  and  CBA_7 
+REMARK    2  A    between atoms: CAS_9  and  OAT_10 
+REMARK    3  A    between atoms: CAL_14  and  NAH_15 
+REMARK    4  A    between atoms: NAH_15  and  C2_16 
+REMARK    5  A    between atoms: C4_22  and  NAE_23 
+REMARK    6  A    between atoms: NAE_23  and  CAJ_24 
+REMARK    7  A    between atoms: CAP_29  and  CAO_30 
+REMARK       I    between atoms: CAO_30  and  NAN_32 
+ROOT
+HETATM    1  C2    D T1686       9.819  -2.617  -1.154  1.00 17.61     0.752 A 
+HETATM    2  N3    D T1686      10.859  -1.832  -0.846  1.00 18.51    -0.039 NA
+HETATM    3  N1    D T1686       9.885  -3.914  -0.868  1.00 16.90    -0.057 NA
+HETATM    4  C6    D T1686      10.963  -4.432  -0.290  1.00 16.74     0.133 A 
+HETATM    5  C5    D T1686      12.046  -3.644   0.054  1.00 17.83     0.114 A 
+HETATM    6 CL5    D T1686      13.438  -4.352   0.831  1.00 20.30    -0.077 Cl
+HETATM    7  C4    D T1686      11.976  -2.277  -0.216  1.00 18.56     0.193 A 
+ENDROOT
+BRANCH   1   8
+HETATM    8  NAH   D T1686       8.701  -2.134  -1.730  1.00 18.72    -0.057 NA
+BRANCH   8   9
+HETATM    9  CAL   D T1686       8.651  -1.337  -2.811  1.00 18.22     0.122 A 
+HETATM   10  CAS   D T1686       8.468  -1.957  -4.042  1.00 20.44     0.114 A 
+HETATM   11  CAY   D T1686       8.409  -1.185  -5.220  1.00 18.94     0.043 A 
+HETATM   12  CBA   D T1686       8.511   0.210  -5.182  1.00 20.47     0.058 A 
+HETATM   13  CAX   D T1686       8.707   0.834  -3.939  1.00 17.39     0.019 A 
+HETATM   14  CAR   D T1686       8.756   0.065  -2.771  1.00 18.28     0.023 A 
+BRANCH  10  15
+HETATM   15  OAT   D T1686       8.364  -3.314  -4.031  1.00 18.42    -0.327 OA
+HETATM   16  CAU   D T1686       9.414  -3.921  -4.799  1.00 20.67     0.181 C 
+ENDBRANCH  10  15
+BRANCH  12  17
+HETATM   17  NBB   D T1686       8.443   1.009  -6.376  1.00 22.32    -0.343 N 
+HETATM   18  CBC   D T1686       9.408   2.111  -6.600  1.00 27.64     0.134 C 
+HETATM   19  CBE   D T1686       8.812   3.236  -7.470  1.00 28.37     0.167 C 
+HETATM   20  OBG   D T1686       8.208   2.691  -8.638  1.00 28.23    -0.350 OA
+HETATM   21  CBF   D T1686       7.061   1.919  -8.295  1.00 27.59     0.167 C 
+HETATM   22  CBD   D T1686       7.386   0.735  -7.378  1.00 25.14     0.134 C 
+ENDBRANCH  12  17
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+BRANCH   7  23
+HETATM   23  NAE   D T1686      12.999  -1.458   0.127  1.00 16.74    -0.225 NA
+BRANCH  23  24
+HETATM   24  CAJ   D T1686      13.132  -0.729   1.261  1.00 21.60     0.088 A 
+HETATM   25  CAQ   D T1686      12.225  -0.935   2.321  1.00 19.37     0.019 A 
+HETATM   26  CAW   D T1686      12.308  -0.219   3.502  1.00 21.30     0.002 A 
+HETATM   27  CAZ   D T1686      13.284   0.768   3.636  1.00 22.64     0.000 A 
+HETATM   28  CAV   D T1686      14.178   0.998   2.592  1.00 23.23     0.006 A 
+HETATM   29  CAP   D T1686      14.119   0.261   1.412  1.00 20.25     0.075 A 
+BRANCH  29  30
+HETATM   30  CAO   D T1686      15.149   0.579   0.319  1.00 17.59     0.276 C 
+HETATM   31  OAI   D T1686      16.226   0.002   0.314  1.00 15.81    -0.266 OA
+HETATM   32  NAN   D T1686      14.789   1.514  -0.564  1.00 14.44    -0.232 NA
+HETATM   33  CAM   D T1686      15.718   1.830  -1.658  1.00 17.53     0.155 C 
+ENDBRANCH  29  30
+ENDBRANCH  23  24
+ENDBRANCH   7  23
+TORSDOF 7
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -7.538      3.589      8.959
+REMARK INTER + INTRA:         -11.808
+REMARK INTER:                 -10.887
+REMARK INTRA:                  -0.922
+REMARK UNBOUND:                -1.185
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NBB_6  and  CBA_7 
+REMARK    2  A    between atoms: CAS_9  and  OAT_10 
+REMARK    3  A    between atoms: CAL_14  and  NAH_15 
+REMARK    4  A    between atoms: NAH_15  and  C2_16 
+REMARK    5  A    between atoms: C4_22  and  NAE_23 
+REMARK    6  A    between atoms: NAE_23  and  CAJ_24 
+REMARK    7  A    between atoms: CAP_29  and  CAO_30 
+REMARK       I    between atoms: CAO_30  and  NAN_32 
+ROOT
+HETATM    1  C2    D T1686       9.541  -2.925  -3.822  1.00 17.61     0.752 A 
+HETATM    2  N3    D T1686       8.915  -1.759  -4.029  1.00 18.51    -0.039 NA
+HETATM    3  N1    D T1686       9.282  -3.947  -4.633  1.00 16.90    -0.057 NA
+HETATM    4  C6    D T1686       8.415  -3.823  -5.632  1.00 16.74     0.133 A 
+HETATM    5  C5    D T1686       7.766  -2.628  -5.881  1.00 17.83     0.114 A 
+HETATM    6 CL5    D T1686       6.649  -2.494  -7.213  1.00 20.30    -0.077 Cl
+HETATM    7  C4    D T1686       8.051  -1.541  -5.053  1.00 18.56     0.193 A 
+ENDROOT
+BRANCH   1   8
+HETATM    8  NAH   D T1686      10.435  -3.092  -2.829  1.00 18.72    -0.057 NA
+BRANCH   8   9
+HETATM    9  CAL   D T1686      10.195  -3.667  -1.638  1.00 18.22     0.122 A 
+HETATM   10  CAS   D T1686      10.919  -3.189  -0.552  1.00 20.44     0.114 A 
+HETATM   11  CAY   D T1686      10.722  -3.748   0.728  1.00 18.94     0.043 A 
+HETATM   12  CBA   D T1686       9.791  -4.771   0.941  1.00 20.47     0.058 A 
+HETATM   13  CAX   D T1686       9.069  -5.259  -0.160  1.00 17.39     0.019 A 
+HETATM   14  CAR   D T1686       9.261  -4.697  -1.427  1.00 18.28     0.023 A 
+BRANCH  10  15
+HETATM   15  OAT   D T1686      11.805  -2.189  -0.803  1.00 18.42    -0.327 OA
+HETATM   16  CAU   D T1686      12.613  -1.909   0.351  1.00 20.67     0.181 C 
+ENDBRANCH  10  15
+BRANCH  12  17
+HETATM   17  NBB   D T1686       9.575  -5.342   2.243  1.00 22.32    -0.343 N 
+HETATM   18  CBC   D T1686       9.521  -4.477   3.444  1.00 27.64     0.134 C 
+HETATM   19  CBE   D T1686       9.985  -5.218   4.715  1.00 28.37     0.167 C 
+HETATM   20  OBG   D T1686       9.325  -6.474   4.823  1.00 28.23    -0.350 OA
+HETATM   21  CBF   D T1686       9.741  -7.350   3.780  1.00 27.59     0.167 C 
+HETATM   22  CBD   D T1686       9.426  -6.811   2.380  1.00 25.14     0.134 C 
+ENDBRANCH  12  17
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+BRANCH   7  23
+HETATM   23  NAE   D T1686       7.463  -0.341  -5.273  1.00 16.74    -0.225 NA
+BRANCH  23  24
+HETATM   24  CAJ   D T1686       7.893   0.657  -6.080  1.00 21.60     0.088 A 
+HETATM   25  CAQ   D T1686       7.203   0.916  -7.282  1.00 19.37     0.019 A 
+HETATM   26  CAW   D T1686       7.596   1.920  -8.149  1.00 21.30     0.002 A 
+HETATM   27  CAZ   D T1686       8.734   2.670  -7.854  1.00 22.64     0.000 A 
+HETATM   28  CAV   D T1686       9.440   2.418  -6.678  1.00 23.23     0.006 A 
+HETATM   29  CAP   D T1686       9.032   1.428  -5.787  1.00 20.25     0.075 A 
+BRANCH  29  30
+HETATM   30  CAO   D T1686       9.867   1.225  -4.515  1.00 17.59     0.276 C 
+HETATM   31  OAI   D T1686       9.447   1.632  -3.442  1.00 15.81    -0.266 OA
+HETATM   32  NAN   D T1686      11.045   0.619  -4.684  1.00 14.44    -0.232 NA
+HETATM   33  CAM   D T1686      11.869   0.360  -3.495  1.00 17.53     0.155 C 
+ENDBRANCH  29  30
+ENDBRANCH  23  24
+ENDBRANCH   7  23
+TORSDOF 7
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -7.443      1.801      2.617
+REMARK INTER + INTRA:         -11.674
+REMARK INTER:                 -10.456
+REMARK INTRA:                  -1.218
+REMARK UNBOUND:                -1.185
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NBB_6  and  CBA_7 
+REMARK    2  A    between atoms: CAS_9  and  OAT_10 
+REMARK    3  A    between atoms: CAL_14  and  NAH_15 
+REMARK    4  A    between atoms: NAH_15  and  C2_16 
+REMARK    5  A    between atoms: C4_22  and  NAE_23 
+REMARK    6  A    between atoms: NAE_23  and  CAJ_24 
+REMARK    7  A    between atoms: CAP_29  and  CAO_30 
+REMARK       I    between atoms: CAO_30  and  NAN_32 
+ROOT
+HETATM    1  C2    D T1686      11.319  -2.392  -1.471  1.00 17.61     0.752 A 
+HETATM    2  N3    D T1686      12.357  -1.704  -0.979  1.00 18.51    -0.039 NA
+HETATM    3  N1    D T1686      10.436  -2.917  -0.626  1.00 16.90    -0.057 NA
+HETATM    4  C6    D T1686      10.576  -2.769   0.687  1.00 16.74     0.133 A 
+HETATM    5  C5    D T1686      11.629  -2.051   1.224  1.00 17.83     0.114 A 
+HETATM    6 CL5    D T1686      11.773  -1.859   2.951  1.00 20.30    -0.077 Cl
+HETATM    7  C4    D T1686      12.546  -1.473   0.345  1.00 18.56     0.193 A 
+ENDROOT
+BRANCH   1   8
+HETATM    8  NAH   D T1686      11.130  -2.557  -2.794  1.00 18.72    -0.057 NA
+BRANCH   8   9
+HETATM    9  CAL   D T1686      10.583  -1.659  -3.632  1.00 18.22     0.122 A 
+HETATM   10  CAS   D T1686       9.299  -1.928  -4.091  1.00 20.44     0.114 A 
+HETATM   11  CAY   D T1686       8.663  -1.033  -4.976  1.00 18.94     0.043 A 
+HETATM   12  CBA   D T1686       9.291   0.146  -5.395  1.00 20.47     0.058 A 
+HETATM   13  CAX   D T1686      10.593   0.411  -4.939  1.00 17.39     0.019 A 
+HETATM   14  CAR   D T1686      11.217  -0.476  -4.054  1.00 18.28     0.023 A 
+BRANCH  10  15
+HETATM   15  OAT   D T1686       8.723  -3.079  -3.651  1.00 18.42    -0.327 OA
+HETATM   16  CAU   D T1686       7.609  -2.806  -2.789  1.00 20.67     0.181 C 
+ENDBRANCH  10  15
+BRANCH  12  17
+HETATM   17  NBB   D T1686       8.649   1.071  -6.290  1.00 22.32    -0.343 N 
+HETATM   18  CBC   D T1686       7.408   0.691  -7.001  1.00 27.64     0.134 C 
+HETATM   19  CBE   D T1686       7.264   1.423  -8.351  1.00 28.37     0.167 C 
+HETATM   20  OBG   D T1686       7.480   2.820  -8.181  1.00 28.23    -0.350 OA
+HETATM   21  CBF   D T1686       8.836   3.077  -7.827  1.00 27.59     0.167 C 
+HETATM   22  CBD   D T1686       9.252   2.408  -6.513  1.00 25.14     0.134 C 
+ENDBRANCH  12  17
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+BRANCH   7  23
+HETATM   23  NAE   D T1686      13.578  -0.735   0.820  1.00 16.74    -0.225 NA
+BRANCH  23  24
+HETATM   24  CAJ   D T1686      14.845  -0.682   0.347  1.00 21.60     0.088 A 
+HETATM   25  CAQ   D T1686      15.638  -1.848   0.369  1.00 19.37     0.019 A 
+HETATM   26  CAW   D T1686      16.940  -1.856  -0.098  1.00 21.30     0.002 A 
+HETATM   27  CAZ   D T1686      17.506  -0.669  -0.562  1.00 22.64     0.000 A 
+HETATM   28  CAV   D T1686      16.744   0.499  -0.576  1.00 23.23     0.006 A 
+HETATM   29  CAP   D T1686      15.423   0.506  -0.135  1.00 20.25     0.075 A 
+BRANCH  29  30
+HETATM   30  CAO   D T1686      14.659   1.836  -0.193  1.00 17.59     0.276 C 
+HETATM   31  OAI   D T1686      14.203   2.320   0.833  1.00 15.81    -0.266 OA
+HETATM   32  NAN   D T1686      14.521   2.375  -1.407  1.00 14.44    -0.232 NA
+HETATM   33  CAM   D T1686      13.836   3.670  -1.519  1.00 17.53     0.155 C 
+ENDBRANCH  29  30
+ENDBRANCH  23  24
+ENDBRANCH   7  23
+TORSDOF 7
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -7.226      1.788      2.801
+REMARK INTER + INTRA:         -11.368
+REMARK INTER:                  -9.901
+REMARK INTRA:                  -1.467
+REMARK UNBOUND:                -1.185
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NBB_6  and  CBA_7 
+REMARK    2  A    between atoms: CAS_9  and  OAT_10 
+REMARK    3  A    between atoms: CAL_14  and  NAH_15 
+REMARK    4  A    between atoms: NAH_15  and  C2_16 
+REMARK    5  A    between atoms: C4_22  and  NAE_23 
+REMARK    6  A    between atoms: NAE_23  and  CAJ_24 
+REMARK    7  A    between atoms: CAP_29  and  CAO_30 
+REMARK       I    between atoms: CAO_30  and  NAN_32 
+ROOT
+HETATM    1  C2    D T1686      10.593  -3.392  -0.266  1.00 17.61     0.752 A 
+HETATM    2  N3    D T1686      11.807  -2.829  -0.234  1.00 18.51    -0.039 NA
+HETATM    3  N1    D T1686      10.052  -3.819   0.872  1.00 16.90    -0.057 NA
+HETATM    4  C6    D T1686      10.700  -3.696   2.025  1.00 16.74     0.133 A 
+HETATM    5  C5    D T1686      11.949  -3.104   2.091  1.00 17.83     0.114 A 
+HETATM    6 CL5    D T1686      12.764  -2.940   3.624  1.00 20.30    -0.077 Cl
+HETATM    7  C4    D T1686      12.513  -2.628   0.907  1.00 18.56     0.193 A 
+ENDROOT
+BRANCH   1   8
+HETATM    8  NAH   D T1686       9.894  -3.527  -1.409  1.00 18.72    -0.057 NA
+BRANCH   8   9
+HETATM    9  CAL   D T1686       9.616  -2.546  -2.286  1.00 18.22     0.122 A 
+HETATM   10  CAS   D T1686       9.661  -2.877  -3.635  1.00 20.44     0.114 A 
+HETATM   11  CAY   D T1686       9.385  -1.898  -4.612  1.00 18.94     0.043 A 
+HETATM   12  CBA   D T1686       9.042  -0.589  -4.254  1.00 20.47     0.058 A 
+HETATM   13  CAX   D T1686       9.008  -0.254  -2.891  1.00 17.39     0.019 A 
+HETATM   14  CAR   D T1686       9.275  -1.230  -1.924  1.00 18.28     0.023 A 
+BRANCH  10  15
+HETATM   15  OAT   D T1686       9.989  -4.162  -3.936  1.00 18.42    -0.327 OA
+HETATM   16  CAU   D T1686       9.863  -4.413  -5.344  1.00 20.67     0.181 C 
+ENDBRANCH  10  15
+BRANCH  12  17
+HETATM   17  NBB   D T1686       8.749   0.416  -5.241  1.00 22.32    -0.343 N 
+HETATM   18  CBC   D T1686       7.602   0.253  -6.163  1.00 27.64     0.134 C 
+HETATM   19  CBE   D T1686       7.834   0.965  -7.511  1.00 28.37     0.167 C 
+HETATM   20  OBG   D T1686       8.273   2.301  -7.295  1.00 28.23    -0.350 OA
+HETATM   21  CBF   D T1686       9.570   2.314  -6.706  1.00 27.59     0.167 C 
+HETATM   22  CBD   D T1686       9.618   1.612  -5.344  1.00 25.14     0.134 C 
+ENDBRANCH  12  17
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+BRANCH   7  23
+HETATM   23  NAE   D T1686      13.721  -2.014   0.923  1.00 16.74    -0.225 NA
+BRANCH  23  24
+HETATM   24  CAJ   D T1686      14.034  -0.788   0.442  1.00 21.60     0.088 A 
+HETATM   25  CAQ   D T1686      14.390  -0.652  -0.916  1.00 19.37     0.019 A 
+HETATM   26  CAW   D T1686      14.722   0.574  -1.465  1.00 21.30     0.002 A 
+HETATM   27  CAZ   D T1686      14.753   1.703  -0.647  1.00 22.64     0.000 A 
+HETATM   28  CAV   D T1686      14.421   1.585   0.702  1.00 23.23     0.006 A 
+HETATM   29  CAP   D T1686      14.057   0.359   1.255  1.00 20.25     0.075 A 
+BRANCH  29  30
+HETATM   30  CAO   D T1686      13.702   0.327   2.748  1.00 17.59     0.276 C 
+HETATM   31  OAI   D T1686      12.534   0.416   3.096  1.00 15.81    -0.266 OA
+HETATM   32  NAN   D T1686      14.734   0.223   3.589  1.00 14.44    -0.232 NA
+HETATM   33  CAM   D T1686      14.452   0.144   5.029  1.00 17.53     0.155 C 
+ENDBRANCH  29  30
+ENDBRANCH  23  24
+ENDBRANCH   7  23
+TORSDOF 7
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -7.103      2.019      2.729
+REMARK INTER + INTRA:         -11.196
+REMARK INTER:                  -9.489
+REMARK INTRA:                  -1.707
+REMARK UNBOUND:                -1.185
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NBB_6  and  CBA_7 
+REMARK    2  A    between atoms: CAS_9  and  OAT_10 
+REMARK    3  A    between atoms: CAL_14  and  NAH_15 
+REMARK    4  A    between atoms: NAH_15  and  C2_16 
+REMARK    5  A    between atoms: C4_22  and  NAE_23 
+REMARK    6  A    between atoms: NAE_23  and  CAJ_24 
+REMARK    7  A    between atoms: CAP_29  and  CAO_30 
+REMARK       I    between atoms: CAO_30  and  NAN_32 
+ROOT
+HETATM    1  C2    D T1686       9.459  -5.016  -0.327  1.00 17.61     0.752 A 
+HETATM    2  N3    D T1686      10.570  -4.354   0.020  1.00 18.51    -0.039 NA
+HETATM    3  N1    D T1686       9.050  -6.028   0.432  1.00 16.90    -0.057 NA
+HETATM    4  C6    D T1686       9.729  -6.386   1.517  1.00 16.74     0.133 A 
+HETATM    5  C5    D T1686      10.871  -5.712   1.909  1.00 17.83     0.114 A 
+HETATM    6 CL5    D T1686      11.727  -6.195   3.349  1.00 20.30    -0.077 Cl
+HETATM    7  C4    D T1686      11.293  -4.631   1.134  1.00 18.56     0.193 A 
+ENDROOT
+BRANCH   1   8
+HETATM    8  NAH   D T1686       8.733  -4.681  -1.411  1.00 18.72    -0.057 NA
+BRANCH   8   9
+HETATM    9  CAL   D T1686       8.831  -3.533  -2.103  1.00 18.22     0.122 A 
+HETATM   10  CAS   D T1686       9.274  -3.626  -3.417  1.00 20.44     0.114 A 
+HETATM   11  CAY   D T1686       9.406  -2.463  -4.203  1.00 18.94     0.043 A 
+HETATM   12  CBA   D T1686       9.077  -1.200  -3.695  1.00 20.47     0.058 A 
+HETATM   13  CAX   D T1686       8.640  -1.106  -2.364  1.00 17.39     0.019 A 
+HETATM   14  CAR   D T1686       8.504  -2.265  -1.590  1.00 18.28     0.023 A 
+BRANCH  10  15
+HETATM   15  OAT   D T1686       9.572  -4.873  -3.872  1.00 18.42    -0.327 OA
+HETATM   16  CAU   D T1686       9.685  -4.891  -5.303  1.00 20.67     0.181 C 
+ENDBRANCH  10  15
+BRANCH  12  17
+HETATM   17  NBB   D T1686       9.198  -0.008  -4.490  1.00 22.32    -0.343 N 
+HETATM   18  CBC   D T1686       8.027   0.534  -5.216  1.00 27.64     0.134 C 
+HETATM   19  CBE   D T1686       8.438   1.303  -6.488  1.00 28.37     0.167 C 
+HETATM   20  OBG   D T1686       9.470   2.236  -6.191  1.00 28.23    -0.350 OA
+HETATM   21  CBF   D T1686      10.671   1.557  -5.834  1.00 27.59     0.167 C 
+HETATM   22  CBD   D T1686      10.513   0.669  -4.595  1.00 25.14     0.134 C 
+ENDBRANCH  12  17
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+BRANCH   7  23
+HETATM   23  NAE   D T1686      12.389  -3.920   1.492  1.00 16.74    -0.225 NA
+BRANCH  23  24
+HETATM   24  CAJ   D T1686      12.431  -2.738   2.152  1.00 21.60     0.088 A 
+HETATM   25  CAQ   D T1686      12.096  -2.702   3.521  1.00 19.37     0.019 A 
+HETATM   26  CAW   D T1686      12.118  -1.525   4.248  1.00 21.30     0.002 A 
+HETATM   27  CAZ   D T1686      12.434  -0.329   3.602  1.00 22.64     0.000 A 
+HETATM   28  CAV   D T1686      12.751  -0.342   2.245  1.00 23.23     0.006 A 
+HETATM   29  CAP   D T1686      12.760  -1.528   1.515  1.00 20.25     0.075 A 
+BRANCH  29  30
+HETATM   30  CAO   D T1686      13.128  -1.447   0.027  1.00 17.59     0.276 C 
+HETATM   31  OAI   D T1686      14.300  -1.347  -0.304  1.00 15.81    -0.266 OA
+HETATM   32  NAN   D T1686      12.102  -1.468  -0.828  1.00 14.44    -0.232 NA
+HETATM   33  CAM   D T1686      12.396  -1.435  -2.267  1.00 17.53     0.155 C 
+ENDBRANCH  29  30
+ENDBRANCH  23  24
+ENDBRANCH   7  23
+TORSDOF 7
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -7.103      2.711      8.760
+REMARK INTER + INTRA:         -11.195
+REMARK INTER:                 -10.516
+REMARK INTRA:                  -0.679
+REMARK UNBOUND:                -1.185
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NBB_6  and  CBA_7 
+REMARK    2  A    between atoms: CAS_9  and  OAT_10 
+REMARK    3  A    between atoms: CAL_14  and  NAH_15 
+REMARK    4  A    between atoms: NAH_15  and  C2_16 
+REMARK    5  A    between atoms: C4_22  and  NAE_23 
+REMARK    6  A    between atoms: NAE_23  and  CAJ_24 
+REMARK    7  A    between atoms: CAP_29  and  CAO_30 
+REMARK       I    between atoms: CAO_30  and  NAN_32 
+ROOT
+HETATM    1  C2    D T1686       9.147  -3.346  -1.396  1.00 17.61     0.752 A 
+HETATM    2  N3    D T1686       8.811  -2.335  -2.207  1.00 18.51    -0.039 NA
+HETATM    3  N1    D T1686       9.498  -4.511  -1.931  1.00 16.90    -0.057 NA
+HETATM    4  C6    D T1686       9.516  -4.679  -3.249  1.00 16.74     0.133 A 
+HETATM    5  C5    D T1686       9.189  -3.649  -4.113  1.00 17.83     0.114 A 
+HETATM    6 CL5    D T1686       9.242  -3.896  -5.838  1.00 20.30    -0.077 Cl
+HETATM    7  C4    D T1686       8.845  -2.414  -3.561  1.00 18.56     0.193 A 
+ENDROOT
+BRANCH   1   8
+HETATM    8  NAH   D T1686       9.155  -3.218  -0.055  1.00 18.72    -0.057 NA
+BRANCH   8   9
+HETATM    9  CAL   D T1686      10.161  -2.721   0.685  1.00 18.22     0.122 A 
+HETATM   10  CAS   D T1686      10.528  -3.445   1.814  1.00 20.44     0.114 A 
+HETATM   11  CAY   D T1686      11.573  -2.982   2.640  1.00 18.94     0.043 A 
+HETATM   12  CBA   D T1686      12.274  -1.808   2.339  1.00 20.47     0.058 A 
+HETATM   13  CAX   D T1686      11.895  -1.073   1.204  1.00 17.39     0.019 A 
+HETATM   14  CAR   D T1686      10.862  -1.541   0.383  1.00 18.28     0.023 A 
+BRANCH  10  15
+HETATM   15  OAT   D T1686       9.827  -4.583   2.063  1.00 18.42    -0.327 OA
+HETATM   16  CAU   D T1686       9.547  -4.725   3.463  1.00 20.67     0.181 C 
+ENDBRANCH  10  15
+BRANCH  12  17
+HETATM   17  NBB   D T1686      13.348  -1.332   3.169  1.00 22.32    -0.343 N 
+HETATM   18  CBC   D T1686      14.060  -2.255   4.082  1.00 27.64     0.134 C 
+HETATM   19  CBE   D T1686      14.621  -1.528   5.321  1.00 28.37     0.167 C 
+HETATM   20  OBG   D T1686      15.341  -0.365   4.928  1.00 28.23    -0.350 OA
+HETATM   21  CBF   D T1686      14.460   0.604   4.368  1.00 27.59     0.167 C 
+HETATM   22  CBD   D T1686      13.727   0.101   3.120  1.00 25.14     0.134 C 
+ENDBRANCH  12  17
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+BRANCH   7  23
+HETATM   23  NAE   D T1686       8.546  -1.365  -4.364  1.00 16.74    -0.225 NA
+BRANCH  23  24
+HETATM   24  CAJ   D T1686       9.346  -0.327  -4.704  1.00 21.60     0.088 A 
+HETATM   25  CAQ   D T1686      10.452  -0.014  -3.887  1.00 19.37     0.019 A 
+HETATM   26  CAW   D T1686      11.303   1.036  -4.181  1.00 21.30     0.002 A 
+HETATM   27  CAZ   D T1686      11.039   1.840  -5.289  1.00 22.64     0.000 A 
+HETATM   28  CAV   D T1686       9.940   1.558  -6.099  1.00 23.23     0.006 A 
+HETATM   29  CAP   D T1686       9.096   0.484  -5.825  1.00 20.25     0.075 A 
+BRANCH  29  30
+HETATM   30  CAO   D T1686       7.915   0.245  -6.776  1.00 17.59     0.276 C 
+HETATM   31  OAI   D T1686       7.388  -0.857  -6.824  1.00 15.81    -0.266 OA
+HETATM   32  NAN   D T1686       7.552   1.289  -7.526  1.00 14.44    -0.232 NA
+HETATM   33  CAM   D T1686       6.399   1.132  -8.424  1.00 17.53     0.155 C 
+ENDBRANCH  29  30
+ENDBRANCH  23  24
+ENDBRANCH   7  23
+TORSDOF 7
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -7.027      3.926      9.532
+REMARK INTER + INTRA:         -11.088
+REMARK INTER:                 -11.132
+REMARK INTRA:                   0.043
+REMARK UNBOUND:                -1.185
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NBB_6  and  CBA_7 
+REMARK    2  A    between atoms: CAS_9  and  OAT_10 
+REMARK    3  A    between atoms: CAL_14  and  NAH_15 
+REMARK    4  A    between atoms: NAH_15  and  C2_16 
+REMARK    5  A    between atoms: C4_22  and  NAE_23 
+REMARK    6  A    between atoms: NAE_23  and  CAJ_24 
+REMARK    7  A    between atoms: CAP_29  and  CAO_30 
+REMARK       I    between atoms: CAO_30  and  NAN_32 
+ROOT
+HETATM    1  C2    D T1686       9.803  -3.012  -2.574  1.00 17.61     0.752 A 
+HETATM    2  N3    D T1686       9.072  -2.254  -3.401  1.00 18.51    -0.039 NA
+HETATM    3  N1    D T1686      11.022  -2.602  -2.234  1.00 16.90    -0.057 NA
+HETATM    4  C6    D T1686      11.515  -1.462  -2.706  1.00 16.74     0.133 A 
+HETATM    5  C5    D T1686      10.778  -0.651  -3.550  1.00 17.83     0.114 A 
+HETATM    6 CL5    D T1686      11.447   0.849  -4.136  1.00 20.30    -0.077 Cl
+HETATM    7  C4    D T1686       9.488  -1.058  -3.890  1.00 18.56     0.193 A 
+ENDROOT
+BRANCH   1   8
+HETATM    8  NAH   D T1686       9.340  -4.168  -2.062  1.00 18.72    -0.057 NA
+BRANCH   8   9
+HETATM    9  CAL   D T1686       9.375  -4.529  -0.767  1.00 18.22     0.122 A 
+HETATM   10  CAS   D T1686       9.488  -5.888  -0.496  1.00 20.44     0.114 A 
+HETATM   11  CAY   D T1686       9.527  -6.340   0.839  1.00 18.94     0.043 A 
+HETATM   12  CBA   D T1686       9.474  -5.445   1.913  1.00 20.47     0.058 A 
+HETATM   13  CAX   D T1686       9.348  -4.074   1.637  1.00 17.39     0.019 A 
+HETATM   14  CAR   D T1686       9.318  -3.628   0.311  1.00 18.28     0.023 A 
+BRANCH  10  15
+HETATM   15  OAT   D T1686       9.546  -6.721  -1.570  1.00 18.42    -0.327 OA
+HETATM   16  CAU   D T1686       9.780  -8.077  -1.163  1.00 20.67     0.181 C 
+ENDBRANCH  10  15
+BRANCH  12  17
+HETATM   17  NBB   D T1686       9.522  -5.894   3.279  1.00 22.32    -0.343 N 
+HETATM   18  CBC   D T1686       9.864  -7.299   3.597  1.00 27.64     0.134 C 
+HETATM   19  CBE   D T1686       9.213  -7.772   4.912  1.00 28.37     0.167 C 
+HETATM   20  OBG   D T1686       9.448  -6.825   5.948  1.00 28.23    -0.350 OA
+HETATM   21  CBF   D T1686       8.761  -5.607   5.679  1.00 27.59     0.167 C 
+HETATM   22  CBD   D T1686       9.206  -4.943   4.371  1.00 25.14     0.134 C 
+ENDBRANCH  12  17
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+BRANCH   7  23
+HETATM   23  NAE   D T1686       8.714  -0.285  -4.690  1.00 16.74    -0.225 NA
+BRANCH  23  24
+HETATM   24  CAJ   D T1686       8.087  -0.645  -5.835  1.00 21.60     0.088 A 
+HETATM   25  CAQ   D T1686       7.564  -1.949  -5.952  1.00 19.37     0.019 A 
+HETATM   26  CAW   D T1686       6.915  -2.376  -7.097  1.00 21.30     0.002 A 
+HETATM   27  CAZ   D T1686       6.813  -1.511  -8.187  1.00 22.64     0.000 A 
+HETATM   28  CAV   D T1686       7.339  -0.223  -8.096  1.00 23.23     0.006 A 
+HETATM   29  CAP   D T1686       7.967   0.222  -6.935  1.00 20.25     0.075 A 
+BRANCH  29  30
+HETATM   30  CAO   D T1686       8.511   1.658  -6.924  1.00 17.59     0.276 C 
+HETATM   31  OAI   D T1686       9.347   1.984  -6.095  1.00 15.81    -0.266 OA
+HETATM   32  NAN   D T1686       7.993   2.482  -7.838  1.00 14.44    -0.232 NA
+HETATM   33  CAM   D T1686       8.505   3.858  -7.902  1.00 17.53     0.155 C 
+ENDBRANCH  29  30
+ENDBRANCH  23  24
+ENDBRANCH   7  23
+TORSDOF 7
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -6.878      1.976      2.907
+REMARK INTER + INTRA:         -10.878
+REMARK INTER:                  -9.495
+REMARK INTRA:                  -1.383
+REMARK UNBOUND:                -1.185
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NBB_6  and  CBA_7 
+REMARK    2  A    between atoms: CAS_9  and  OAT_10 
+REMARK    3  A    between atoms: CAL_14  and  NAH_15 
+REMARK    4  A    between atoms: NAH_15  and  C2_16 
+REMARK    5  A    between atoms: C4_22  and  NAE_23 
+REMARK    6  A    between atoms: NAE_23  and  CAJ_24 
+REMARK    7  A    between atoms: CAP_29  and  CAO_30 
+REMARK       I    between atoms: CAO_30  and  NAN_32 
+ROOT
+HETATM    1  C2    D T1686      10.666  -2.641  -0.663  1.00 17.61     0.752 A 
+HETATM    2  N3    D T1686      11.977  -2.587  -0.930  1.00 18.51    -0.039 NA
+HETATM    3  N1    D T1686      10.261  -2.527   0.598  1.00 16.90    -0.057 NA
+HETATM    4  C6    D T1686      11.136  -2.366   1.584  1.00 16.74     0.133 A 
+HETATM    5  C5    D T1686      12.495  -2.290   1.338  1.00 17.83     0.114 A 
+HETATM    6 CL5    D T1686      13.617  -2.057   2.653  1.00 20.30    -0.077 Cl
+HETATM    7  C4    D T1686      12.929  -2.381   0.015  1.00 18.56     0.193 A 
+ENDROOT
+BRANCH   1   8
+HETATM    8  NAH   D T1686       9.742  -2.792  -1.632  1.00 18.72    -0.057 NA
+BRANCH   8   9
+HETATM    9  CAL   D T1686       9.432  -1.886  -2.576  1.00 18.22     0.122 A 
+HETATM   10  CAS   D T1686       9.545  -2.293  -3.900  1.00 20.44     0.114 A 
+HETATM   11  CAY   D T1686       9.240  -1.395  -4.943  1.00 18.94     0.043 A 
+HETATM   12  CBA   D T1686       8.800  -0.093  -4.678  1.00 20.47     0.058 A 
+HETATM   13  CAX   D T1686       8.697   0.320  -3.340  1.00 17.39     0.019 A 
+HETATM   14  CAR   D T1686       8.993  -0.577  -2.307  1.00 18.28     0.023 A 
+BRANCH  10  15
+HETATM   15  OAT   D T1686       9.966  -3.569  -4.111  1.00 18.42    -0.327 OA
+HETATM   16  CAU   D T1686       9.225  -4.192  -5.171  1.00 20.67     0.181 C 
+ENDBRANCH  10  15
+BRANCH  12  17
+HETATM   17  NBB   D T1686       8.477   0.829  -5.734  1.00 22.32    -0.343 N 
+HETATM   18  CBC   D T1686       7.382   0.530  -6.685  1.00 27.64     0.134 C 
+HETATM   19  CBE   D T1686       7.618   1.178  -8.064  1.00 28.37     0.167 C 
+HETATM   20  OBG   D T1686       7.952   2.553  -7.914  1.00 28.23    -0.350 OA
+HETATM   21  CBF   D T1686       9.220   2.694  -7.280  1.00 27.59     0.167 C 
+HETATM   22  CBD   D T1686       9.263   2.078  -5.878  1.00 25.14     0.134 C 
+ENDBRANCH  12  17
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+BRANCH   7  23
+HETATM   23  NAE   D T1686      14.247  -2.284  -0.282  1.00 16.74    -0.225 NA
+BRANCH  23  24
+HETATM   24  CAJ   D T1686      14.969  -1.157  -0.490  1.00 21.60     0.088 A 
+HETATM   25  CAQ   D T1686      14.401  -0.105  -1.238  1.00 19.37     0.019 A 
+HETATM   26  CAW   D T1686      15.089   1.068  -1.487  1.00 21.30     0.002 A 
+HETATM   27  CAZ   D T1686      16.399   1.203  -1.028  1.00 22.64     0.000 A 
+HETATM   28  CAV   D T1686      16.984   0.167  -0.301  1.00 23.23     0.006 A 
+HETATM   29  CAP   D T1686      16.286  -1.006  -0.022  1.00 20.25     0.075 A 
+BRANCH  29  30
+HETATM   30  CAO   D T1686      17.008  -2.090   0.790  1.00 17.59     0.276 C 
+HETATM   31  OAI   D T1686      16.957  -2.069   2.011  1.00 15.81    -0.266 OA
+HETATM   32  NAN   D T1686      17.684  -2.996   0.079  1.00 14.44    -0.232 NA
+HETATM   33  CAM   D T1686      18.360  -4.083   0.801  1.00 17.53     0.155 C 
+ENDBRANCH  29  30
+ENDBRANCH  23  24
+ENDBRANCH   7  23
+TORSDOF 7
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -6.756      2.859      4.947
+REMARK INTER + INTRA:         -10.706
+REMARK INTER:                  -9.462
+REMARK INTRA:                  -1.244
+REMARK UNBOUND:                -1.185
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NBB_6  and  CBA_7 
+REMARK    2  A    between atoms: CAS_9  and  OAT_10 
+REMARK    3  A    between atoms: CAL_14  and  NAH_15 
+REMARK    4  A    between atoms: NAH_15  and  C2_16 
+REMARK    5  A    between atoms: C4_22  and  NAE_23 
+REMARK    6  A    between atoms: NAE_23  and  CAJ_24 
+REMARK    7  A    between atoms: CAP_29  and  CAO_30 
+REMARK       I    between atoms: CAO_30  and  NAN_32 
+ROOT
+HETATM    1  C2    D T1686      10.421  -2.943  -0.793  1.00 17.61     0.752 A 
+HETATM    2  N3    D T1686      10.525  -3.835   0.200  1.00 18.51    -0.039 NA
+HETATM    3  N1    D T1686      11.406  -2.069  -0.979  1.00 16.90    -0.057 NA
+HETATM    4  C6    D T1686      12.478  -2.071  -0.194  1.00 16.74     0.133 A 
+HETATM    5  C5    D T1686      12.622  -2.991   0.829  1.00 17.83     0.114 A 
+HETATM    6 CL5    D T1686      14.051  -2.980   1.828  1.00 20.30    -0.077 Cl
+HETATM    7  C4    D T1686      11.606  -3.930   1.015  1.00 18.56     0.193 A 
+ENDROOT
+BRANCH   1   8
+HETATM    8  NAH   D T1686       9.359  -2.911  -1.620  1.00 18.72    -0.057 NA
+BRANCH   8   9
+HETATM    9  CAL   D T1686       9.117  -1.981  -2.561  1.00 18.22     0.122 A 
+HETATM   10  CAS   D T1686       9.304  -2.363  -3.884  1.00 20.44     0.114 A 
+HETATM   11  CAY   D T1686       9.075  -1.439  -4.925  1.00 18.94     0.043 A 
+HETATM   12  CBA   D T1686       8.637  -0.136  -4.659  1.00 20.47     0.058 A 
+HETATM   13  CAX   D T1686       8.459   0.250  -3.321  1.00 17.39     0.019 A 
+HETATM   14  CAR   D T1686       8.681  -0.672  -2.291  1.00 18.28     0.023 A 
+BRANCH  10  15
+HETATM   15  OAT   D T1686       9.721  -3.640  -4.097  1.00 18.42    -0.327 OA
+HETATM   16  CAU   D T1686       9.122  -4.191  -5.280  1.00 20.67     0.181 C 
+ENDBRANCH  10  15
+BRANCH  12  17
+HETATM   17  NBB   D T1686       8.390   0.812  -5.712  1.00 22.32    -0.343 N 
+HETATM   18  CBC   D T1686       7.324   0.566  -6.710  1.00 27.64     0.134 C 
+HETATM   19  CBE   D T1686       7.638   1.225  -8.069  1.00 28.37     0.167 C 
+HETATM   20  OBG   D T1686       8.015   2.584  -7.884  1.00 28.23    -0.350 OA
+HETATM   21  CBF   D T1686       9.261   2.670  -7.198  1.00 27.59     0.167 C 
+HETATM   22  CBD   D T1686       9.226   2.033  -5.805  1.00 25.14     0.134 C 
+ENDBRANCH  12  17
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+BRANCH   7  23
+HETATM   23  NAE   D T1686      11.713  -4.870   1.985  1.00 16.74    -0.225 NA
+BRANCH  23  24
+HETATM   24  CAJ   D T1686      10.753  -5.285   2.845  1.00 21.60     0.088 A 
+HETATM   25  CAQ   D T1686      10.418  -4.472   3.947  1.00 19.37     0.019 A 
+HETATM   26  CAW   D T1686       9.448  -4.843   4.861  1.00 21.30     0.002 A 
+HETATM   27  CAZ   D T1686       8.814  -6.077   4.720  1.00 22.64     0.000 A 
+HETATM   28  CAV   D T1686       9.143  -6.903   3.647  1.00 23.23     0.006 A 
+HETATM   29  CAP   D T1686      10.098  -6.521   2.706  1.00 20.25     0.075 A 
+BRANCH  29  30
+HETATM   30  CAO   D T1686      10.392  -7.492   1.554  1.00 17.59     0.276 C 
+HETATM   31  OAI   D T1686      11.267  -8.336   1.679  1.00 15.81    -0.266 OA
+HETATM   32  NAN   D T1686       9.660  -7.322   0.450  1.00 14.44    -0.232 NA
+HETATM   33  CAM   D T1686       9.867  -8.249  -0.671  1.00 17.53     0.155 C 
+ENDBRANCH  29  30
+ENDBRANCH  23  24
+ENDBRANCH   7  23
+TORSDOF 7
+ENDMDL

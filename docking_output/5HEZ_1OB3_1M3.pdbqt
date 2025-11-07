@@ -1,0 +1,720 @@
+MODEL 1
+REMARK VINA RESULT:    -8.058      0.000      0.000
+REMARK INTER + INTRA:         -12.749
+REMARK INTER:                 -11.826
+REMARK INTRA:                  -0.923
+REMARK UNBOUND:                -0.923
+REMARK  16 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S1_2  and  N7_4 
+REMARK    2  A    between atoms: S1_2  and  C21_9 
+REMARK    3  A    between atoms: N7_4  and  C23_5 
+REMARK    4  A    between atoms: C17_14  and  N1_15 
+REMARK    5  A    between atoms: N1_15  and  C1_16 
+REMARK    6  A    between atoms: C4_18  and  N4_23 
+REMARK    7  A    between atoms: N4_23  and  C6_24 
+REMARK    8  A    between atoms: C9_27  and  N5_30 
+REMARK    9  A    between atoms: S1_38  and  N7_40 
+REMARK   10  A    between atoms: S1_38  and  C21_45 
+REMARK   11  A    between atoms: N7_40  and  C23_41 
+REMARK   12  A    between atoms: C17_50  and  N1_51 
+REMARK   13  A    between atoms: N1_51  and  C1_52 
+REMARK   14  A    between atoms: C4_54  and  N4_59 
+REMARK   15  A    between atoms: N4_59  and  C6_60 
+REMARK   16  A    between atoms: C9_63  and  N5_66 
+ROOT
+HETATM    1  C1    D T1203     -22.273 -62.559  21.718  1.00 49.34     0.178 A 
+HETATM    2  N3    D T1203     -21.540 -61.542  22.176  1.00 50.63    -0.041 NA
+HETATM    3  C4    D T1203     -21.936 -60.277  22.065  1.00 51.82     0.751 A 
+HETATM    4  N2    D T1203     -23.105 -59.998  21.483  1.00 51.52    -0.058 NA
+HETATM    5  C3    D T1203     -23.890 -60.960  21.002  1.00 50.15     0.117 A 
+HETATM    6  C2    D T1203     -23.498 -62.290  21.097  1.00 48.53     0.034 A 
+HETATM    7  C5    D T1203     -24.369 -63.397  20.537  1.00 47.20     0.036 C 
+ENDROOT
+BRANCH   1   8
+HETATM    8  N1    D T1203     -21.807 -63.859  21.840  1.00 50.38    -0.227 NA
+BRANCH   8   9
+HETATM    9  C17   D T1203     -22.411 -64.755  22.720  1.00 49.63     0.084 A 
+HETATM   10  C18   D T1203     -22.770 -64.340  24.009  1.00 49.59     0.019 A 
+HETATM   11  C19   D T1203     -23.382 -65.236  24.873  1.00 49.93     0.002 A 
+HETATM   12  C20   D T1203     -23.579 -66.556  24.471  1.00 49.85     0.013 A 
+HETATM   13  C21   D T1203     -23.205 -66.966  23.192  1.00 48.62     0.106 A 
+HETATM   14  C22   D T1203     -22.620 -66.068  22.307  1.00 48.38     0.032 A 
+BRANCH  13  15
+HETATM   15  S1    D T1203     -23.452 -68.631  22.676  1.00 45.71     0.281 S 
+HETATM   16  O2    D T1203     -24.844 -68.850  22.551  1.00 47.80    -0.199 OA
+HETATM   17  O1    D T1203     -22.532 -68.847  21.615  1.00 43.73    -0.199 OA
+BRANCH  15  18
+HETATM   18  N7    D T1203     -22.905 -69.655  23.861  1.00 47.42    -0.189 NA
+BRANCH  18  19
+HETATM   19  C23   D T1203     -21.542 -69.994  24.302  1.00 49.01     0.097 C 
+HETATM   20  C26   D T1203     -21.678 -70.688  25.650  1.00 50.09     0.025 C 
+HETATM   21  C25   D T1203     -20.561 -68.830  24.445  1.00 49.99     0.025 C 
+HETATM   22  C24   D T1203     -20.961 -70.980  23.295  1.00 48.01     0.025 C 
+ENDBRANCH  18  19
+ENDBRANCH  15  18
+ENDBRANCH  13  15
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+BRANCH   3  23
+HETATM   23  N4    D T1203     -21.173 -59.219  22.575  1.00 53.04    -0.059 NA
+BRANCH  23  24
+HETATM   24  C6    D T1203     -19.887 -59.268  23.169  1.00 53.71     0.100 A 
+HETATM   25  C11   D T1203     -18.787 -58.952  22.364  1.00 54.72     0.021 A 
+HETATM   26  C10   D T1203     -17.499 -58.959  22.883  1.00 57.14     0.018 A 
+HETATM   27  C9    D T1203     -17.284 -59.244  24.241  1.00 59.50     0.056 A 
+HETATM   28  C8    D T1203     -18.389 -59.544  25.059  1.00 56.16     0.018 A 
+HETATM   29  C7    D T1203     -19.675 -59.551  24.530  1.00 54.07     0.021 A 
+BRANCH  27  30
+HETATM   30  N5    D T1203     -15.985 -59.255  24.802  1.00 63.93    -0.344 N 
+HETATM   31  C15   D T1203     -14.938 -60.029  24.094  1.00 67.51     0.137 C 
+HETATM   32  C14   D T1203     -13.546 -59.630  24.637  1.00 69.71     0.274 C 
+HETATM   33  N6    D T1203     -13.505 -59.646  26.121  1.00 69.00     0.143 N 
+HETATM   34  C16   D T1203     -12.190 -59.229  26.627  1.00 69.97     0.286 C 
+HETATM   35  C13   D T1203     -14.583 -58.869  26.769  1.00 66.91     0.274 C 
+HETATM   36  C12   D T1203     -15.938 -59.398  26.274  1.00 65.09     0.137 C 
+ENDBRANCH  27  30
+ENDBRANCH  23  24
+ENDBRANCH   3  23
+TORSDOF 16
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -7.828      1.550      1.950
+REMARK INTER + INTRA:         -12.411
+REMARK INTER:                 -11.340
+REMARK INTRA:                  -1.072
+REMARK UNBOUND:                -0.923
+REMARK  16 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S1_2  and  N7_4 
+REMARK    2  A    between atoms: S1_2  and  C21_9 
+REMARK    3  A    between atoms: N7_4  and  C23_5 
+REMARK    4  A    between atoms: C17_14  and  N1_15 
+REMARK    5  A    between atoms: N1_15  and  C1_16 
+REMARK    6  A    between atoms: C4_18  and  N4_23 
+REMARK    7  A    between atoms: N4_23  and  C6_24 
+REMARK    8  A    between atoms: C9_27  and  N5_30 
+REMARK    9  A    between atoms: S1_38  and  N7_40 
+REMARK   10  A    between atoms: S1_38  and  C21_45 
+REMARK   11  A    between atoms: N7_40  and  C23_41 
+REMARK   12  A    between atoms: C17_50  and  N1_51 
+REMARK   13  A    between atoms: N1_51  and  C1_52 
+REMARK   14  A    between atoms: C4_54  and  N4_59 
+REMARK   15  A    between atoms: N4_59  and  C6_60 
+REMARK   16  A    between atoms: C9_63  and  N5_66 
+ROOT
+HETATM    1  C1    D T1203     -23.052 -61.943  21.426  1.00 49.34     0.178 A 
+HETATM    2  N3    D T1203     -22.496 -61.061  22.259  1.00 50.63    -0.041 NA
+HETATM    3  C4    D T1203     -21.530 -60.231  21.872  1.00 51.82     0.751 A 
+HETATM    4  N2    D T1203     -21.094 -60.267  20.610  1.00 51.52    -0.058 NA
+HETATM    5  C3    D T1203     -21.600 -61.121  19.722  1.00 50.15     0.117 A 
+HETATM    6  C2    D T1203     -22.605 -62.004  20.101  1.00 48.53     0.034 A 
+HETATM    7  C5    D T1203     -23.179 -62.996  19.111  1.00 47.20     0.036 C 
+ENDROOT
+BRANCH   1   8
+HETATM    8  N1    D T1203     -24.041 -62.798  21.884  1.00 50.38    -0.227 NA
+BRANCH   8   9
+HETATM    9  C17   D T1203     -23.726 -63.888  22.692  1.00 49.63     0.084 A 
+HETATM   10  C18   D T1203     -23.725 -63.753  24.086  1.00 49.59     0.019 A 
+HETATM   11  C19   D T1203     -23.421 -64.847  24.883  1.00 49.93     0.002 A 
+HETATM   12  C20   D T1203     -23.060 -66.054  24.287  1.00 49.85     0.013 A 
+HETATM   13  C21   D T1203     -23.048 -66.178  22.898  1.00 48.62     0.106 A 
+HETATM   14  C22   D T1203     -23.381 -65.096  22.091  1.00 48.38     0.032 A 
+BRANCH  13  15
+HETATM   15  S1    D T1203     -22.595 -67.700  22.137  1.00 45.71     0.281 S 
+HETATM   16  O2    D T1203     -22.726 -67.547  20.736  1.00 47.80    -0.199 OA
+HETATM   17  O1    D T1203     -21.387 -68.102  22.767  1.00 43.73    -0.199 OA
+BRANCH  15  18
+HETATM   18  N7    D T1203     -23.668 -68.878  22.597  1.00 47.42    -0.189 NA
+BRANCH  18  19
+HETATM   19  C23   D T1203     -23.865 -70.256  22.116  1.00 49.01     0.097 C 
+HETATM   20  C26   D T1203     -23.983 -71.138  23.352  1.00 50.09     0.025 C 
+HETATM   21  C25   D T1203     -22.777 -70.826  21.207  1.00 49.99     0.025 C 
+HETATM   22  C24   D T1203     -25.186 -70.296  21.355  1.00 48.01     0.025 C 
+ENDBRANCH  18  19
+ENDBRANCH  15  18
+ENDBRANCH  13  15
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+BRANCH   3  23
+HETATM   23  N4    D T1203     -20.974 -59.290  22.746  1.00 53.04    -0.059 NA
+BRANCH  23  24
+HETATM   24  C6    D T1203     -19.648 -59.227  23.245  1.00 53.71     0.100 A 
+HETATM   25  C11   D T1203     -19.428 -59.658  24.558  1.00 54.72     0.021 A 
+HETATM   26  C10   D T1203     -18.152 -59.645  25.107  1.00 57.14     0.018 A 
+HETATM   27  C9    D T1203     -17.053 -59.235  24.335  1.00 59.50     0.056 A 
+HETATM   28  C8    D T1203     -17.268 -58.820  23.008  1.00 56.16     0.018 A 
+HETATM   29  C7    D T1203     -18.549 -58.820  22.469  1.00 54.07     0.021 A 
+BRANCH  27  30
+HETATM   30  N5    D T1203     -15.740 -59.215  24.863  1.00 63.93    -0.344 N 
+HETATM   31  C15   D T1203     -14.728 -60.087  24.221  1.00 67.51     0.137 C 
+HETATM   32  C14   D T1203     -13.314 -59.663  24.682  1.00 69.71     0.274 C 
+HETATM   33  N6    D T1203     -13.234 -59.515  26.157  1.00 69.00     0.143 N 
+HETATM   34  C16   D T1203     -11.898 -59.076  26.582  1.00 69.97     0.286 C 
+HETATM   35  C13   D T1203     -14.279 -58.646  26.740  1.00 66.91     0.274 C 
+HETATM   36  C12   D T1203     -15.657 -59.195  26.340  1.00 65.09     0.137 C 
+ENDBRANCH  27  30
+ENDBRANCH  23  24
+ENDBRANCH   3  23
+TORSDOF 16
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -7.533      4.097      5.510
+REMARK INTER + INTRA:         -11.979
+REMARK INTER:                 -10.851
+REMARK INTRA:                  -1.128
+REMARK UNBOUND:                -0.923
+REMARK  16 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S1_2  and  N7_4 
+REMARK    2  A    between atoms: S1_2  and  C21_9 
+REMARK    3  A    between atoms: N7_4  and  C23_5 
+REMARK    4  A    between atoms: C17_14  and  N1_15 
+REMARK    5  A    between atoms: N1_15  and  C1_16 
+REMARK    6  A    between atoms: C4_18  and  N4_23 
+REMARK    7  A    between atoms: N4_23  and  C6_24 
+REMARK    8  A    between atoms: C9_27  and  N5_30 
+REMARK    9  A    between atoms: S1_38  and  N7_40 
+REMARK   10  A    between atoms: S1_38  and  C21_45 
+REMARK   11  A    between atoms: N7_40  and  C23_41 
+REMARK   12  A    between atoms: C17_50  and  N1_51 
+REMARK   13  A    between atoms: N1_51  and  C1_52 
+REMARK   14  A    between atoms: C4_54  and  N4_59 
+REMARK   15  A    between atoms: N4_59  and  C6_60 
+REMARK   16  A    between atoms: C9_63  and  N5_66 
+ROOT
+HETATM    1  C1    D T1203     -21.887 -64.228  22.980  1.00 49.34     0.178 A 
+HETATM    2  N3    D T1203     -21.587 -63.163  22.233  1.00 50.63    -0.041 NA
+HETATM    3  C4    D T1203     -22.376 -62.093  22.176  1.00 51.82     0.751 A 
+HETATM    4  N2    D T1203     -23.507 -62.066  22.885  1.00 51.52    -0.058 NA
+HETATM    5  C3    D T1203     -23.873 -63.092  23.652  1.00 50.15     0.117 A 
+HETATM    6  C2    D T1203     -23.072 -64.225  23.726  1.00 48.53     0.034 A 
+HETATM    7  C5    D T1203     -23.481 -65.409  24.577  1.00 47.20     0.036 C 
+ENDROOT
+BRANCH   1   8
+HETATM    8  N1    D T1203     -21.041 -65.326  22.991  1.00 50.38    -0.227 NA
+BRANCH   8   9
+HETATM    9  C17   D T1203     -21.212 -66.368  22.082  1.00 49.63     0.084 A 
+HETATM   10  C18   D T1203     -21.429 -66.090  20.726  1.00 49.59     0.019 A 
+HETATM   11  C19   D T1203     -21.585 -67.134  19.827  1.00 49.93     0.002 A 
+HETATM   12  C20   D T1203     -21.585 -68.449  20.291  1.00 49.85     0.013 A 
+HETATM   13  C21   D T1203     -21.384 -68.718  21.645  1.00 48.62     0.106 A 
+HETATM   14  C22   D T1203     -21.195 -67.679  22.549  1.00 48.38     0.032 A 
+BRANCH  13  15
+HETATM   15  S1    D T1203     -21.380 -70.376  22.239  1.00 45.71     0.281 S 
+HETATM   16  O2    D T1203     -21.070 -71.230  21.154  1.00 47.80    -0.199 OA
+HETATM   17  O1    D T1203     -20.636 -70.351  23.448  1.00 43.73    -0.199 OA
+BRANCH  15  18
+HETATM   18  N7    D T1203     -22.908 -70.775  22.747  1.00 47.42    -0.189 NA
+BRANCH  18  19
+HETATM   19  C23   D T1203     -24.235 -70.372  22.252  1.00 49.01     0.097 C 
+HETATM   20  C26   D T1203     -24.287 -70.753  20.779  1.00 50.09     0.025 C 
+HETATM   21  C25   D T1203     -24.596 -68.893  22.390  1.00 49.99     0.025 C 
+HETATM   22  C24   D T1203     -25.279 -71.186  23.009  1.00 48.01     0.025 C 
+ENDBRANCH  18  19
+ENDBRANCH  15  18
+ENDBRANCH  13  15
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+BRANCH   3  23
+HETATM   23  N4    D T1203     -22.038 -60.970  21.412  1.00 53.04    -0.059 NA
+BRANCH  23  24
+HETATM   24  C6    D T1203     -22.090 -59.603  21.785  1.00 53.71     0.100 A 
+HETATM   25  C11   D T1203     -21.013 -59.087  22.514  1.00 54.72     0.021 A 
+HETATM   26  C10   D T1203     -20.986 -57.753  22.897  1.00 57.14     0.018 A 
+HETATM   27  C9    D T1203     -22.025 -56.886  22.520  1.00 59.50     0.056 A 
+HETATM   28  C8    D T1203     -23.101 -57.397  21.770  1.00 56.16     0.018 A 
+HETATM   29  C7    D T1203     -23.130 -58.737  21.403  1.00 54.07     0.021 A 
+BRANCH  27  30
+HETATM   30  N5    D T1203     -22.026 -55.520  22.890  1.00 63.93    -0.344 N 
+HETATM   31  C15   D T1203     -20.753 -54.942  23.385  1.00 67.51     0.137 C 
+HETATM   32  C14   D T1203     -20.853 -53.399  23.386  1.00 69.71     0.274 C 
+HETATM   33  N6    D T1203     -22.103 -52.926  24.034  1.00 69.00     0.143 N 
+HETATM   34  C16   D T1203     -22.206 -51.461  23.995  1.00 69.97     0.286 C 
+HETATM   35  C13   D T1203     -23.336 -53.550  23.507  1.00 66.91     0.274 C 
+HETATM   36  C12   D T1203     -23.215 -55.075  23.648  1.00 65.09     0.137 C 
+ENDBRANCH  27  30
+ENDBRANCH  23  24
+ENDBRANCH   3  23
+TORSDOF 16
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -7.494      5.181     11.086
+REMARK INTER + INTRA:         -11.921
+REMARK INTER:                 -10.877
+REMARK INTRA:                  -1.044
+REMARK UNBOUND:                -0.923
+REMARK  16 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S1_2  and  N7_4 
+REMARK    2  A    between atoms: S1_2  and  C21_9 
+REMARK    3  A    between atoms: N7_4  and  C23_5 
+REMARK    4  A    between atoms: C17_14  and  N1_15 
+REMARK    5  A    between atoms: N1_15  and  C1_16 
+REMARK    6  A    between atoms: C4_18  and  N4_23 
+REMARK    7  A    between atoms: N4_23  and  C6_24 
+REMARK    8  A    between atoms: C9_27  and  N5_30 
+REMARK    9  A    between atoms: S1_38  and  N7_40 
+REMARK   10  A    between atoms: S1_38  and  C21_45 
+REMARK   11  A    between atoms: N7_40  and  C23_41 
+REMARK   12  A    between atoms: C17_50  and  N1_51 
+REMARK   13  A    between atoms: N1_51  and  C1_52 
+REMARK   14  A    between atoms: C4_54  and  N4_59 
+REMARK   15  A    between atoms: N4_59  and  C6_60 
+REMARK   16  A    between atoms: C9_63  and  N5_66 
+ROOT
+HETATM    1  C1    D T1203     -20.403 -59.406  22.361  1.00 49.34     0.178 A 
+HETATM    2  N3    D T1203     -21.423 -60.266  22.414  1.00 50.63    -0.041 NA
+HETATM    3  C4    D T1203     -21.285 -61.499  22.893  1.00 51.82     0.751 A 
+HETATM    4  N2    D T1203     -20.096 -61.905  23.345  1.00 51.52    -0.058 NA
+HETATM    5  C3    D T1203     -19.033 -61.103  23.324  1.00 50.15     0.117 A 
+HETATM    6  C2    D T1203     -19.145 -59.812  22.822  1.00 48.53     0.034 A 
+HETATM    7  C5    D T1203     -17.943 -58.892  22.771  1.00 47.20     0.036 C 
+ENDROOT
+BRANCH   1   8
+HETATM    8  N1    D T1203     -20.594 -58.138  21.835  1.00 50.38    -0.227 NA
+BRANCH   8   9
+HETATM    9  C17   D T1203     -21.344 -57.185  22.521  1.00 49.63     0.084 A 
+HETATM   10  C18   D T1203     -20.786 -56.500  23.607  1.00 49.59     0.019 A 
+HETATM   11  C19   D T1203     -21.536 -55.545  24.276  1.00 49.93     0.002 A 
+HETATM   12  C20   D T1203     -22.859 -55.318  23.898  1.00 49.85     0.013 A 
+HETATM   13  C21   D T1203     -23.413 -56.015  22.824  1.00 48.62     0.106 A 
+HETATM   14  C22   D T1203     -22.659 -56.953  22.128  1.00 48.38     0.032 A 
+BRANCH  13  15
+HETATM   15  S1    D T1203     -25.082 -55.734  22.339  1.00 45.71     0.281 S 
+HETATM   16  O2    D T1203     -25.095 -55.454  20.952  1.00 47.80    -0.199 OA
+HETATM   17  O1    D T1203     -25.837 -56.783  22.929  1.00 43.73    -0.199 OA
+BRANCH  15  18
+HETATM   18  N7    D T1203     -25.653 -54.382  23.111  1.00 47.42    -0.189 NA
+BRANCH  18  19
+HETATM   19  C23   D T1203     -25.543 -52.951  22.779  1.00 49.01     0.097 C 
+HETATM   20  C26   D T1203     -26.785 -52.592  21.974  1.00 50.09     0.025 C 
+HETATM   21  C25   D T1203     -24.305 -52.527  21.988  1.00 49.99     0.025 C 
+HETATM   22  C24   D T1203     -25.559 -52.169  24.087  1.00 48.01     0.025 C 
+ENDBRANCH  18  19
+ENDBRANCH  15  18
+ENDBRANCH  13  15
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+BRANCH   3  23
+HETATM   23  N4    D T1203     -22.368 -62.384  22.970  1.00 53.04    -0.059 NA
+BRANCH  23  24
+HETATM   24  C6    D T1203     -22.355 -63.766  23.289  1.00 53.71     0.100 A 
+HETATM   25  C11   D T1203     -23.245 -64.215  24.270  1.00 54.72     0.021 A 
+HETATM   26  C10   D T1203     -23.302 -65.557  24.620  1.00 57.14     0.018 A 
+HETATM   27  C9    D T1203     -22.493 -66.496  23.960  1.00 59.50     0.056 A 
+HETATM   28  C8    D T1203     -21.610 -66.052  22.959  1.00 56.16     0.018 A 
+HETATM   29  C7    D T1203     -21.545 -64.704  22.624  1.00 54.07     0.021 A 
+BRANCH  27  30
+HETATM   30  N5    D T1203     -22.530 -67.872  24.289  1.00 63.93    -0.344 N 
+HETATM   31  C15   D T1203     -21.529 -68.758  23.649  1.00 67.51     0.137 C 
+HETATM   32  C14   D T1203     -21.491 -70.114  24.390  1.00 69.71     0.274 C 
+HETATM   33  N6    D T1203     -22.852 -70.674  24.591  1.00 69.00     0.143 N 
+HETATM   34  C16   D T1203     -22.808 -71.943  25.330  1.00 69.97     0.286 C 
+HETATM   35  C13   D T1203     -23.809 -69.738  25.220  1.00 66.91     0.274 C 
+HETATM   36  C12   D T1203     -23.884 -68.463  24.366  1.00 65.09     0.137 C 
+ENDBRANCH  27  30
+ENDBRANCH  23  24
+ENDBRANCH   3  23
+TORSDOF 16
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -7.447      4.973      8.690
+REMARK INTER + INTRA:         -11.853
+REMARK INTER:                 -10.628
+REMARK INTRA:                  -1.225
+REMARK UNBOUND:                -0.923
+REMARK  16 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S1_2  and  N7_4 
+REMARK    2  A    between atoms: S1_2  and  C21_9 
+REMARK    3  A    between atoms: N7_4  and  C23_5 
+REMARK    4  A    between atoms: C17_14  and  N1_15 
+REMARK    5  A    between atoms: N1_15  and  C1_16 
+REMARK    6  A    between atoms: C4_18  and  N4_23 
+REMARK    7  A    between atoms: N4_23  and  C6_24 
+REMARK    8  A    between atoms: C9_27  and  N5_30 
+REMARK    9  A    between atoms: S1_38  and  N7_40 
+REMARK   10  A    between atoms: S1_38  and  C21_45 
+REMARK   11  A    between atoms: N7_40  and  C23_41 
+REMARK   12  A    between atoms: C17_50  and  N1_51 
+REMARK   13  A    between atoms: N1_51  and  C1_52 
+REMARK   14  A    between atoms: C4_54  and  N4_59 
+REMARK   15  A    between atoms: N4_59  and  C6_60 
+REMARK   16  A    between atoms: C9_63  and  N5_66 
+ROOT
+HETATM    1  C1    D T1203     -22.319 -69.369  23.941  1.00 49.34     0.178 A 
+HETATM    2  N3    D T1203     -21.040 -69.534  23.594  1.00 50.63    -0.041 NA
+HETATM    3  C4    D T1203     -20.242 -70.393  24.222  1.00 51.82     0.751 A 
+HETATM    4  N2    D T1203     -20.719 -71.124  25.233  1.00 51.52    -0.058 NA
+HETATM    5  C3    D T1203     -21.984 -71.012  25.635  1.00 50.15     0.117 A 
+HETATM    6  C2    D T1203     -22.839 -70.118  25.002  1.00 48.53     0.034 A 
+HETATM    7  C5    D T1203     -24.275 -69.964  25.459  1.00 47.20     0.036 C 
+ENDROOT
+BRANCH   1   8
+HETATM    8  N1    D T1203     -23.105 -68.447  23.267  1.00 50.38    -0.227 NA
+BRANCH   8   9
+HETATM    9  C17   D T1203     -22.976 -67.082  23.516  1.00 49.63     0.084 A 
+HETATM   10  C18   D T1203     -23.528 -66.523  24.675  1.00 49.59     0.019 A 
+HETATM   11  C19   D T1203     -23.385 -65.166  24.919  1.00 49.93     0.002 A 
+HETATM   12  C20   D T1203     -22.745 -64.360  23.978  1.00 49.85     0.013 A 
+HETATM   13  C21   D T1203     -22.212 -64.920  22.818  1.00 48.62     0.106 A 
+HETATM   14  C22   D T1203     -22.323 -66.286  22.579  1.00 48.38     0.032 A 
+BRANCH  13  15
+HETATM   15  S1    D T1203     -21.400 -63.911  21.625  1.00 45.71     0.281 S 
+HETATM   16  O2    D T1203     -20.178 -63.467  22.184  1.00 47.80    -0.199 OA
+HETATM   17  O1    D T1203     -21.484 -64.621  20.398  1.00 43.73    -0.199 OA
+BRANCH  15  18
+HETATM   18  N7    D T1203     -22.320 -62.560  21.340  1.00 47.42    -0.189 NA
+BRANCH  18  19
+HETATM   19  C23   D T1203     -23.758 -62.401  21.064  1.00 49.01     0.097 C 
+HETATM   20  C26   D T1203     -24.371 -61.750  22.297  1.00 50.09     0.025 C 
+HETATM   21  C25   D T1203     -24.537 -63.677  20.744  1.00 49.99     0.025 C 
+HETATM   22  C24   D T1203     -23.900 -61.451  19.881  1.00 48.01     0.025 C 
+ENDBRANCH  18  19
+ENDBRANCH  15  18
+ENDBRANCH  13  15
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+BRANCH   3  23
+HETATM   23  N4    D T1203     -18.910 -70.580  23.832  1.00 53.04    -0.059 NA
+BRANCH  23  24
+HETATM   24  C6    D T1203     -17.729 -70.277  24.557  1.00 53.71     0.100 A 
+HETATM   25  C11   D T1203     -17.250 -68.964  24.499  1.00 54.72     0.021 A 
+HETATM   26  C10   D T1203     -16.111 -68.590  25.199  1.00 57.14     0.018 A 
+HETATM   27  C9    D T1203     -15.443 -69.519  26.013  1.00 59.50     0.056 A 
+HETATM   28  C8    D T1203     -15.933 -70.836  26.090  1.00 56.16     0.018 A 
+HETATM   29  C7    D T1203     -17.065 -71.209  25.374  1.00 54.07     0.021 A 
+BRANCH  27  30
+HETATM   30  N5    D T1203     -14.282 -69.169  26.744  1.00 63.93    -0.344 N 
+HETATM   31  C15   D T1203     -13.740 -67.802  26.556  1.00 67.51     0.137 C 
+HETATM   32  C14   D T1203     -12.723 -67.492  27.680  1.00 69.71     0.274 C 
+HETATM   33  N6    D T1203     -11.737 -68.589  27.852  1.00 69.00     0.143 N 
+HETATM   34  C16   D T1203     -10.800 -68.302  28.947  1.00 69.97     0.286 C 
+HETATM   35  C13   D T1203     -12.339 -69.929  28.019  1.00 66.91     0.274 C 
+HETATM   36  C12   D T1203     -13.242 -70.218  26.810  1.00 65.09     0.137 C 
+ENDBRANCH  27  30
+ENDBRANCH  23  24
+ENDBRANCH   3  23
+TORSDOF 16
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -7.440      3.445      5.322
+REMARK INTER + INTRA:         -11.842
+REMARK INTER:                 -10.765
+REMARK INTRA:                  -1.077
+REMARK UNBOUND:                -0.923
+REMARK  16 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S1_2  and  N7_4 
+REMARK    2  A    between atoms: S1_2  and  C21_9 
+REMARK    3  A    between atoms: N7_4  and  C23_5 
+REMARK    4  A    between atoms: C17_14  and  N1_15 
+REMARK    5  A    between atoms: N1_15  and  C1_16 
+REMARK    6  A    between atoms: C4_18  and  N4_23 
+REMARK    7  A    between atoms: N4_23  and  C6_24 
+REMARK    8  A    between atoms: C9_27  and  N5_30 
+REMARK    9  A    between atoms: S1_38  and  N7_40 
+REMARK   10  A    between atoms: S1_38  and  C21_45 
+REMARK   11  A    between atoms: N7_40  and  C23_41 
+REMARK   12  A    between atoms: C17_50  and  N1_51 
+REMARK   13  A    between atoms: N1_51  and  C1_52 
+REMARK   14  A    between atoms: C4_54  and  N4_59 
+REMARK   15  A    between atoms: N4_59  and  C6_60 
+REMARK   16  A    between atoms: C9_63  and  N5_66 
+ROOT
+HETATM    1  C1    D T1203     -21.779 -63.579  20.737  1.00 49.34     0.178 A 
+HETATM    2  N3    D T1203     -21.273 -62.466  21.271  1.00 50.63    -0.041 NA
+HETATM    3  C4    D T1203     -20.066 -62.010  20.947  1.00 51.82     0.751 A 
+HETATM    4  N2    D T1203     -19.325 -62.673  20.055  1.00 51.52    -0.058 NA
+HETATM    5  C3    D T1203     -19.764 -63.792  19.480  1.00 50.15     0.117 A 
+HETATM    6  C2    D T1203     -21.017 -64.295  19.806  1.00 48.53     0.034 A 
+HETATM    7  C5    D T1203     -21.525 -65.577  19.177  1.00 47.20     0.036 C 
+ENDROOT
+BRANCH   1   8
+HETATM    8  N1    D T1203     -23.034 -64.024  21.122  1.00 50.38    -0.227 NA
+BRANCH   8   9
+HETATM    9  C17   D T1203     -23.221 -64.658  22.349  1.00 49.63     0.084 A 
+HETATM   10  C18   D T1203     -23.493 -63.903  23.497  1.00 49.59     0.019 A 
+HETATM   11  C19   D T1203     -23.689 -64.545  24.711  1.00 49.93     0.002 A 
+HETATM   12  C20   D T1203     -23.555 -65.930  24.788  1.00 49.85     0.013 A 
+HETATM   13  C21   D T1203     -23.268 -66.675  23.644  1.00 48.62     0.106 A 
+HETATM   14  C22   D T1203     -23.101 -66.044  22.416  1.00 48.38     0.032 A 
+BRANCH  13  15
+HETATM   15  S1    D T1203     -23.099 -68.425  23.732  1.00 45.71     0.281 S 
+HETATM   16  O2    D T1203     -21.719 -68.729  23.804  1.00 47.80    -0.199 OA
+HETATM   17  O1    D T1203     -24.043 -68.856  24.702  1.00 43.73    -0.199 OA
+BRANCH  15  18
+HETATM   18  N7    D T1203     -23.670 -69.098  22.328  1.00 47.42    -0.189 NA
+BRANCH  18  19
+HETATM   19  C23   D T1203     -23.963 -70.495  21.967  1.00 49.01     0.097 C 
+HETATM   20  C26   D T1203     -25.359 -70.800  22.495  1.00 50.09     0.025 C 
+HETATM   21  C25   D T1203     -22.996 -71.555  22.494  1.00 49.99     0.025 C 
+HETATM   22  C24   D T1203     -23.981 -70.587  20.445  1.00 48.01     0.025 C 
+ENDBRANCH  18  19
+ENDBRANCH  15  18
+ENDBRANCH  13  15
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+BRANCH   3  23
+HETATM   23  N4    D T1203     -19.556 -60.825  21.492  1.00 53.04    -0.059 NA
+BRANCH  23  24
+HETATM   24  C6    D T1203     -20.259 -59.652  21.862  1.00 53.71     0.100 A 
+HETATM   25  C11   D T1203     -19.961 -59.080  23.104  1.00 54.72     0.021 A 
+HETATM   26  C10   D T1203     -20.596 -57.919  23.525  1.00 57.14     0.018 A 
+HETATM   27  C9    D T1203     -21.522 -57.275  22.688  1.00 59.50     0.056 A 
+HETATM   28  C8    D T1203     -21.810 -57.836  21.430  1.00 56.16     0.018 A 
+HETATM   29  C7    D T1203     -21.183 -59.007  21.021  1.00 54.07     0.021 A 
+BRANCH  27  30
+HETATM   30  N5    D T1203     -22.183 -56.088  23.085  1.00 63.93    -0.344 N 
+HETATM   31  C15   D T1203     -22.586 -55.139  22.020  1.00 67.51     0.137 C 
+HETATM   32  C14   D T1203     -23.591 -54.114  22.596  1.00 69.71     0.274 C 
+HETATM   33  N6    D T1203     -23.112 -53.527  23.873  1.00 69.00     0.143 N 
+HETATM   34  C16   D T1203     -24.091 -52.584  24.431  1.00 69.97     0.286 C 
+HETATM   35  C13   D T1203     -22.711 -54.524  24.889  1.00 66.91     0.274 C 
+HETATM   36  C12   D T1203     -21.627 -55.431  24.287  1.00 65.09     0.137 C 
+ENDBRANCH  27  30
+ENDBRANCH  23  24
+ENDBRANCH   3  23
+TORSDOF 16
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -7.383      4.519      7.526
+REMARK INTER + INTRA:         -11.759
+REMARK INTER:                  -9.521
+REMARK INTRA:                  -2.237
+REMARK UNBOUND:                -0.923
+REMARK  16 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S1_2  and  N7_4 
+REMARK    2  A    between atoms: S1_2  and  C21_9 
+REMARK    3  A    between atoms: N7_4  and  C23_5 
+REMARK    4  A    between atoms: C17_14  and  N1_15 
+REMARK    5  A    between atoms: N1_15  and  C1_16 
+REMARK    6  A    between atoms: C4_18  and  N4_23 
+REMARK    7  A    between atoms: N4_23  and  C6_24 
+REMARK    8  A    between atoms: C9_27  and  N5_30 
+REMARK    9  A    between atoms: S1_38  and  N7_40 
+REMARK   10  A    between atoms: S1_38  and  C21_45 
+REMARK   11  A    between atoms: N7_40  and  C23_41 
+REMARK   12  A    between atoms: C17_50  and  N1_51 
+REMARK   13  A    between atoms: N1_51  and  C1_52 
+REMARK   14  A    between atoms: C4_54  and  N4_59 
+REMARK   15  A    between atoms: N4_59  and  C6_60 
+REMARK   16  A    between atoms: C9_63  and  N5_66 
+ROOT
+HETATM    1  C1    D T1203     -23.666 -68.767  22.284  1.00 49.34     0.178 A 
+HETATM    2  N3    D T1203     -23.442 -67.592  22.877  1.00 50.63    -0.041 NA
+HETATM    3  C4    D T1203     -23.643 -67.406  24.179  1.00 51.82     0.751 A 
+HETATM    4  N2    D T1203     -24.080 -68.418  24.932  1.00 51.52    -0.058 NA
+HETATM    5  C3    D T1203     -24.326 -69.619  24.411  1.00 50.15     0.117 A 
+HETATM    6  C2    D T1203     -24.131 -69.840  23.053  1.00 48.53     0.034 A 
+HETATM    7  C5    D T1203     -24.425 -71.193  22.438  1.00 47.20     0.036 C 
+ENDROOT
+BRANCH   1   8
+HETATM    8  N1    D T1203     -23.460 -68.904  20.920  1.00 50.38    -0.227 NA
+BRANCH   8   9
+HETATM    9  C17   D T1203     -22.193 -68.724  20.368  1.00 49.63     0.084 A 
+HETATM   10  C18   D T1203     -21.109 -69.478  20.835  1.00 49.59     0.019 A 
+HETATM   11  C19   D T1203     -19.855 -69.300  20.271  1.00 49.93     0.002 A 
+HETATM   12  C20   D T1203     -19.673 -68.331  19.285  1.00 49.85     0.013 A 
+HETATM   13  C21   D T1203     -20.755 -67.573  18.835  1.00 48.62     0.106 A 
+HETATM   14  C22   D T1203     -22.022 -67.766  19.373  1.00 48.38     0.032 A 
+BRANCH  13  15
+HETATM   15  S1    D T1203     -20.535 -66.348  17.590  1.00 45.71     0.281 S 
+HETATM   16  O2    D T1203     -19.187 -65.919  17.629  1.00 47.80    -0.199 OA
+HETATM   17  O1    D T1203     -21.152 -66.871  16.422  1.00 43.73    -0.199 OA
+BRANCH  15  18
+HETATM   18  N7    D T1203     -21.473 -65.029  17.952  1.00 47.42    -0.189 NA
+BRANCH  18  19
+HETATM   19  C23   D T1203     -21.418 -64.073  19.070  1.00 49.01     0.097 C 
+HETATM   20  C26   D T1203     -21.112 -62.710  18.466  1.00 50.09     0.025 C 
+HETATM   21  C25   D T1203     -20.396 -64.364  20.169  1.00 49.99     0.025 C 
+HETATM   22  C24   D T1203     -22.801 -64.030  19.711  1.00 48.01     0.025 C 
+ENDBRANCH  18  19
+ENDBRANCH  15  18
+ENDBRANCH  13  15
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+BRANCH   3  23
+HETATM   23  N4    D T1203     -23.378 -66.177  24.796  1.00 53.04    -0.059 NA
+BRANCH  23  24
+HETATM   24  C6    D T1203     -23.145 -64.918  24.188  1.00 53.71     0.100 A 
+HETATM   25  C11   D T1203     -24.235 -64.050  24.054  1.00 54.72     0.021 A 
+HETATM   26  C10   D T1203     -24.078 -62.793  23.486  1.00 57.14     0.018 A 
+HETATM   27  C9    D T1203     -22.810 -62.355  23.074  1.00 59.50     0.056 A 
+HETATM   28  C8    D T1203     -21.708 -63.217  23.225  1.00 56.16     0.018 A 
+HETATM   29  C7    D T1203     -21.873 -64.481  23.779  1.00 54.07     0.021 A 
+BRANCH  27  30
+HETATM   30  N5    D T1203     -22.615 -61.078  22.496  1.00 63.93    -0.344 N 
+HETATM   31  C15   D T1203     -23.612 -60.615  21.502  1.00 67.51     0.137 C 
+HETATM   32  C14   D T1203     -23.441 -59.096  21.267  1.00 69.71     0.274 C 
+HETATM   33  N6    D T1203     -22.024 -58.731  21.017  1.00 69.00     0.143 N 
+HETATM   34  C16   D T1203     -21.867 -57.281  20.834  1.00 69.97     0.286 C 
+HETATM   35  C13   D T1203     -21.076 -59.233  22.036  1.00 66.91     0.274 C 
+HETATM   36  C12   D T1203     -21.218 -60.760  22.129  1.00 65.09     0.137 C 
+ENDBRANCH  27  30
+ENDBRANCH  23  24
+ENDBRANCH   3  23
+TORSDOF 16
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -7.377      4.214      8.901
+REMARK INTER + INTRA:         -11.750
+REMARK INTER:                  -9.830
+REMARK INTRA:                  -1.920
+REMARK UNBOUND:                -0.923
+REMARK  16 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S1_2  and  N7_4 
+REMARK    2  A    between atoms: S1_2  and  C21_9 
+REMARK    3  A    between atoms: N7_4  and  C23_5 
+REMARK    4  A    between atoms: C17_14  and  N1_15 
+REMARK    5  A    between atoms: N1_15  and  C1_16 
+REMARK    6  A    between atoms: C4_18  and  N4_23 
+REMARK    7  A    between atoms: N4_23  and  C6_24 
+REMARK    8  A    between atoms: C9_27  and  N5_30 
+REMARK    9  A    between atoms: S1_38  and  N7_40 
+REMARK   10  A    between atoms: S1_38  and  C21_45 
+REMARK   11  A    between atoms: N7_40  and  C23_41 
+REMARK   12  A    between atoms: C17_50  and  N1_51 
+REMARK   13  A    between atoms: N1_51  and  C1_52 
+REMARK   14  A    between atoms: C4_54  and  N4_59 
+REMARK   15  A    between atoms: N4_59  and  C6_60 
+REMARK   16  A    between atoms: C9_63  and  N5_66 
+ROOT
+HETATM    1  C1    D T1203     -22.247 -57.826  21.174  1.00 49.34     0.178 A 
+HETATM    2  N3    D T1203     -22.970 -58.746  21.816  1.00 50.63    -0.041 NA
+HETATM    3  C4    D T1203     -23.554 -59.759  21.180  1.00 51.82     0.751 A 
+HETATM    4  N2    D T1203     -23.418 -59.875  19.856  1.00 51.52    -0.058 NA
+HETATM    5  C3    D T1203     -22.713 -58.995  19.148  1.00 50.15     0.117 A 
+HETATM    6  C2    D T1203     -22.099 -57.923  19.785  1.00 48.53     0.034 A 
+HETATM    7  C5    D T1203     -21.309 -56.901  18.994  1.00 47.20     0.036 C 
+ENDROOT
+BRANCH   1   8
+HETATM    8  N1    D T1203     -21.676 -56.779  21.879  1.00 50.38    -0.227 NA
+BRANCH   8   9
+HETATM    9  C17   D T1203     -20.518 -56.972  22.631  1.00 49.63     0.084 A 
+HETATM   10  C18   D T1203     -20.258 -56.161  23.742  1.00 49.59     0.019 A 
+HETATM   11  C19   D T1203     -19.109 -56.368  24.491  1.00 49.93     0.002 A 
+HETATM   12  C20   D T1203     -18.195 -57.343  24.094  1.00 49.85     0.013 A 
+HETATM   13  C21   D T1203     -18.453 -58.138  22.977  1.00 48.62     0.106 A 
+HETATM   14  C22   D T1203     -19.617 -57.958  22.238  1.00 48.38     0.032 A 
+BRANCH  13  15
+HETATM   15  S1    D T1203     -17.304 -59.373  22.471  1.00 45.71     0.281 S 
+HETATM   16  O2    D T1203     -16.427 -58.794  21.523  1.00 47.80    -0.199 OA
+HETATM   17  O1    D T1203     -16.858 -59.998  23.666  1.00 43.73    -0.199 OA
+BRANCH  15  18
+HETATM   18  N7    D T1203     -18.121 -60.589  21.694  1.00 47.42    -0.189 NA
+BRANCH  18  19
+HETATM   19  C23   D T1203     -19.093 -61.579  22.187  1.00 49.01     0.097 C 
+HETATM   20  C26   D T1203     -20.261 -61.571  21.209  1.00 50.09     0.025 C 
+HETATM   21  C25   D T1203     -19.634 -61.360  23.600  1.00 49.99     0.025 C 
+HETATM   22  C24   D T1203     -18.423 -62.948  22.144  1.00 48.01     0.025 C 
+ENDBRANCH  18  19
+ENDBRANCH  15  18
+ENDBRANCH  13  15
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+BRANCH   3  23
+HETATM   23  N4    D T1203     -24.286 -60.735  21.866  1.00 53.04    -0.059 NA
+BRANCH  23  24
+HETATM   24  C6    D T1203     -23.936 -62.087  22.113  1.00 53.71     0.100 A 
+HETATM   25  C11   D T1203     -24.134 -63.009  21.079  1.00 54.72     0.021 A 
+HETATM   26  C10   D T1203     -23.796 -64.345  21.243  1.00 57.14     0.018 A 
+HETATM   27  C9    D T1203     -23.208 -64.787  22.439  1.00 59.50     0.056 A 
+HETATM   28  C8    D T1203     -22.989 -63.859  23.474  1.00 56.16     0.018 A 
+HETATM   29  C7    D T1203     -23.344 -62.525  23.311  1.00 54.07     0.021 A 
+BRANCH  27  30
+HETATM   30  N5    D T1203     -22.847 -66.141  22.635  1.00 63.93    -0.344 N 
+HETATM   31  C15   D T1203     -23.853 -67.175  22.297  1.00 67.51     0.137 C 
+HETATM   32  C14   D T1203     -23.167 -68.559  22.229  1.00 69.71     0.274 C 
+HETATM   33  N6    D T1203     -22.315 -68.814  23.418  1.00 69.00     0.143 N 
+HETATM   34  C16   D T1203     -21.637 -70.115  23.325  1.00 69.97     0.286 C 
+HETATM   35  C13   D T1203     -21.342 -67.740  23.712  1.00 66.91     0.274 C 
+HETATM   36  C12   D T1203     -22.105 -66.418  23.885  1.00 65.09     0.137 C 
+ENDBRANCH  27  30
+ENDBRANCH  23  24
+ENDBRANCH   3  23
+TORSDOF 16
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -7.339      3.179      4.334
+REMARK INTER + INTRA:         -11.695
+REMARK INTER:                 -10.291
+REMARK INTRA:                  -1.404
+REMARK UNBOUND:                -0.923
+REMARK  16 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S1_2  and  N7_4 
+REMARK    2  A    between atoms: S1_2  and  C21_9 
+REMARK    3  A    between atoms: N7_4  and  C23_5 
+REMARK    4  A    between atoms: C17_14  and  N1_15 
+REMARK    5  A    between atoms: N1_15  and  C1_16 
+REMARK    6  A    between atoms: C4_18  and  N4_23 
+REMARK    7  A    between atoms: N4_23  and  C6_24 
+REMARK    8  A    between atoms: C9_27  and  N5_30 
+REMARK    9  A    between atoms: S1_38  and  N7_40 
+REMARK   10  A    between atoms: S1_38  and  C21_45 
+REMARK   11  A    between atoms: N7_40  and  C23_41 
+REMARK   12  A    between atoms: C17_50  and  N1_51 
+REMARK   13  A    between atoms: N1_51  and  C1_52 
+REMARK   14  A    between atoms: C4_54  and  N4_59 
+REMARK   15  A    between atoms: N4_59  and  C6_60 
+REMARK   16  A    between atoms: C9_63  and  N5_66 
+ROOT
+HETATM    1  C1    D T1203     -21.318 -64.499  21.139  1.00 49.34     0.178 A 
+HETATM    2  N3    D T1203     -20.674 -63.612  21.901  1.00 50.63    -0.041 NA
+HETATM    3  C4    D T1203     -19.382 -63.343  21.737  1.00 51.82     0.751 A 
+HETATM    4  N2    D T1203     -18.691 -63.970  20.781  1.00 51.52    -0.058 NA
+HETATM    5  C3    D T1203     -19.266 -64.868  19.983  1.00 50.15     0.117 A 
+HETATM    6  C2    D T1203     -20.613 -65.173  20.136  1.00 48.53     0.034 A 
+HETATM    7  C5    D T1203     -21.279 -66.207  19.250  1.00 47.20     0.036 C 
+ENDROOT
+BRANCH   1   8
+HETATM    8  N1    D T1203     -22.661 -64.758  21.363  1.00 50.38    -0.227 NA
+BRANCH   8   9
+HETATM    9  C17   D T1203     -23.069 -65.520  22.456  1.00 49.63     0.084 A 
+HETATM   10  C18   D T1203     -23.168 -64.934  23.724  1.00 49.59     0.019 A 
+HETATM   11  C19   D T1203     -23.587 -65.697  24.803  1.00 49.93     0.002 A 
+HETATM   12  C20   D T1203     -23.848 -67.055  24.626  1.00 49.85     0.013 A 
+HETATM   13  C21   D T1203     -23.732 -67.636  23.364  1.00 48.62     0.106 A 
+HETATM   14  C22   D T1203     -23.343 -66.872  22.269  1.00 48.38     0.032 A 
+BRANCH  13  15
+HETATM   15  S1    D T1203     -24.061 -69.350  23.132  1.00 45.71     0.281 S 
+HETATM   16  O2    D T1203     -24.409 -69.904  24.386  1.00 47.80    -0.199 OA
+HETATM   17  O1    D T1203     -24.897 -69.431  21.986  1.00 43.73    -0.199 OA
+BRANCH  15  18
+HETATM   18  N7    D T1203     -22.672 -70.109  22.636  1.00 47.42    -0.189 NA
+BRANCH  18  19
+HETATM   19  C23   D T1203     -21.317 -70.134  23.214  1.00 49.01     0.097 C 
+HETATM   20  C26   D T1203     -20.812 -71.564  23.082  1.00 50.09     0.025 C 
+HETATM   21  C25   D T1203     -21.188 -69.700  24.674  1.00 49.99     0.025 C 
+HETATM   22  C24   D T1203     -20.437 -69.219  22.369  1.00 48.01     0.025 C 
+ENDBRANCH  18  19
+ENDBRANCH  15  18
+ENDBRANCH  13  15
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+BRANCH   3  23
+HETATM   23  N4    D T1203     -18.723 -62.390  22.523  1.00 53.04    -0.059 NA
+BRANCH  23  24
+HETATM   24  C6    D T1203     -19.045 -61.021  22.702  1.00 53.71     0.100 A 
+HETATM   25  C11   D T1203     -19.827 -60.677  23.811  1.00 54.72     0.021 A 
+HETATM   26  C10   D T1203     -20.165 -59.354  24.061  1.00 57.14     0.018 A 
+HETATM   27  C9    D T1203     -19.690 -58.331  23.224  1.00 59.50     0.056 A 
+HETATM   28  C8    D T1203     -18.887 -58.671  22.119  1.00 56.16     0.018 A 
+HETATM   29  C7    D T1203     -18.565 -59.999  21.864  1.00 54.07     0.021 A 
+BRANCH  27  30
+HETATM   30  N5    D T1203     -20.012 -56.972  23.453  1.00 63.93    -0.344 N 
+HETATM   31  C15   D T1203     -21.291 -56.467  22.900  1.00 67.51     0.137 C 
+HETATM   32  C14   D T1203     -21.633 -55.106  23.550  1.00 69.71     0.274 C 
+HETATM   33  N6    D T1203     -20.476 -54.175  23.525  1.00 69.00     0.143 N 
+HETATM   34  C16   D T1203     -20.799 -52.900  24.179  1.00 69.97     0.286 C 
+HETATM   35  C13   D T1203     -19.226 -54.742  24.077  1.00 66.91     0.274 C 
+HETATM   36  C12   D T1203     -18.885 -56.026  23.305  1.00 65.09     0.137 C 
+ENDBRANCH  27  30
+ENDBRANCH  23  24
+ENDBRANCH   3  23
+TORSDOF 16
+ENDMDL

@@ -2,7 +2,7 @@ import os, sys, re, subprocess
 from pathlib import Path
 
 base_dir = Path(__file__).resolve().parent
-input_folder = base_dir / "malaria"
+input_folder = base_dir / "malaria_raw"
 output_folder = base_dir / "malaria_pdbqt"
 output_folder.mkdir(parents=True, exist_ok=True)
 log_file_path = base_dir / "failed_conversions_proteins.txt"
@@ -14,7 +14,7 @@ def run(cmd):
 
 def has_adt():
     try:
-        import AutoDockTools_py3  
+        import AutoDockTools_py3  # noqa
         return True
     except Exception:
         return False

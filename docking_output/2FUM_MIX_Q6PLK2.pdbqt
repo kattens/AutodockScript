@@ -1,0 +1,720 @@
+MODEL 1
+REMARK VINA RESULT:    -6.306      0.000      0.000
+REMARK INTER + INTRA:         -11.729
+REMARK INTER:                 -10.730
+REMARK INTRA:                  -0.999
+REMARK UNBOUND:                -0.999
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAK_2  and  CAM_3 
+REMARK    2  A    between atoms: CAM_3  and  NAS_4 
+REMARK    3  A    between atoms: NAS_4  and  CAO_5 
+REMARK    4  A    between atoms: CAO_5  and  CAQ_6 
+REMARK    5  A    between atoms: CAQ_6  and  NAU_7 
+REMARK    6  A    between atoms: NAU_7  and  CAY_8 
+REMARK    7  A    between atoms: CAZ_25  and  NAV_26 
+REMARK    8  A    between atoms: NAV_26  and  CAR_27 
+REMARK    9  A    between atoms: CAR_27  and  CAP_28 
+REMARK   10  A    between atoms: CAP_28  and  NAT_29 
+REMARK   11  A    between atoms: NAT_29  and  CAN_30 
+REMARK   12  A    between atoms: CAN_30  and  CAL_31 
+ROOT
+HETATM    1  CAY   D T 539       9.613   2.854  -1.274  1.00 91.53     0.079 A 
+HETATM    2  CAI   D T 539      10.749   2.321  -0.684  1.00 91.56     0.020 A 
+HETATM    3  CAJ   D T 539      11.465   1.300  -1.297  1.00 91.57     0.020 A 
+HETATM    4  CBE   D T 539       9.199   2.356  -2.495  1.00 91.36     0.061 A 
+HETATM    5  CBA   D T 539       8.066   2.901  -3.076  1.00 91.28     0.199 A 
+HETATM    6  OAA   D T 539       7.462   3.806  -2.498  1.00 91.36    -0.286 OA
+HETATM    7  CBC   D T 539       7.629   2.423  -4.303  1.00 91.28     0.069 A 
+HETATM    8  CAW   D T 539       6.501   2.955  -4.906  1.00 91.39     0.134 A 
+HETATM    9  OAE   D T 539       5.821   3.948  -4.302  1.00 91.60    -0.190 OA
+HETATM   10  CAG   D T 539       6.052   2.472  -6.119  1.00 91.43     0.030 A 
+HETATM   11  CAH   D T 539       6.755   1.447  -6.738  1.00 91.48     0.030 A 
+HETATM   12  CAX   D T 539       7.888   0.907  -6.152  1.00 91.18     0.134 A 
+HETATM   13  OAF   D T 539       8.566  -0.091  -6.765  1.00 91.01    -0.190 OA
+HETATM   14  CBD   D T 539       8.321   1.401  -4.936  1.00 91.30     0.069 A 
+HETATM   15  CBB   D T 539       9.453   0.858  -4.358  1.00 91.65     0.199 A 
+HETATM   16  OAB   D T 539      10.022  -0.046  -4.966  1.00 91.77    -0.286 OA
+HETATM   17  CBF   D T 539       9.915   1.329  -3.126  1.00 91.49     0.061 A 
+HETATM   18  CAZ   D T 539      11.058   0.794  -2.514  1.00 91.40     0.079 A 
+ENDROOT
+BRANCH   1  19
+HETATM   19  NAU   D T 539       8.929   3.839  -0.687  1.00 91.78    -0.268 NA
+BRANCH  19  20
+HETATM   20  CAQ   D T 539       9.269   4.320   0.658  1.00 95.07     0.164 C 
+BRANCH  20  21
+HETATM   21  CAO   D T 539       9.580   5.821   0.623  1.00 97.10     0.316 C 
+BRANCH  21  22
+HETATM   22  NAS   D T 539       9.001   6.394  -0.613  1.00100.56     0.344 N 
+BRANCH  22  23
+HETATM   23  CAM   D T 539       8.831   7.866  -0.541  1.00103.43     0.326 C 
+BRANCH  23  24
+HETATM   24  CAK   D T 539       9.675   8.571  -1.622  1.00104.61     0.221 C 
+HETATM   25  OAC   D T 539       8.955   9.710  -2.146  1.00105.31    -0.218 OA
+ENDBRANCH  23  24
+ENDBRANCH  22  23
+ENDBRANCH  21  22
+ENDBRANCH  20  21
+ENDBRANCH  19  20
+ENDBRANCH   1  19
+BRANCH  18  26
+HETATM   26  NAV   D T 539      11.784  -0.183  -3.043  1.00 91.54    -0.268 NA
+BRANCH  26  27
+HETATM   27  CAR   D T 539      12.738  -0.931  -2.225  1.00 93.33     0.164 C 
+BRANCH  27  28
+HETATM   28  CAP   D T 539      12.225  -2.359  -2.184  1.00 95.29     0.316 C 
+BRANCH  28  29
+HETATM   29  NAT   D T 539      12.098  -2.793  -0.786  1.00 97.82     0.344 N 
+BRANCH  29  30
+HETATM   30  CAN   D T 539      11.697  -4.222  -0.677  1.00 99.13     0.326 C 
+BRANCH  30  31
+HETATM   31  CAL   D T 539      12.064  -4.990  -1.971  1.00100.48     0.221 C 
+HETATM   32  OAD   D T 539      13.142  -5.937  -1.774  1.00101.70    -0.218 OA
+ENDBRANCH  30  31
+ENDBRANCH  29  30
+ENDBRANCH  28  29
+ENDBRANCH  27  28
+ENDBRANCH  26  27
+ENDBRANCH  18  26
+TORSDOF 12
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -6.274      2.496      8.529
+REMARK INTER + INTRA:         -11.674
+REMARK INTER:                 -10.807
+REMARK INTRA:                  -0.867
+REMARK UNBOUND:                -0.999
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAK_2  and  CAM_3 
+REMARK    2  A    between atoms: CAM_3  and  NAS_4 
+REMARK    3  A    between atoms: NAS_4  and  CAO_5 
+REMARK    4  A    between atoms: CAO_5  and  CAQ_6 
+REMARK    5  A    between atoms: CAQ_6  and  NAU_7 
+REMARK    6  A    between atoms: NAU_7  and  CAY_8 
+REMARK    7  A    between atoms: CAZ_25  and  NAV_26 
+REMARK    8  A    between atoms: NAV_26  and  CAR_27 
+REMARK    9  A    between atoms: CAR_27  and  CAP_28 
+REMARK   10  A    between atoms: CAP_28  and  NAT_29 
+REMARK   11  A    between atoms: NAT_29  and  CAN_30 
+REMARK   12  A    between atoms: CAN_30  and  CAL_31 
+ROOT
+HETATM    1  CAY   D T 539      11.295   0.564  -2.659  1.00 91.53     0.079 A 
+HETATM    2  CAI   D T 539      11.091   0.327  -4.011  1.00 91.56     0.020 A 
+HETATM    3  CAJ   D T 539      10.355   1.210  -4.792  1.00 91.57     0.020 A 
+HETATM    4  CBE   D T 539      10.757   1.704  -2.094  1.00 91.36     0.061 A 
+HETATM    5  CBA   D T 539      10.972   1.932  -0.744  1.00 91.28     0.199 A 
+HETATM    6  OAA   D T 539      11.631   1.123  -0.090  1.00 91.36    -0.286 OA
+HETATM    7  CBC   D T 539      10.447   3.070  -0.150  1.00 91.28     0.069 A 
+HETATM    8  CAW   D T 539      10.653   3.322   1.197  1.00 91.39     0.134 A 
+HETATM    9  OAE   D T 539      11.373   2.458   1.939  1.00 91.60    -0.190 OA
+HETATM   10  CAG   D T 539      10.118   4.444   1.797  1.00 91.43     0.030 A 
+HETATM   11  CAH   D T 539       9.375   5.330   1.029  1.00 91.48     0.030 A 
+HETATM   12  CAX   D T 539       9.164   5.097  -0.320  1.00 91.18     0.134 A 
+HETATM   13  OAF   D T 539       8.439   5.969  -1.060  1.00 91.01    -0.190 OA
+HETATM   14  CBD   D T 539       9.704   3.967  -0.904  1.00 91.30     0.069 A 
+HETATM   15  CBB   D T 539       9.490   3.741  -2.251  1.00 91.65     0.199 A 
+HETATM   16  OAB   D T 539       8.823   4.571  -2.865  1.00 91.77    -0.286 OA
+HETATM   17  CBF   D T 539      10.016   2.606  -2.872  1.00 91.49     0.061 A 
+HETATM   18  CAZ   D T 539       9.811   2.349  -4.235  1.00 91.40     0.079 A 
+ENDROOT
+BRANCH   1  19
+HETATM   19  NAU   D T 539      12.007  -0.282  -1.912  1.00 91.78    -0.268 NA
+BRANCH  19  20
+HETATM   20  CAQ   D T 539      12.437  -1.590  -2.421  1.00 95.07     0.164 C 
+BRANCH  20  21
+HETATM   21  CAO   D T 539      12.017  -2.703  -1.453  1.00 97.10     0.316 C 
+BRANCH  21  22
+HETATM   22  NAS   D T 539      12.269  -4.010  -2.100  1.00100.56     0.344 N 
+BRANCH  22  23
+HETATM   23  CAM   D T 539      11.903  -5.160  -1.236  1.00103.43     0.326 C 
+BRANCH  23  24
+HETATM   24  CAK   D T 539      12.396  -6.487  -1.849  1.00104.61     0.221 C 
+HETATM   25  OAC   D T 539      13.839  -6.550  -1.795  1.00105.31    -0.218 OA
+ENDBRANCH  23  24
+ENDBRANCH  22  23
+ENDBRANCH  21  22
+ENDBRANCH  20  21
+ENDBRANCH  19  20
+ENDBRANCH   1  19
+BRANCH  18  26
+HETATM   26  NAV   D T 539       9.117   3.148  -5.036  1.00 91.54    -0.268 NA
+BRANCH  26  27
+HETATM   27  CAR   D T 539       8.013   2.624  -5.839  1.00 93.33     0.164 C 
+BRANCH  27  28
+HETATM   28  CAP   D T 539       6.788   3.430  -5.445  1.00 95.29     0.316 C 
+BRANCH  28  29
+HETATM   29  NAT   D T 539       6.567   4.497  -6.431  1.00 97.82     0.344 N 
+BRANCH  29  30
+HETATM   30  CAN   D T 539       7.004   4.098  -7.796  1.00 99.13     0.326 C 
+BRANCH  30  31
+HETATM   31  CAL   D T 539       5.779   3.756  -8.681  1.00100.48     0.221 C 
+HETATM   32  OAD   D T 539       5.727   2.357  -9.050  1.00101.70    -0.218 OA
+ENDBRANCH  30  31
+ENDBRANCH  29  30
+ENDBRANCH  28  29
+ENDBRANCH  27  28
+ENDBRANCH  26  27
+ENDBRANCH  18  26
+TORSDOF 12
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -6.238      2.935      5.613
+REMARK INTER + INTRA:         -11.613
+REMARK INTER:                 -10.576
+REMARK INTRA:                  -1.037
+REMARK UNBOUND:                -0.999
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAK_2  and  CAM_3 
+REMARK    2  A    between atoms: CAM_3  and  NAS_4 
+REMARK    3  A    between atoms: NAS_4  and  CAO_5 
+REMARK    4  A    between atoms: CAO_5  and  CAQ_6 
+REMARK    5  A    between atoms: CAQ_6  and  NAU_7 
+REMARK    6  A    between atoms: NAU_7  and  CAY_8 
+REMARK    7  A    between atoms: CAZ_25  and  NAV_26 
+REMARK    8  A    between atoms: NAV_26  and  CAR_27 
+REMARK    9  A    between atoms: CAR_27  and  CAP_28 
+REMARK   10  A    between atoms: CAP_28  and  NAT_29 
+REMARK   11  A    between atoms: NAT_29  and  CAN_30 
+REMARK   12  A    between atoms: CAN_30  and  CAL_31 
+ROOT
+HETATM    1  CAY   D T 539       9.771   2.525  -4.122  1.00 91.53     0.079 A 
+HETATM    2  CAI   D T 539      10.271   1.352  -4.669  1.00 91.56     0.020 A 
+HETATM    3  CAJ   D T 539      11.009   0.459  -3.902  1.00 91.57     0.020 A 
+HETATM    4  CBE   D T 539      10.012   2.794  -2.788  1.00 91.36     0.061 A 
+HETATM    5  CBA   D T 539       9.503   3.966  -2.253  1.00 91.28     0.199 A 
+HETATM    6  OAA   D T 539       8.853   4.729  -2.970  1.00 91.36    -0.286 OA
+HETATM    7  CBC   D T 539       9.726   4.262  -0.916  1.00 91.28     0.069 A 
+HETATM    8  CAW   D T 539       9.223   5.426  -0.357  1.00 91.39     0.134 A 
+HETATM    9  OAE   D T 539       8.505   6.278  -1.114  1.00 91.60    -0.190 OA
+HETATM   10  CAG   D T 539       9.457   5.733   0.968  1.00 91.43     0.030 A 
+HETATM   11  CAH   D T 539      10.199   4.852   1.743  1.00 91.48     0.030 A 
+HETATM   12  CAX   D T 539      10.706   3.682   1.202  1.00 91.18     0.134 A 
+HETATM   13  OAF   D T 539      11.426   2.829   1.968  1.00 91.01    -0.190 OA
+HETATM   14  CBD   D T 539      10.464   3.391  -0.127  1.00 91.30     0.069 A 
+HETATM   15  CBB   D T 539      10.971   2.221  -0.660  1.00 91.65     0.199 A 
+HETATM   16  OAB   D T 539      11.617   1.492   0.089  1.00 91.77    -0.286 OA
+HETATM   17  CBF   D T 539      10.752   1.900  -2.002  1.00 91.49     0.061 A 
+HETATM   18  CAZ   D T 539      11.258   0.722  -2.571  1.00 91.40     0.079 A 
+ENDROOT
+BRANCH   1  19
+HETATM   19  NAU   D T 539       9.057   3.379  -4.859  1.00 91.78    -0.268 NA
+BRANCH  19  20
+HETATM   20  CAQ   D T 539       8.037   2.915  -5.808  1.00 95.07     0.164 C 
+BRANCH  20  21
+HETATM   21  CAO   D T 539       7.179   4.094  -6.285  1.00 97.10     0.316 C 
+BRANCH  21  22
+HETATM   22  NAS   D T 539       7.955   4.869  -7.278  1.00100.56     0.344 N 
+BRANCH  22  23
+HETATM   23  CAM   D T 539       7.217   5.080  -8.548  1.00103.43     0.326 C 
+BRANCH  23  24
+HETATM   24  CAK   D T 539       5.700   4.889  -8.341  1.00104.61     0.221 C 
+HETATM   25  OAC   D T 539       5.059   4.617  -9.607  1.00105.31    -0.218 OA
+ENDBRANCH  23  24
+ENDBRANCH  22  23
+ENDBRANCH  21  22
+ENDBRANCH  20  21
+ENDBRANCH  19  20
+ENDBRANCH   1  19
+BRANCH  18  26
+HETATM   26  NAV   D T 539      11.972  -0.170  -1.895  1.00 91.54    -0.268 NA
+BRANCH  26  27
+HETATM   27  CAR   D T 539      12.571  -1.317  -2.576  1.00 93.33     0.164 C 
+BRANCH  27  28
+HETATM   28  CAP   D T 539      12.216  -2.533  -1.740  1.00 95.29     0.316 C 
+BRANCH  28  29
+HETATM   29  NAT   D T 539      12.052  -2.130  -0.336  1.00 97.82     0.344 N 
+BRANCH  29  30
+HETATM   30  CAN   D T 539      11.519  -3.235   0.506  1.00 99.13     0.326 C 
+BRANCH  30  31
+HETATM   31  CAL   D T 539      10.562  -2.679   1.590  1.00100.48     0.221 C 
+HETATM   32  OAD   D T 539      10.175  -1.305   1.346  1.00101.70    -0.218 OA
+ENDBRANCH  30  31
+ENDBRANCH  29  30
+ENDBRANCH  28  29
+ENDBRANCH  27  28
+ENDBRANCH  26  27
+ENDBRANCH  18  26
+TORSDOF 12
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -6.138      1.316      7.089
+REMARK INTER + INTRA:         -11.444
+REMARK INTER:                 -10.337
+REMARK INTRA:                  -1.107
+REMARK UNBOUND:                -0.999
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAK_2  and  CAM_3 
+REMARK    2  A    between atoms: CAM_3  and  NAS_4 
+REMARK    3  A    between atoms: NAS_4  and  CAO_5 
+REMARK    4  A    between atoms: CAO_5  and  CAQ_6 
+REMARK    5  A    between atoms: CAQ_6  and  NAU_7 
+REMARK    6  A    between atoms: NAU_7  and  CAY_8 
+REMARK    7  A    between atoms: CAZ_25  and  NAV_26 
+REMARK    8  A    between atoms: NAV_26  and  CAR_27 
+REMARK    9  A    between atoms: CAR_27  and  CAP_28 
+REMARK   10  A    between atoms: CAP_28  and  NAT_29 
+REMARK   11  A    between atoms: NAT_29  and  CAN_30 
+REMARK   12  A    between atoms: CAN_30  and  CAL_31 
+ROOT
+HETATM    1  CAY   D T 539      11.060   0.832  -2.449  1.00 91.53     0.079 A 
+HETATM    2  CAI   D T 539      11.532   1.354  -1.254  1.00 91.56     0.020 A 
+HETATM    3  CAJ   D T 539      10.897   2.425  -0.636  1.00 91.57     0.020 A 
+HETATM    4  CBE   D T 539       9.933   1.392  -3.021  1.00 91.36     0.061 A 
+HETATM    5  CBA   D T 539       9.468   0.857  -4.212  1.00 91.28     0.199 A 
+HETATM    6  OAA   D T 539      10.062  -0.093  -4.724  1.00 91.36    -0.286 OA
+HETATM    7  CBC   D T 539       8.337   1.396  -4.808  1.00 91.28     0.069 A 
+HETATM    8  CAW   D T 539       7.851   0.876  -5.997  1.00 91.39     0.134 A 
+HETATM    9  OAE   D T 539       8.476  -0.165  -6.581  1.00 91.60    -0.190 OA
+HETATM   10  CAG   D T 539       6.736   1.420  -6.604  1.00 91.43     0.030 A 
+HETATM   11  CAH   D T 539       6.097   2.494  -6.000  1.00 91.48     0.030 A 
+HETATM   12  CAX   D T 539       6.566   3.023  -4.810  1.00 91.18     0.134 A 
+HETATM   13  OAF   D T 539       5.934   4.070  -4.229  1.00 91.01    -0.190 OA
+HETATM   14  CBD   D T 539       7.685   2.468  -4.217  1.00 91.30     0.069 A 
+HETATM   15  CBB   D T 539       8.147   3.001  -3.028  1.00 91.65     0.199 A 
+HETATM   16  OAB   D T 539       7.528   3.951  -2.555  1.00 91.77    -0.286 OA
+HETATM   17  CBF   D T 539       9.280   2.469  -2.407  1.00 91.49     0.061 A 
+HETATM   18  CAZ   D T 539       9.774   2.992  -1.203  1.00 91.40     0.079 A 
+ENDROOT
+BRANCH   1  19
+HETATM   19  NAU   D T 539      11.667  -0.200  -3.038  1.00 91.78    -0.268 NA
+BRANCH  19  20
+HETATM   20  CAQ   D T 539      12.748  -0.941  -2.375  1.00 95.07     0.164 C 
+BRANCH  20  21
+HETATM   21  CAO   D T 539      12.245  -2.315  -1.913  1.00 97.10     0.316 C 
+BRANCH  21  22
+HETATM   22  NAS   D T 539      12.014  -2.264  -0.452  1.00100.56     0.344 N 
+BRANCH  22  23
+HETATM   23  CAM   D T 539      11.693  -3.593   0.126  1.00103.43     0.326 C 
+BRANCH  23  24
+HETATM   24  CAK   D T 539      10.699  -3.457   1.298  1.00104.61     0.221 C 
+HETATM   25  OAC   D T 539      10.320  -2.073   1.467  1.00105.31    -0.218 OA
+ENDBRANCH  23  24
+ENDBRANCH  22  23
+ENDBRANCH  21  22
+ENDBRANCH  20  21
+ENDBRANCH  19  20
+ENDBRANCH   1  19
+BRANCH  18  26
+HETATM   26  NAV   D T 539       9.217   4.014  -0.564  1.00 91.54    -0.268 NA
+BRANCH  26  27
+HETATM   27  CAR   D T 539       9.193   4.056   0.897  1.00 93.33     0.164 C 
+BRANCH  27  28
+HETATM   28  CAP   D T 539       9.510   5.490   1.280  1.00 95.29     0.316 C 
+BRANCH  28  29
+HETATM   29  NAT   D T 539      10.661   5.963   0.497  1.00 97.82     0.344 N 
+BRANCH  29  30
+HETATM   30  CAN   D T 539      10.488   7.367   0.038  1.00 99.13     0.326 C 
+BRANCH  30  31
+HETATM   31  CAL   D T 539      10.605   7.454  -1.504  1.00100.48     0.221 C 
+HETATM   32  OAD   D T 539       9.424   8.017  -2.125  1.00101.70    -0.218 OA
+ENDBRANCH  30  31
+ENDBRANCH  29  30
+ENDBRANCH  28  29
+ENDBRANCH  27  28
+ENDBRANCH  26  27
+ENDBRANCH  18  26
+TORSDOF 12
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -6.013      3.177      6.564
+REMARK INTER + INTRA:         -11.231
+REMARK INTER:                  -9.749
+REMARK INTRA:                  -1.482
+REMARK UNBOUND:                -0.999
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAK_2  and  CAM_3 
+REMARK    2  A    between atoms: CAM_3  and  NAS_4 
+REMARK    3  A    between atoms: NAS_4  and  CAO_5 
+REMARK    4  A    between atoms: CAO_5  and  CAQ_6 
+REMARK    5  A    between atoms: CAQ_6  and  NAU_7 
+REMARK    6  A    between atoms: NAU_7  and  CAY_8 
+REMARK    7  A    between atoms: CAZ_25  and  NAV_26 
+REMARK    8  A    between atoms: NAV_26  and  CAR_27 
+REMARK    9  A    between atoms: CAR_27  and  CAP_28 
+REMARK   10  A    between atoms: CAP_28  and  NAT_29 
+REMARK   11  A    between atoms: NAT_29  and  CAN_30 
+REMARK   12  A    between atoms: CAN_30  and  CAL_31 
+ROOT
+HETATM    1  CAY   D T 539      10.163   3.569  -2.995  1.00 91.53     0.079 A 
+HETATM    2  CAI   D T 539      10.365   2.204  -2.855  1.00 91.56     0.020 A 
+HETATM    3  CAJ   D T 539      10.426   1.611  -1.599  1.00 91.57     0.020 A 
+HETATM    4  CBE   D T 539      10.015   4.341  -1.858  1.00 91.36     0.061 A 
+HETATM    5  CBA   D T 539       9.809   5.702  -2.011  1.00 91.28     0.199 A 
+HETATM    6  OAA   D T 539       9.761   6.185  -3.144  1.00 91.36    -0.286 OA
+HETATM    7  CBC   D T 539       9.653   6.501  -0.889  1.00 91.28     0.069 A 
+HETATM    8  CAW   D T 539       9.441   7.865  -1.017  1.00 91.39     0.134 A 
+HETATM    9  OAE   D T 539       9.380   8.423  -2.242  1.00 91.60    -0.190 OA
+HETATM   10  CAG   D T 539       9.303   8.668   0.097  1.00 91.43     0.030 A 
+HETATM   11  CAH   D T 539       9.369   8.089   1.358  1.00 91.48     0.030 A 
+HETATM   12  CAX   D T 539       9.576   6.727   1.505  1.00 91.18     0.134 A 
+HETATM   13  OAF   D T 539       9.636   6.173   2.738  1.00 91.01    -0.190 OA
+HETATM   14  CBD   D T 539       9.714   5.938   0.378  1.00 91.30     0.069 A 
+HETATM   15  CBB   D T 539       9.919   4.580   0.532  1.00 91.65     0.199 A 
+HETATM   16  OAB   D T 539       9.965   4.141   1.679  1.00 91.77    -0.286 OA
+HETATM   17  CBF   D T 539      10.070   3.755  -0.585  1.00 91.49     0.061 A 
+HETATM   18  CAZ   D T 539      10.283   2.375  -0.459  1.00 91.40     0.079 A 
+ENDROOT
+BRANCH   1  19
+HETATM   19  NAU   D T 539      10.099   4.135  -4.201  1.00 91.78    -0.268 NA
+BRANCH  19  20
+HETATM   20  CAQ   D T 539       9.324   3.537  -5.296  1.00 95.07     0.164 C 
+BRANCH  20  21
+HETATM   21  CAO   D T 539       7.841   3.908  -5.162  1.00 97.10     0.316 C 
+BRANCH  21  22
+HETATM   22  NAS   D T 539       7.032   2.680  -5.330  1.00100.56     0.344 N 
+BRANCH  22  23
+HETATM   23  CAM   D T 539       7.862   1.464  -5.516  1.00103.43     0.326 C 
+BRANCH  23  24
+HETATM   24  CAK   D T 539       7.525   0.400  -4.451  1.00104.61     0.221 C 
+HETATM   25  OAC   D T 539       7.196   1.042  -3.198  1.00105.31    -0.218 OA
+ENDBRANCH  23  24
+ENDBRANCH  22  23
+ENDBRANCH  21  22
+ENDBRANCH  20  21
+ENDBRANCH  19  20
+ENDBRANCH   1  19
+BRANCH  18  26
+HETATM   26  NAV   D T 539      10.355   1.747   0.709  1.00 91.54    -0.268 NA
+BRANCH  26  27
+HETATM   27  CAR   D T 539       9.397   0.698   1.052  1.00 93.33     0.164 C 
+BRANCH  27  28
+HETATM   28  CAP   D T 539      10.225  -0.513   1.444  1.00 95.29     0.316 C 
+BRANCH  28  29
+HETATM   29  NAT   D T 539      10.789  -0.306   2.786  1.00 97.82     0.344 N 
+BRANCH  29  30
+HETATM   30  CAN   D T 539      12.270  -0.448   2.799  1.00 99.13     0.326 C 
+BRANCH  30  31
+HETATM   31  CAL   D T 539      12.927   0.774   3.488  1.00100.48     0.221 C 
+HETATM   32  OAD   D T 539      12.019   1.893   3.631  1.00101.70    -0.218 OA
+ENDBRANCH  30  31
+ENDBRANCH  29  30
+ENDBRANCH  28  29
+ENDBRANCH  27  28
+ENDBRANCH  26  27
+ENDBRANCH  18  26
+TORSDOF 12
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -5.889      3.022      6.123
+REMARK INTER + INTRA:         -11.019
+REMARK INTER:                 -10.100
+REMARK INTRA:                  -0.919
+REMARK UNBOUND:                -0.999
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAK_2  and  CAM_3 
+REMARK    2  A    between atoms: CAM_3  and  NAS_4 
+REMARK    3  A    between atoms: NAS_4  and  CAO_5 
+REMARK    4  A    between atoms: CAO_5  and  CAQ_6 
+REMARK    5  A    between atoms: CAQ_6  and  NAU_7 
+REMARK    6  A    between atoms: NAU_7  and  CAY_8 
+REMARK    7  A    between atoms: CAZ_25  and  NAV_26 
+REMARK    8  A    between atoms: NAV_26  and  CAR_27 
+REMARK    9  A    between atoms: CAR_27  and  CAP_28 
+REMARK   10  A    between atoms: CAP_28  and  NAT_29 
+REMARK   11  A    between atoms: NAT_29  and  CAN_30 
+REMARK   12  A    between atoms: CAN_30  and  CAL_31 
+ROOT
+HETATM    1  CAY   D T 539      10.153   3.724  -2.981  1.00 91.53     0.079 A 
+HETATM    2  CAI   D T 539      10.354   2.356  -2.879  1.00 91.56     0.020 A 
+HETATM    3  CAJ   D T 539      10.417   1.729  -1.640  1.00 91.57     0.020 A 
+HETATM    4  CBE   D T 539      10.008   4.465  -1.823  1.00 91.36     0.061 A 
+HETATM    5  CBA   D T 539       9.802   5.830  -1.938  1.00 91.28     0.199 A 
+HETATM    6  OAA   D T 539       9.753   6.344  -3.057  1.00 91.36    -0.286 OA
+HETATM    7  CBC   D T 539       9.649   6.598  -0.793  1.00 91.28     0.069 A 
+HETATM    8  CAW   D T 539       9.438   7.965  -0.884  1.00 91.39     0.134 A 
+HETATM    9  OAE   D T 539       9.375   8.557  -2.092  1.00 91.60    -0.190 OA
+HETATM   10  CAG   D T 539       9.303   8.737   0.253  1.00 91.43     0.030 A 
+HETATM   11  CAH   D T 539       9.371   8.123   1.496  1.00 91.48     0.030 A 
+HETATM   12  CAX   D T 539       9.577   6.758   1.605  1.00 91.18     0.134 A 
+HETATM   13  OAF   D T 539       9.639   6.170   2.823  1.00 91.01    -0.190 OA
+HETATM   14  CBD   D T 539       9.712   6.001   0.457  1.00 91.30     0.069 A 
+HETATM   15  CBB   D T 539       9.916   4.638   0.573  1.00 91.65     0.199 A 
+HETATM   16  OAB   D T 539       9.964   4.168   1.707  1.00 91.77    -0.286 OA
+HETATM   17  CBF   D T 539      10.065   3.844  -0.566  1.00 91.49     0.061 A 
+HETATM   18  CAZ   D T 539      10.277   2.461  -0.479  1.00 91.40     0.079 A 
+ENDROOT
+BRANCH   1  19
+HETATM   19  NAU   D T 539      10.087   4.324  -4.171  1.00 91.78    -0.268 NA
+BRANCH  19  20
+HETATM   20  CAQ   D T 539       9.529   3.646  -5.348  1.00 95.07     0.164 C 
+BRANCH  20  21
+HETATM   21  CAO   D T 539       8.100   4.135  -5.616  1.00 97.10     0.316 C 
+BRANCH  21  22
+HETATM   22  NAS   D T 539       7.577   3.431  -6.807  1.00100.56     0.344 N 
+BRANCH  22  23
+HETATM   23  CAM   D T 539       6.993   4.354  -7.812  1.00103.43     0.326 C 
+BRANCH  23  24
+HETATM   24  CAK   D T 539       6.925   5.794  -7.262  1.00104.61     0.221 C 
+HETATM   25  OAC   D T 539       5.548   6.217  -7.156  1.00105.31    -0.218 OA
+ENDBRANCH  23  24
+ENDBRANCH  22  23
+ENDBRANCH  21  22
+ENDBRANCH  20  21
+ENDBRANCH  19  20
+ENDBRANCH   1  19
+BRANCH  18  26
+HETATM   26  NAV   D T 539      10.351   1.802   0.671  1.00 91.54    -0.268 NA
+BRANCH  26  27
+HETATM   27  CAR   D T 539       9.438   0.696   0.957  1.00 93.33     0.164 C 
+BRANCH  27  28
+HETATM   28  CAP   D T 539      10.158  -0.194   1.954  1.00 95.29     0.316 C 
+BRANCH  28  29
+HETATM   29  NAT   D T 539      10.195  -1.572   1.443  1.00 97.82     0.344 N 
+BRANCH  29  30
+HETATM   30  CAN   D T 539      11.496  -1.896   0.800  1.00 99.13     0.326 C 
+BRANCH  30  31
+HETATM   31  CAL   D T 539      11.677  -3.430   0.681  1.00100.48     0.221 C 
+HETATM   32  OAD   D T 539      10.536  -4.169   1.179  1.00101.70    -0.218 OA
+ENDBRANCH  30  31
+ENDBRANCH  29  30
+ENDBRANCH  28  29
+ENDBRANCH  27  28
+ENDBRANCH  26  27
+ENDBRANCH  18  26
+TORSDOF 12
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -5.867      3.563      7.927
+REMARK INTER + INTRA:         -10.982
+REMARK INTER:                 -10.131
+REMARK INTRA:                  -0.851
+REMARK UNBOUND:                -0.999
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAK_2  and  CAM_3 
+REMARK    2  A    between atoms: CAM_3  and  NAS_4 
+REMARK    3  A    between atoms: NAS_4  and  CAO_5 
+REMARK    4  A    between atoms: CAO_5  and  CAQ_6 
+REMARK    5  A    between atoms: CAQ_6  and  NAU_7 
+REMARK    6  A    between atoms: NAU_7  and  CAY_8 
+REMARK    7  A    between atoms: CAZ_25  and  NAV_26 
+REMARK    8  A    between atoms: NAV_26  and  CAR_27 
+REMARK    9  A    between atoms: CAR_27  and  CAP_28 
+REMARK   10  A    between atoms: CAP_28  and  NAT_29 
+REMARK   11  A    between atoms: NAT_29  and  CAN_30 
+REMARK   12  A    between atoms: CAN_30  and  CAL_31 
+ROOT
+HETATM    1  CAY   D T 539      10.091   2.433  -0.934  1.00 91.53     0.079 A 
+HETATM    2  CAI   D T 539      10.219   1.794  -2.158  1.00 91.56     0.020 A 
+HETATM    3  CAJ   D T 539      10.211   2.512  -3.348  1.00 91.57     0.020 A 
+HETATM    4  CBE   D T 539       9.959   3.809  -0.910  1.00 91.36     0.061 A 
+HETATM    5  CBA   D T 539       9.837   4.436   0.319  1.00 91.28     0.199 A 
+HETATM    6  OAA   D T 539       9.849   3.760   1.349  1.00 91.36    -0.286 OA
+HETATM    7  CBC   D T 539       9.707   5.815   0.374  1.00 91.28     0.069 A 
+HETATM    8  CAW   D T 539       9.587   6.465   1.592  1.00 91.39     0.134 A 
+HETATM    9  OAE   D T 539       9.602   5.755   2.736  1.00 91.60    -0.190 OA
+HETATM   10  CAG   D T 539       9.440   7.837   1.651  1.00 91.43     0.030 A 
+HETATM   11  CAH   D T 539       9.423   8.564   0.468  1.00 91.48     0.030 A 
+HETATM   12  CAX   D T 539       9.546   7.932  -0.758  1.00 91.18     0.134 A 
+HETATM   13  OAF   D T 539       9.531   8.652  -1.904  1.00 91.01    -0.190 OA
+HETATM   14  CBD   D T 539       9.690   6.558  -0.798  1.00 91.30     0.069 A 
+HETATM   15  CBB   D T 539       9.814   5.933  -2.026  1.00 91.65     0.199 A 
+HETATM   16  OAB   D T 539       9.791   6.645  -3.027  1.00 91.77    -0.286 OA
+HETATM   17  CBF   D T 539       9.954   4.546  -2.103  1.00 91.49     0.061 A 
+HETATM   18  CAZ   D T 539      10.076   3.885  -3.334  1.00 91.40     0.079 A 
+ENDROOT
+BRANCH   1  19
+HETATM   19  NAU   D T 539      10.104   1.743   0.209  1.00 91.78    -0.268 NA
+BRANCH  19  20
+HETATM   20  CAQ   D T 539      10.857   0.489   0.345  1.00 95.07     0.164 C 
+BRANCH  20  21
+HETATM   21  CAO   D T 539      11.583   0.449   1.695  1.00 97.10     0.316 C 
+BRANCH  21  22
+HETATM   22  NAS   D T 539      11.734  -0.964   2.107  1.00100.56     0.344 N 
+BRANCH  22  23
+HETATM   23  CAM   D T 539      10.856  -1.329   3.247  1.00103.43     0.326 C 
+BRANCH  23  24
+HETATM   24  CAK   D T 539      10.849  -0.214   4.314  1.00104.61     0.221 C 
+HETATM   25  OAC   D T 539      10.131  -0.658   5.487  1.00105.31    -0.218 OA
+ENDBRANCH  23  24
+ENDBRANCH  22  23
+ENDBRANCH  21  22
+ENDBRANCH  20  21
+ENDBRANCH  19  20
+ENDBRANCH   1  19
+BRANCH  18  26
+HETATM   26  NAV   D T 539      10.073   4.509  -4.505  1.00 91.54    -0.268 NA
+BRANCH  26  27
+HETATM   27  CAR   D T 539       9.525   3.861  -5.696  1.00 93.33     0.164 C 
+BRANCH  27  28
+HETATM   28  CAP   D T 539       8.375   4.736  -6.159  1.00 95.29     0.316 C 
+BRANCH  28  29
+HETATM   29  NAT   D T 539       7.129   3.957  -6.139  1.00 97.82     0.344 N 
+BRANCH  29  30
+HETATM   30  CAN   D T 539       6.910   3.219  -7.412  1.00 99.13     0.326 C 
+BRANCH  30  31
+HETATM   31  CAL   D T 539       5.995   4.031  -8.362  1.00100.48     0.221 C 
+HETATM   32  OAD   D T 539       5.628   3.293  -9.553  1.00101.70    -0.218 OA
+ENDBRANCH  30  31
+ENDBRANCH  29  30
+ENDBRANCH  28  29
+ENDBRANCH  27  28
+ENDBRANCH  26  27
+ENDBRANCH  18  26
+TORSDOF 12
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -5.844      2.534      3.167
+REMARK INTER + INTRA:         -10.943
+REMARK INTER:                  -9.957
+REMARK INTRA:                  -0.986
+REMARK UNBOUND:                -0.999
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAK_2  and  CAM_3 
+REMARK    2  A    between atoms: CAM_3  and  NAS_4 
+REMARK    3  A    between atoms: NAS_4  and  CAO_5 
+REMARK    4  A    between atoms: CAO_5  and  CAQ_6 
+REMARK    5  A    between atoms: CAQ_6  and  NAU_7 
+REMARK    6  A    between atoms: NAU_7  and  CAY_8 
+REMARK    7  A    between atoms: CAZ_25  and  NAV_26 
+REMARK    8  A    between atoms: NAV_26  and  CAR_27 
+REMARK    9  A    between atoms: CAR_27  and  CAP_28 
+REMARK   10  A    between atoms: CAP_28  and  NAT_29 
+REMARK   11  A    between atoms: NAT_29  and  CAN_30 
+REMARK   12  A    between atoms: CAN_30  and  CAL_31 
+ROOT
+HETATM    1  CAY   D T 539      10.498   5.284  -1.890  1.00 91.53     0.079 A 
+HETATM    2  CAI   D T 539      10.926   4.870  -0.638  1.00 91.56     0.020 A 
+HETATM    3  CAJ   D T 539      10.629   3.598  -0.162  1.00 91.57     0.020 A 
+HETATM    4  CBE   D T 539       9.771   4.406  -2.671  1.00 91.36     0.061 A 
+HETATM    5  CBA   D T 539       9.355   4.830  -3.923  1.00 91.28     0.199 A 
+HETATM    6  OAA   D T 539       9.641   5.966  -4.305  1.00 91.36    -0.286 OA
+HETATM    7  CBC   D T 539       8.627   3.969  -4.730  1.00 91.28     0.069 A 
+HETATM    8  CAW   D T 539       8.203   4.369  -5.988  1.00 91.39     0.134 A 
+HETATM    9  OAE   D T 539       8.503   5.603  -6.436  1.00 91.60    -0.190 OA
+HETATM   10  CAG   D T 539       7.463   3.522  -6.788  1.00 91.43     0.030 A 
+HETATM   11  CAH   D T 539       7.155   2.251  -6.321  1.00 91.48     0.030 A 
+HETATM   12  CAX   D T 539       7.574   1.833  -5.068  1.00 91.18     0.134 A 
+HETATM   13  OAF   D T 539       7.269   0.592  -4.624  1.00 91.01    -0.190 OA
+HETATM   14  CBD   D T 539       8.312   2.695  -4.279  1.00 91.30     0.069 A 
+HETATM   15  CBB   D T 539       8.728   2.270  -3.031  1.00 91.65     0.199 A 
+HETATM   16  OAB   D T 539       8.416   1.132  -2.688  1.00 91.77    -0.286 OA
+HETATM   17  CBF   D T 539       9.469   3.118  -2.205  1.00 91.49     0.061 A 
+HETATM   18  CAZ   D T 539       9.901   2.716  -0.933  1.00 91.40     0.079 A 
+ENDROOT
+BRANCH   1  19
+HETATM   19  NAU   D T 539      10.789   6.503  -2.349  1.00 91.78    -0.268 NA
+BRANCH  19  20
+HETATM   20  CAQ   D T 539      10.778   7.682  -1.472  1.00 95.07     0.164 C 
+BRANCH  20  21
+HETATM   21  CAO   D T 539       9.391   8.336  -1.478  1.00 97.10     0.316 C 
+BRANCH  21  22
+HETATM   22  NAS   D T 539       9.555   9.786  -1.728  1.00100.56     0.344 N 
+BRANCH  22  23
+HETATM   23  CAM   D T 539       8.719  10.623  -0.832  1.00103.43     0.326 C 
+BRANCH  23  24
+HETATM   24  CAK   D T 539       7.700  11.449  -1.643  1.00104.61     0.221 C 
+HETATM   25  OAC   D T 539       7.852  11.173  -3.054  1.00105.31    -0.218 OA
+ENDBRANCH  23  24
+ENDBRANCH  22  23
+ENDBRANCH  21  22
+ENDBRANCH  20  21
+ENDBRANCH  19  20
+ENDBRANCH   1  19
+BRANCH  18  26
+HETATM   26  NAV   D T 539       9.649   1.519  -0.418  1.00 91.54    -0.268 NA
+BRANCH  26  27
+HETATM   27  CAR   D T 539       9.473   1.349   1.024  1.00 93.33     0.164 C 
+BRANCH  27  28
+HETATM   28  CAP   D T 539      10.064  -0.008   1.361  1.00 95.29     0.316 C 
+BRANCH  28  29
+HETATM   29  NAT   D T 539      11.237  -0.256   0.509  1.00 97.82     0.344 N 
+BRANCH  29  30
+HETATM   30  CAN   D T 539      11.780  -1.629   0.690  1.00 99.13     0.326 C 
+BRANCH  30  31
+HETATM   31  CAL   D T 539      10.811  -2.491   1.538  1.00100.48     0.221 C 
+HETATM   32  OAD   D T 539      11.438  -3.033   2.726  1.00101.70    -0.218 OA
+ENDBRANCH  30  31
+ENDBRANCH  29  30
+ENDBRANCH  28  29
+ENDBRANCH  27  28
+ENDBRANCH  26  27
+ENDBRANCH  18  26
+TORSDOF 12
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -5.840      2.767      7.333
+REMARK INTER + INTRA:         -10.936
+REMARK INTER:                  -9.440
+REMARK INTRA:                  -1.496
+REMARK UNBOUND:                -0.999
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAK_2  and  CAM_3 
+REMARK    2  A    between atoms: CAM_3  and  NAS_4 
+REMARK    3  A    between atoms: NAS_4  and  CAO_5 
+REMARK    4  A    between atoms: CAO_5  and  CAQ_6 
+REMARK    5  A    between atoms: CAQ_6  and  NAU_7 
+REMARK    6  A    between atoms: NAU_7  and  CAY_8 
+REMARK    7  A    between atoms: CAZ_25  and  NAV_26 
+REMARK    8  A    between atoms: NAV_26  and  CAR_27 
+REMARK    9  A    between atoms: CAR_27  and  CAP_28 
+REMARK   10  A    between atoms: CAP_28  and  NAT_29 
+REMARK   11  A    between atoms: NAT_29  and  CAN_30 
+REMARK   12  A    between atoms: CAN_30  and  CAL_31 
+ROOT
+HETATM    1  CAY   D T 539      11.084   2.793   0.785  1.00 91.53     0.079 A 
+HETATM    2  CAI   D T 539      10.717   3.839   1.619  1.00 91.56     0.020 A 
+HETATM    3  CAJ   D T 539       9.896   4.865   1.166  1.00 91.57     0.020 A 
+HETATM    4  CBE   D T 539      10.614   2.780  -0.514  1.00 91.36     0.061 A 
+HETATM    5  CBA   D T 539      10.983   1.727  -1.335  1.00 91.28     0.199 A 
+HETATM    6  OAA   D T 539      11.713   0.838  -0.892  1.00 91.36    -0.286 OA
+HETATM    7  CBC   D T 539      10.524   1.685  -2.643  1.00 91.28     0.069 A 
+HETATM    8  CAW   D T 539      10.876   0.639  -3.482  1.00 91.39     0.134 A 
+HETATM    9  OAE   D T 539      11.669  -0.350  -3.026  1.00 91.60    -0.190 OA
+HETATM   10  CAG   D T 539      10.436   0.602  -4.790  1.00 91.43     0.030 A 
+HETATM   11  CAH   D T 539       9.621   1.625  -5.256  1.00 91.48     0.030 A 
+HETATM   12  CAX   D T 539       9.255   2.675  -4.431  1.00 91.18     0.134 A 
+HETATM   13  OAF   D T 539       8.458   3.666  -4.896  1.00 91.01    -0.190 OA
+HETATM   14  CBD   D T 539       9.707   2.698  -3.125  1.00 91.30     0.069 A 
+HETATM   15  CBB   D T 539       9.336   3.748  -2.306  1.00 91.65     0.199 A 
+HETATM   16  OAB   D T 539       8.613   4.615  -2.790  1.00 91.77    -0.286 OA
+HETATM   17  CBF   D T 539       9.781   3.806  -0.983  1.00 91.49     0.061 A 
+HETATM   18  CAZ   D T 539       9.425   4.862  -0.131  1.00 91.40     0.079 A 
+ENDROOT
+BRANCH   1  19
+HETATM   19  NAU   D T 539      11.867   1.806   1.223  1.00 91.78    -0.268 NA
+BRANCH  19  20
+HETATM   20  CAQ   D T 539      11.655   1.174   2.532  1.00 95.07     0.164 C 
+BRANCH  20  21
+HETATM   21  CAO   D T 539      10.534   0.131   2.443  1.00 97.10     0.316 C 
+BRANCH  21  22
+HETATM   22  NAS   D T 539      10.935  -1.059   3.227  1.00100.56     0.344 N 
+BRANCH  22  23
+HETATM   23  CAM   D T 539      10.725  -2.331   2.491  1.00103.43     0.326 C 
+BRANCH  23  24
+HETATM   24  CAK   D T 539      12.046  -3.118   2.366  1.00104.61     0.221 C 
+HETATM   25  OAC   D T 539      13.170  -2.237   2.589  1.00105.31    -0.218 OA
+ENDBRANCH  23  24
+ENDBRANCH  22  23
+ENDBRANCH  21  22
+ENDBRANCH  20  21
+ENDBRANCH  19  20
+ENDBRANCH   1  19
+BRANCH  18  26
+HETATM   26  NAV   D T 539       8.649   5.873  -0.501  1.00 91.54    -0.268 NA
+BRANCH  26  27
+HETATM   27  CAR   D T 539       9.077   7.256  -0.299  1.00 93.33     0.164 C 
+BRANCH  27  28
+HETATM   28  CAP   D T 539       9.490   7.771  -1.666  1.00 95.29     0.316 C 
+BRANCH  28  29
+HETATM   29  NAT   D T 539      10.858   7.326  -1.964  1.00 97.82     0.344 N 
+BRANCH  29  30
+HETATM   30  CAN   D T 539      11.812   7.682  -0.880  1.00 99.13     0.326 C 
+BRANCH  30  31
+HETATM   31  CAL   D T 539      12.755   6.493  -0.571  1.00100.48     0.221 C 
+HETATM   32  OAD   D T 539      13.714   6.794   0.471  1.00101.70    -0.218 OA
+ENDBRANCH  30  31
+ENDBRANCH  29  30
+ENDBRANCH  28  29
+ENDBRANCH  27  28
+ENDBRANCH  26  27
+ENDBRANCH  18  26
+TORSDOF 12
+ENDMDL
