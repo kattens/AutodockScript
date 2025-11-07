@@ -1,0 +1,738 @@
+MODEL 1
+REMARK VINA RESULT:    -8.473      0.000      0.000
+REMARK INTER + INTRA:         -15.774
+REMARK INTER:                 -13.921
+REMARK INTRA:                  -1.852
+REMARK UNBOUND:                -1.852
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NAP_5  and  CAO_6 
+REMARK    2  A    between atoms: CAO_6  and  CAN_7 
+REMARK    3  A    between atoms: CAN_7  and  OAM_8 
+REMARK    4  A    between atoms: OAM_8  and  CAJ_9 
+REMARK    5  A    between atoms: CAG_14  and  NAF_15 
+REMARK    6  A    between atoms: NAF_15  and  C2_16 
+REMARK    7  A    between atoms: C4_22  and  NAW_23 
+REMARK    8  A    between atoms: NAW_23  and  CAX_24 
+REMARK    9  A    between atoms: CBB_29  and  SBD_30 
+REMARK   10  A    between atoms: SBD_30  and  NBE_33 
+REMARK   11  A    between atoms: NBE_33  and  CBF_34 
+ROOT
+HETATM    1  C2    D T1201       2.877  12.208   2.094  1.00 59.36     0.751 A 
+HETATM    2  N3    D T1201       3.133  12.492   0.826  1.00 55.19    -0.041 NA
+HETATM    3  N1    D T1201       1.659  12.316   2.615  1.00 67.11    -0.058 NA
+HETATM    4  C6    D T1201       0.639  12.713   1.868  1.00 64.11     0.117 A 
+HETATM    5  C5    D T1201       0.858  13.023   0.530  1.00 65.49     0.034 A 
+HETATM    6  CAA   D T1201      -0.270  13.494  -0.385  1.00 49.68     0.036 C 
+HETATM    7  C4    D T1201       2.159  12.902   0.035  1.00 58.40     0.178 A 
+ENDROOT
+BRANCH   1   8
+HETATM    8  NAF   D T1201       3.932  11.749   2.972  1.00 62.85    -0.059 NA
+BRANCH   8   9
+HETATM    9  CAG   D T1201       5.365  12.009   2.869  1.00 53.07     0.100 A 
+HETATM   10  CAL   D T1201       6.163  11.064   3.477  1.00 60.66     0.022 A 
+HETATM   11  CAK   D T1201       7.543  11.190   3.462  1.00 75.71     0.026 A 
+HETATM   12  CAJ   D T1201       8.135  12.271   2.833  1.00 62.98     0.094 A 
+HETATM   13  CAI   D T1201       7.335  13.232   2.211  1.00 62.12     0.026 A 
+HETATM   14  CAH   D T1201       5.949  13.102   2.226  1.00 51.41     0.022 A 
+BRANCH  12  15
+HETATM   15  OAM   D T1201       9.532  12.335   2.838  1.00 60.42    -0.329 OA
+BRANCH  15  16
+HETATM   16  CAN   D T1201      10.207  11.112   2.696  1.00 90.12     0.184 C 
+BRANCH  16  17
+HETATM   17  CAO   D T1201      11.455  11.169   3.594  1.00 96.40     0.283 C 
+BRANCH  17  18
+HETATM   18  NAP   D T1201      11.431  10.452   4.565  1.00 98.57     0.140 N 
+HETATM   19  CAQ   D T1201      11.130  11.106   5.620  1.00 96.89     0.250 C 
+HETATM   20  CAR   D T1201      10.424  10.035   6.607  1.00 91.95     0.037 C 
+HETATM   21  CAS   D T1201       9.788   9.241   5.857  1.00 99.10     0.037 C 
+HETATM   22  CAT   D T1201      10.474   9.278   4.472  1.00 98.40     0.250 C 
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+BRANCH   7  23
+HETATM   23  NAW   D T1201       2.389  13.229  -1.360  1.00 64.56    -0.227 NA
+BRANCH  23  24
+HETATM   24  CAX   D T1201       2.832  14.517  -1.832  1.00 60.00     0.084 A 
+HETATM   25  CBC   D T1201       4.055  14.572  -2.471  1.00 61.36     0.032 A 
+HETATM   26  CBB   D T1201       4.528  15.779  -2.946  1.00 64.43     0.106 A 
+HETATM   27  CBA   D T1201       3.786  16.924  -2.770  1.00 52.93     0.013 A 
+HETATM   28  CAZ   D T1201       2.553  16.875  -2.129  1.00 65.17     0.002 A 
+HETATM   29  CAY   D T1201       2.070  15.663  -1.655  1.00 59.73     0.019 A 
+BRANCH  26  30
+HETATM   30  SBD   D T1201       6.136  15.848  -3.806  1.00107.25     0.281 S 
+HETATM   31  OBJ   D T1201       6.266  14.611  -4.577  1.00 84.83    -0.199 OA
+HETATM   32  OBK   D T1201       6.111  16.809  -4.911  1.00 96.98    -0.199 OA
+BRANCH  30  33
+HETATM   33  NBE   D T1201       7.492  16.077  -2.730  1.00 87.06    -0.189 NA
+BRANCH  33  34
+HETATM   34  CBF   D T1201       7.622  15.647  -1.323  1.00 65.85     0.097 C 
+HETATM   35  CBH   D T1201       9.026  15.808  -0.770  1.00 75.28     0.025 C 
+HETATM   36  CBI   D T1201       7.330  14.163  -1.199  1.00 63.96     0.025 C 
+HETATM   37  CBG   D T1201       6.643  16.385  -0.414  1.00 65.02     0.025 C 
+ENDBRANCH  33  34
+ENDBRANCH  30  33
+ENDBRANCH  26  30
+ENDBRANCH  23  24
+ENDBRANCH   7  23
+TORSDOF 11
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -8.387      1.609      2.166
+REMARK INTER + INTRA:         -15.634
+REMARK INTER:                 -14.072
+REMARK INTRA:                  -1.561
+REMARK UNBOUND:                -1.852
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NAP_5  and  CAO_6 
+REMARK    2  A    between atoms: CAO_6  and  CAN_7 
+REMARK    3  A    between atoms: CAN_7  and  OAM_8 
+REMARK    4  A    between atoms: OAM_8  and  CAJ_9 
+REMARK    5  A    between atoms: CAG_14  and  NAF_15 
+REMARK    6  A    between atoms: NAF_15  and  C2_16 
+REMARK    7  A    between atoms: C4_22  and  NAW_23 
+REMARK    8  A    between atoms: NAW_23  and  CAX_24 
+REMARK    9  A    between atoms: CBB_29  and  SBD_30 
+REMARK   10  A    between atoms: SBD_30  and  NBE_33 
+REMARK   11  A    between atoms: NBE_33  and  CBF_34 
+ROOT
+HETATM    1  C2    D T1201       2.923  12.281   2.079  1.00 59.36     0.751 A 
+HETATM    2  N3    D T1201       3.157  12.562   0.807  1.00 55.19    -0.041 NA
+HETATM    3  N1    D T1201       1.715  12.388   2.621  1.00 67.11    -0.058 NA
+HETATM    4  C6    D T1201       0.681  12.782   1.891  1.00 64.11     0.117 A 
+HETATM    5  C5    D T1201       0.877  13.088   0.548  1.00 65.49     0.034 A 
+HETATM    6  CAA   D T1201      -0.268  13.554  -0.349  1.00 49.68     0.036 C 
+HETATM    7  C4    D T1201       2.169  12.969   0.031  1.00 58.40     0.178 A 
+ENDROOT
+BRANCH   1   8
+HETATM    8  NAF   D T1201       3.995  11.827   2.941  1.00 62.85    -0.059 NA
+BRANCH   8   9
+HETATM    9  CAG   D T1201       5.426  12.083   2.807  1.00 53.07     0.100 A 
+HETATM   10  CAL   D T1201       6.234  11.140   3.406  1.00 60.66     0.022 A 
+HETATM   11  CAK   D T1201       7.614  11.263   3.362  1.00 75.71     0.026 A 
+HETATM   12  CAJ   D T1201       8.195  12.339   2.716  1.00 62.98     0.094 A 
+HETATM   13  CAI   D T1201       7.385  13.298   2.104  1.00 62.12     0.026 A 
+HETATM   14  CAH   D T1201       5.999  13.171   2.147  1.00 51.41     0.022 A 
+BRANCH  12  15
+HETATM   15  OAM   D T1201       9.592  12.400   2.694  1.00 60.42    -0.329 OA
+BRANCH  15  16
+HETATM   16  CAN   D T1201      10.265  11.171   2.778  1.00 90.12     0.184 C 
+BRANCH  16  17
+HETATM   17  CAO   D T1201      11.432  11.354   3.765  1.00 96.40     0.283 C 
+BRANCH  17  18
+HETATM   18  NAP   D T1201      11.433  10.606   4.713  1.00 98.57     0.140 N 
+HETATM   19  CAQ   D T1201      10.930  11.163   5.746  1.00 96.89     0.250 C 
+HETATM   20  CAR   D T1201      10.318   9.957   6.634  1.00 91.95     0.037 C 
+HETATM   21  CAS   D T1201       9.896   9.099   5.808  1.00 99.10     0.037 C 
+HETATM   22  CAT   D T1201      10.695   9.298   4.500  1.00 98.40     0.250 C 
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+BRANCH   7  23
+HETATM   23  NAW   D T1201       2.375  13.293  -1.368  1.00 64.56    -0.227 NA
+BRANCH  23  24
+HETATM   24  CAX   D T1201       2.961  14.522  -1.842  1.00 60.00     0.084 A 
+HETATM   25  CBC   D T1201       4.219  14.447  -2.407  1.00 61.36     0.032 A 
+HETATM   26  CBB   D T1201       4.828  15.592  -2.879  1.00 64.43     0.106 A 
+HETATM   27  CBA   D T1201       4.186  16.804  -2.776  1.00 52.93     0.013 A 
+HETATM   28  CAZ   D T1201       2.918  16.886  -2.210  1.00 65.17     0.002 A 
+HETATM   29  CAY   D T1201       2.299  15.736  -1.738  1.00 59.73     0.019 A 
+BRANCH  26  30
+HETATM   30  SBD   D T1201       6.483  15.490  -3.643  1.00107.25     0.281 S 
+HETATM   31  OBJ   D T1201       7.456  15.407  -2.553  1.00 84.83    -0.199 OA
+HETATM   32  OBK   D T1201       6.709  14.181  -4.257  1.00 96.98    -0.199 OA
+BRANCH  30  33
+HETATM   33  NBE   D T1201       6.836  16.821  -4.717  1.00 87.06    -0.189 NA
+BRANCH  33  34
+HETATM   34  CBF   D T1201       6.686  16.872  -6.186  1.00 65.85     0.097 C 
+HETATM   35  CBH   D T1201       5.365  16.309  -6.677  1.00 75.28     0.025 C 
+HETATM   36  CBI   D T1201       7.741  16.007  -6.851  1.00 63.96     0.025 C 
+HETATM   37  CBG   D T1201       6.851  18.291  -6.721  1.00 65.02     0.025 C 
+ENDBRANCH  33  34
+ENDBRANCH  30  33
+ENDBRANCH  26  30
+ENDBRANCH  23  24
+ENDBRANCH   7  23
+TORSDOF 11
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -8.325      1.400      2.709
+REMARK INTER + INTRA:         -15.532
+REMARK INTER:                 -14.432
+REMARK INTRA:                  -1.100
+REMARK UNBOUND:                -1.852
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NAP_5  and  CAO_6 
+REMARK    2  A    between atoms: CAO_6  and  CAN_7 
+REMARK    3  A    between atoms: CAN_7  and  OAM_8 
+REMARK    4  A    between atoms: OAM_8  and  CAJ_9 
+REMARK    5  A    between atoms: CAG_14  and  NAF_15 
+REMARK    6  A    between atoms: NAF_15  and  C2_16 
+REMARK    7  A    between atoms: C4_22  and  NAW_23 
+REMARK    8  A    between atoms: NAW_23  and  CAX_24 
+REMARK    9  A    between atoms: CBB_29  and  SBD_30 
+REMARK   10  A    between atoms: SBD_30  and  NBE_33 
+REMARK   11  A    between atoms: NBE_33  and  CBF_34 
+ROOT
+HETATM    1  C2    D T1201       2.629  12.163   1.974  1.00 59.36     0.751 A 
+HETATM    2  N3    D T1201       3.104  12.183   0.738  1.00 55.19    -0.041 NA
+HETATM    3  N1    D T1201       1.437  12.659   2.286  1.00 67.11    -0.058 NA
+HETATM    4  C6    D T1201       0.664  13.194   1.352  1.00 64.11     0.117 A 
+HETATM    5  C5    D T1201       1.118  13.236   0.038  1.00 65.49     0.034 A 
+HETATM    6  CAA   D T1201       0.282  13.845  -1.086  1.00 49.68     0.036 C 
+HETATM    7  C4    D T1201       2.383  12.711  -0.234  1.00 58.40     0.178 A 
+ENDROOT
+BRANCH   1   8
+HETATM    8  NAF   D T1201       3.404  11.581   3.049  1.00 62.85    -0.059 NA
+BRANCH   8   9
+HETATM    9  CAG   D T1201       4.857  11.528   3.186  1.00 53.07     0.100 A 
+HETATM   10  CAL   D T1201       5.524  12.589   2.611  1.00 60.66     0.022 A 
+HETATM   11  CAK   D T1201       6.907  12.662   2.660  1.00 75.71     0.026 A 
+HETATM   12  CAJ   D T1201       7.634  11.667   3.289  1.00 62.98     0.094 A 
+HETATM   13  CAI   D T1201       6.966  10.591   3.877  1.00 62.12     0.026 A 
+HETATM   14  CAH   D T1201       5.576  10.520   3.829  1.00 51.41     0.022 A 
+BRANCH  12  15
+HETATM   15  OAM   D T1201       9.025  11.805   3.318  1.00 60.42    -0.329 OA
+BRANCH  15  16
+HETATM   16  CAN   D T1201       9.756  10.866   2.574  1.00 90.12     0.184 C 
+BRANCH  16  17
+HETATM   17  CAO   D T1201      10.785  10.229   3.522  1.00 96.40     0.283 C 
+BRANCH  17  18
+HETATM   18  NAP   D T1201      10.495  10.249   4.695  1.00 98.57     0.140 N 
+HETATM   19  CAQ   D T1201      10.143   9.092   5.107  1.00 96.89     0.250 C 
+HETATM   20  CAR   D T1201      10.503   9.067   6.685  1.00 91.95     0.037 C 
+HETATM   21  CAS   D T1201      11.551   9.762   6.811  1.00 99.10     0.037 C 
+HETATM   22  CAT   D T1201      11.590  10.745   5.619  1.00 98.40     0.250 C 
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+BRANCH   7  23
+HETATM   23  NAW   D T1201       2.860  12.760  -1.604  1.00 64.56    -0.227 NA
+BRANCH  23  24
+HETATM   24  CAX   D T1201       4.122  13.327  -2.008  1.00 60.00     0.084 A 
+HETATM   25  CBC   D T1201       4.088  14.533  -2.681  1.00 61.36     0.032 A 
+HETATM   26  CBB   D T1201       5.267  15.123  -3.090  1.00 64.43     0.106 A 
+HETATM   27  CBA   D T1201       6.470  14.504  -2.837  1.00 52.93     0.013 A 
+HETATM   28  CAZ   D T1201       6.510  13.291  -2.158  1.00 65.17     0.002 A 
+HETATM   29  CAY   D T1201       5.328  12.696  -1.739  1.00 59.73     0.019 A 
+BRANCH  26  30
+HETATM   30  SBD   D T1201       5.223  16.725  -3.964  1.00107.25     0.281 S 
+HETATM   31  OBJ   D T1201       6.445  17.446  -3.604  1.00 84.83    -0.199 OA
+HETATM   32  OBK   D T1201       5.466  16.559  -5.398  1.00 96.98    -0.199 OA
+BRANCH  30  33
+HETATM   33  NBE   D T1201       3.796  17.669  -3.616  1.00 87.06    -0.189 NA
+BRANCH  33  34
+HETATM   34  CBF   D T1201       3.200  17.968  -2.298  1.00 65.85     0.097 C 
+HETATM   35  CBH   D T1201       2.543  19.335  -2.229  1.00 75.28     0.025 C 
+HETATM   36  CBI   D T1201       4.278  18.007  -1.231  1.00 63.96     0.025 C 
+HETATM   37  CBG   D T1201       2.183  16.907  -1.885  1.00 65.02     0.025 C 
+ENDBRANCH  33  34
+ENDBRANCH  30  33
+ENDBRANCH  26  30
+ENDBRANCH  23  24
+ENDBRANCH   7  23
+TORSDOF 11
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -8.310      2.530      7.955
+REMARK INTER + INTRA:         -15.506
+REMARK INTER:                 -13.212
+REMARK INTRA:                  -2.294
+REMARK UNBOUND:                -1.852
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NAP_5  and  CAO_6 
+REMARK    2  A    between atoms: CAO_6  and  CAN_7 
+REMARK    3  A    between atoms: CAN_7  and  OAM_8 
+REMARK    4  A    between atoms: OAM_8  and  CAJ_9 
+REMARK    5  A    between atoms: CAG_14  and  NAF_15 
+REMARK    6  A    between atoms: NAF_15  and  C2_16 
+REMARK    7  A    between atoms: C4_22  and  NAW_23 
+REMARK    8  A    between atoms: NAW_23  and  CAX_24 
+REMARK    9  A    between atoms: CBB_29  and  SBD_30 
+REMARK   10  A    between atoms: SBD_30  and  NBE_33 
+REMARK   11  A    between atoms: NBE_33  and  CBF_34 
+ROOT
+HETATM    1  C2    D T1201       2.535  11.769   1.205  1.00 59.36     0.751 A 
+HETATM    2  N3    D T1201       3.680  12.261   1.652  1.00 55.19    -0.041 NA
+HETATM    3  N1    D T1201       1.954  10.708   1.754  1.00 67.11    -0.058 NA
+HETATM    4  C6    D T1201       2.509  10.096   2.790  1.00 64.11     0.117 A 
+HETATM    5  C5    D T1201       3.712  10.577   3.296  1.00 65.49     0.034 A 
+HETATM    6  CAA   D T1201       4.410   9.916   4.484  1.00 49.68     0.036 C 
+HETATM    7  C4    D T1201       4.285  11.689   2.677  1.00 58.40     0.178 A 
+ENDROOT
+BRANCH   1   8
+HETATM    8  NAF   D T1201       1.855  12.389   0.087  1.00 62.85    -0.059 NA
+BRANCH   8   9
+HETATM    9  CAG   D T1201       2.299  13.521  -0.721  1.00 53.07     0.100 A 
+HETATM   10  CAL   D T1201       3.347  13.240  -1.572  1.00 60.66     0.022 A 
+HETATM   11  CAK   D T1201       3.873  14.226  -2.392  1.00 75.71     0.026 A 
+HETATM   12  CAJ   D T1201       3.350  15.506  -2.363  1.00 62.98     0.094 A 
+HETATM   13  CAI   D T1201       2.287  15.799  -1.507  1.00 62.12     0.026 A 
+HETATM   14  CAH   D T1201       1.758  14.808  -0.685  1.00 51.41     0.022 A 
+BRANCH  12  15
+HETATM   15  OAM   D T1201       3.914  16.452  -3.225  1.00 60.42    -0.329 OA
+BRANCH  15  16
+HETATM   16  CAN   D T1201       5.306  16.383  -3.393  1.00 90.12     0.184 C 
+BRANCH  16  17
+HETATM   17  CAO   D T1201       5.943  17.303  -2.337  1.00 96.40     0.283 C 
+BRANCH  17  18
+HETATM   18  NAP   D T1201       6.721  16.768  -1.584  1.00 98.57     0.140 N 
+HETATM   19  CAQ   D T1201       6.183  16.530  -0.450  1.00 96.89     0.250 C 
+HETATM   20  CAR   D T1201       6.969  15.245   0.141  1.00 91.95     0.037 C 
+HETATM   21  CAS   D T1201       7.262  14.529  -0.858  1.00 99.10     0.037 C 
+HETATM   22  CAT   D T1201       7.310  15.464  -2.087  1.00 98.40     0.250 C 
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+BRANCH   7  23
+HETATM   23  NAW   D T1201       5.543  12.188   3.201  1.00 64.56    -0.227 NA
+BRANCH  23  24
+HETATM   24  CAX   D T1201       6.842  11.744   2.761  1.00 60.00     0.084 A 
+HETATM   25  CBC   D T1201       7.730  11.324   3.732  1.00 61.36     0.032 A 
+HETATM   26  CBB   D T1201       8.988  10.887   3.368  1.00 64.43     0.106 A 
+HETATM   27  CBA   D T1201       9.357  10.882   2.042  1.00 52.93     0.013 A 
+HETATM   28  CAZ   D T1201       8.467  11.301   1.060  1.00 65.17     0.002 A 
+HETATM   29  CAY   D T1201       7.198  11.737   1.420  1.00 59.73     0.019 A 
+BRANCH  26  30
+HETATM   30  SBD   D T1201      10.155  10.314   4.650  1.00107.25     0.281 S 
+HETATM   31  OBJ   D T1201       9.459   9.303   5.446  1.00 84.83    -0.199 OA
+HETATM   32  OBK   D T1201      11.209   9.475   4.077  1.00 96.98    -0.199 OA
+BRANCH  30  33
+HETATM   33  NBE   D T1201      10.775  11.603   5.651  1.00 87.06    -0.189 NA
+BRANCH  33  34
+HETATM   34  CBF   D T1201      11.925  12.492   5.386  1.00 65.85     0.097 C 
+HETATM   35  CBH   D T1201      11.849  13.815   6.125  1.00 75.28     0.025 C 
+HETATM   36  CBI   D T1201      11.964  12.875   3.918  1.00 63.96     0.025 C 
+HETATM   37  CBG   D T1201      13.251  11.813   5.719  1.00 65.02     0.025 C 
+ENDBRANCH  33  34
+ENDBRANCH  30  33
+ENDBRANCH  26  30
+ENDBRANCH  23  24
+ENDBRANCH   7  23
+TORSDOF 11
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -8.157      3.606      5.145
+REMARK INTER + INTRA:         -15.255
+REMARK INTER:                 -13.629
+REMARK INTRA:                  -1.626
+REMARK UNBOUND:                -1.852
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NAP_5  and  CAO_6 
+REMARK    2  A    between atoms: CAO_6  and  CAN_7 
+REMARK    3  A    between atoms: CAN_7  and  OAM_8 
+REMARK    4  A    between atoms: OAM_8  and  CAJ_9 
+REMARK    5  A    between atoms: CAG_14  and  NAF_15 
+REMARK    6  A    between atoms: NAF_15  and  C2_16 
+REMARK    7  A    between atoms: C4_22  and  NAW_23 
+REMARK    8  A    between atoms: NAW_23  and  CAX_24 
+REMARK    9  A    between atoms: CBB_29  and  SBD_30 
+REMARK   10  A    between atoms: SBD_30  and  NBE_33 
+REMARK   11  A    between atoms: NBE_33  and  CBF_34 
+ROOT
+HETATM    1  C2    D T1201       3.628  14.722  -1.739  1.00 59.36     0.751 A 
+HETATM    2  N3    D T1201       4.619  15.425  -2.263  1.00 55.19    -0.041 NA
+HETATM    3  N1    D T1201       2.412  15.228  -1.563  1.00 67.11    -0.058 NA
+HETATM    4  C6    D T1201       2.143  16.476  -1.920  1.00 64.11     0.117 A 
+HETATM    5  C5    D T1201       3.152  17.254  -2.477  1.00 65.49     0.034 A 
+HETATM    6  CAA   D T1201       2.914  18.701  -2.903  1.00 49.68     0.036 C 
+HETATM    7  C4    D T1201       4.415  16.677  -2.630  1.00 58.40     0.178 A 
+ENDROOT
+BRANCH   1   8
+HETATM    8  NAF   D T1201       3.834  13.346  -1.339  1.00 62.85    -0.059 NA
+BRANCH   8   9
+HETATM    9  CAG   D T1201       4.064  12.824   0.006  1.00 53.07     0.100 A 
+HETATM   10  CAL   D T1201       5.362  12.947   0.452  1.00 60.66     0.022 A 
+HETATM   11  CAK   D T1201       5.722  12.486   1.709  1.00 75.71     0.026 A 
+HETATM   12  CAJ   D T1201       4.777  11.896   2.529  1.00 62.98     0.094 A 
+HETATM   13  CAI   D T1201       3.459  11.770   2.087  1.00 62.12     0.026 A 
+HETATM   14  CAH   D T1201       3.099  12.236   0.825  1.00 51.41     0.022 A 
+BRANCH  12  15
+HETATM   15  OAM   D T1201       5.199  11.465   3.791  1.00 60.42    -0.329 OA
+BRANCH  15  16
+HETATM   16  CAN   D T1201       6.082  10.374   3.809  1.00 90.12     0.184 C 
+BRANCH  16  17
+HETATM   17  CAO   D T1201       7.421  10.876   4.377  1.00 96.40     0.283 C 
+BRANCH  17  18
+HETATM   18  NAP   D T1201       8.388  10.680   3.679  1.00 98.57     0.140 N 
+HETATM   19  CAQ   D T1201       8.093   9.960   2.667  1.00 96.89     0.250 C 
+HETATM   20  CAR   D T1201       9.152  10.376   1.516  1.00 91.95     0.037 C 
+HETATM   21  CAS   D T1201       9.372  11.610   1.679  1.00 99.10     0.037 C 
+HETATM   22  CAT   D T1201       9.069  11.932   3.160  1.00 98.40     0.250 C 
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+BRANCH   7  23
+HETATM   23  NAW   D T1201       5.469  17.490  -3.206  1.00 64.56    -0.227 NA
+BRANCH  23  24
+HETATM   24  CAX   D T1201       5.855  17.460  -4.595  1.00 60.00     0.084 A 
+HETATM   25  CBC   D T1201       7.072  18.022  -4.928  1.00 61.36     0.032 A 
+HETATM   26  CBB   D T1201       7.491  18.020  -6.242  1.00 64.43     0.106 A 
+HETATM   27  CBA   D T1201       6.693  17.470  -7.218  1.00 52.93     0.013 A 
+HETATM   28  CAZ   D T1201       5.468  16.900  -6.889  1.00 65.17     0.002 A 
+HETATM   29  CAY   D T1201       5.042  16.894  -5.568  1.00 59.73     0.019 A 
+BRANCH  26  30
+HETATM   30  SBD   D T1201       9.108  18.747  -6.679  1.00107.25     0.281 S 
+HETATM   31  OBJ   D T1201       8.849  20.086  -7.209  1.00 84.83    -0.199 OA
+HETATM   32  OBK   D T1201       9.870  19.114  -5.484  1.00 96.98    -0.199 OA
+BRANCH  30  33
+HETATM   33  NBE   D T1201      10.025  17.778  -7.805  1.00 87.06    -0.189 NA
+BRANCH  33  34
+HETATM   34  CBF   D T1201      10.306  16.329  -7.743  1.00 65.85     0.097 C 
+HETATM   35  CBH   D T1201      11.754  15.982  -8.039  1.00 75.28     0.025 C 
+HETATM   36  CBI   D T1201       9.512  15.595  -8.807  1.00 63.96     0.025 C 
+HETATM   37  CBG   D T1201       9.920  15.737  -6.391  1.00 65.02     0.025 C 
+ENDBRANCH  33  34
+ENDBRANCH  30  33
+ENDBRANCH  26  30
+ENDBRANCH  23  24
+ENDBRANCH   7  23
+TORSDOF 11
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -8.098      1.693      2.966
+REMARK INTER + INTRA:         -15.157
+REMARK INTER:                 -14.376
+REMARK INTRA:                  -0.781
+REMARK UNBOUND:                -1.852
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NAP_5  and  CAO_6 
+REMARK    2  A    between atoms: CAO_6  and  CAN_7 
+REMARK    3  A    between atoms: CAN_7  and  OAM_8 
+REMARK    4  A    between atoms: OAM_8  and  CAJ_9 
+REMARK    5  A    between atoms: CAG_14  and  NAF_15 
+REMARK    6  A    between atoms: NAF_15  and  C2_16 
+REMARK    7  A    between atoms: C4_22  and  NAW_23 
+REMARK    8  A    between atoms: NAW_23  and  CAX_24 
+REMARK    9  A    between atoms: CBB_29  and  SBD_30 
+REMARK   10  A    between atoms: SBD_30  and  NBE_33 
+REMARK   11  A    between atoms: NBE_33  and  CBF_34 
+ROOT
+HETATM    1  C2    D T1201       2.463  12.132   1.844  1.00 59.36     0.751 A 
+HETATM    2  N3    D T1201       2.969  12.283   0.630  1.00 55.19    -0.041 NA
+HETATM    3  N1    D T1201       1.263  12.593   2.176  1.00 67.11    -0.058 NA
+HETATM    4  C6    D T1201       0.513  13.226   1.285  1.00 64.11     0.117 A 
+HETATM    5  C5    D T1201       1.001  13.408  -0.004  1.00 65.49     0.034 A 
+HETATM    6  CAA   D T1201       0.194  14.134  -1.078  1.00 49.68     0.036 C 
+HETATM    7  C4    D T1201       2.274  12.913  -0.299  1.00 58.40     0.178 A 
+ENDROOT
+BRANCH   1   8
+HETATM    8  NAF   D T1201       3.210  11.436   2.871  1.00 62.85    -0.059 NA
+BRANCH   8   9
+HETATM    9  CAG   D T1201       4.655  11.426   3.081  1.00 53.07     0.100 A 
+HETATM   10  CAL   D T1201       5.343  12.389   2.375  1.00 60.66     0.022 A 
+HETATM   11  CAK   D T1201       6.722  12.488   2.475  1.00 75.71     0.026 A 
+HETATM   12  CAJ   D T1201       7.423  11.616   3.289  1.00 62.98     0.094 A 
+HETATM   13  CAI   D T1201       6.735  10.639   4.010  1.00 62.12     0.026 A 
+HETATM   14  CAH   D T1201       5.349  10.542   3.910  1.00 51.41     0.022 A 
+BRANCH  12  15
+HETATM   15  OAM   D T1201       8.811  11.776   3.360  1.00 60.42    -0.329 OA
+BRANCH  15  16
+HETATM   16  CAN   D T1201       9.582  10.692   2.913  1.00 90.12     0.184 C 
+BRANCH  16  17
+HETATM   17  CAO   D T1201      10.998  10.866   3.490  1.00 96.40     0.283 C 
+BRANCH  17  18
+HETATM   18  NAP   D T1201      11.269  10.153   4.426  1.00 98.57     0.140 N 
+HETATM   19  CAQ   D T1201      11.501  10.837   5.480  1.00 96.89     0.250 C 
+HETATM   20  CAR   D T1201      11.115   9.868   6.718  1.00 91.95     0.037 C 
+HETATM   21  CAS   D T1201      10.136   9.174   6.321  1.00 99.10     0.037 C 
+HETATM   22  CAT   D T1201      10.212   9.125   4.778  1.00 98.40     0.250 C 
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+BRANCH   7  23
+HETATM   23  NAW   D T1201       2.786  13.107  -1.642  1.00 64.56    -0.227 NA
+BRANCH  23  24
+HETATM   24  CAX   D T1201       4.165  13.386  -1.956  1.00 60.00     0.084 A 
+HETATM   25  CBC   D T1201       4.431  14.530  -2.684  1.00 61.36     0.032 A 
+HETATM   26  CBB   D T1201       5.733  14.847  -3.011  1.00 64.43     0.106 A 
+HETATM   27  CBA   D T1201       6.761  14.018  -2.623  1.00 52.93     0.013 A 
+HETATM   28  CAZ   D T1201       6.500  12.867  -1.889  1.00 65.17     0.002 A 
+HETATM   29  CAY   D T1201       5.192  12.545  -1.552  1.00 59.73     0.019 A 
+BRANCH  26  30
+HETATM   30  SBD   D T1201       6.085  16.368  -3.957  1.00107.25     0.281 S 
+HETATM   31  OBJ   D T1201       6.853  17.253  -3.080  1.00 84.83    -0.199 OA
+HETATM   32  OBK   D T1201       7.095  16.133  -4.991  1.00 96.98    -0.199 OA
+BRANCH  30  33
+HETATM   33  NBE   D T1201       4.652  17.156  -4.567  1.00 87.06    -0.189 NA
+BRANCH  33  34
+HETATM   34  CBF   D T1201       4.500  17.938  -5.811  1.00 65.85     0.097 C 
+HETATM   35  CBH   D T1201       4.469  17.081  -7.063  1.00 75.28     0.025 C 
+HETATM   36  CBI   D T1201       5.695  18.854  -6.004  1.00 63.96     0.025 C 
+HETATM   37  CBG   D T1201       3.250  18.814  -5.779  1.00 65.02     0.025 C 
+ENDBRANCH  33  34
+ENDBRANCH  30  33
+ENDBRANCH  26  30
+ENDBRANCH  23  24
+ENDBRANCH   7  23
+TORSDOF 11
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -8.023      3.777      9.258
+REMARK INTER + INTRA:         -15.035
+REMARK INTER:                 -13.614
+REMARK INTRA:                  -1.421
+REMARK UNBOUND:                -1.852
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NAP_5  and  CAO_6 
+REMARK    2  A    between atoms: CAO_6  and  CAN_7 
+REMARK    3  A    between atoms: CAN_7  and  OAM_8 
+REMARK    4  A    between atoms: OAM_8  and  CAJ_9 
+REMARK    5  A    between atoms: CAG_14  and  NAF_15 
+REMARK    6  A    between atoms: NAF_15  and  C2_16 
+REMARK    7  A    between atoms: C4_22  and  NAW_23 
+REMARK    8  A    between atoms: NAW_23  and  CAX_24 
+REMARK    9  A    between atoms: CBB_29  and  SBD_30 
+REMARK   10  A    between atoms: SBD_30  and  NBE_33 
+REMARK   11  A    between atoms: NBE_33  and  CBF_34 
+ROOT
+HETATM    1  C2    D T1201       5.175  13.293  -1.751  1.00 59.36     0.751 A 
+HETATM    2  N3    D T1201       5.404  13.333  -0.448  1.00 55.19    -0.041 NA
+HETATM    3  N1    D T1201       3.948  13.239  -2.257  1.00 67.11    -0.058 NA
+HETATM    4  C6    D T1201       2.890  13.231  -1.459  1.00 64.11     0.117 A 
+HETATM    5  C5    D T1201       3.079  13.273  -0.082  1.00 65.49     0.034 A 
+HETATM    6  CAA   D T1201       1.905  13.259   0.895  1.00 49.68     0.036 C 
+HETATM    7  C4    D T1201       4.390  13.317   0.398  1.00 58.40     0.178 A 
+ENDROOT
+BRANCH   1   8
+HETATM    8  NAF   D T1201       6.276  13.316  -2.692  1.00 62.85    -0.059 NA
+BRANCH   8   9
+HETATM    9  CAG   D T1201       6.792  14.456  -3.444  1.00 53.07     0.100 A 
+HETATM   10  CAL   D T1201       6.361  15.684  -2.990  1.00 60.66     0.022 A 
+HETATM   11  CAK   D T1201       6.768  16.851  -3.617  1.00 75.71     0.026 A 
+HETATM   12  CAJ   D T1201       7.615  16.793  -4.710  1.00 62.98     0.094 A 
+HETATM   13  CAI   D T1201       8.060  15.554  -5.175  1.00 62.12     0.026 A 
+HETATM   14  CAH   D T1201       7.651  14.383  -4.543  1.00 51.41     0.022 A 
+BRANCH  12  15
+HETATM   15  OAM   D T1201       8.002  18.005  -5.289  1.00 60.42    -0.329 OA
+BRANCH  15  16
+HETATM   16  CAN   D T1201       9.364  18.134  -5.602  1.00 90.12     0.184 C 
+BRANCH  16  17
+HETATM   17  CAO   D T1201       9.456  18.701  -7.030  1.00 96.40     0.283 C 
+BRANCH  17  18
+HETATM   18  NAP   D T1201       9.897  17.945  -7.862  1.00 98.57     0.140 N 
+HETATM   19  CAQ   D T1201      10.773  17.161  -7.362  1.00 96.89     0.250 C 
+HETATM   20  CAR   D T1201      10.722  15.821  -8.267  1.00 91.95     0.037 C 
+HETATM   21  CAS   D T1201       9.514  15.680  -8.609  1.00 99.10     0.037 C 
+HETATM   22  CAT   D T1201       8.863  17.081  -8.558  1.00 98.40     0.250 C 
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+BRANCH   7  23
+HETATM   23  NAW   D T1201       4.588  13.356   1.834  1.00 64.56    -0.227 NA
+BRANCH  23  24
+HETATM   24  CAX   D T1201       5.064  12.246   2.621  1.00 60.00     0.084 A 
+HETATM   25  CBC   D T1201       6.429  12.038   2.663  1.00 61.36     0.032 A 
+HETATM   26  CBB   D T1201       6.941  10.991   3.402  1.00 64.43     0.106 A 
+HETATM   27  CBA   D T1201       6.090  10.151   4.085  1.00 52.93     0.013 A 
+HETATM   28  CAZ   D T1201       4.716  10.356   4.048  1.00 65.17     0.002 A 
+HETATM   29  CAY   D T1201       4.196  11.412   3.311  1.00 59.73     0.019 A 
+BRANCH  26  30
+HETATM   30  SBD   D T1201       8.746  10.726   3.473  1.00107.25     0.281 S 
+HETATM   31  OBJ   D T1201       9.144  10.128   2.199  1.00 84.83    -0.199 OA
+HETATM   32  OBK   D T1201       9.476  11.992   3.373  1.00 96.98    -0.199 OA
+BRANCH  30  33
+HETATM   33  NBE   D T1201       9.253   9.748   4.827  1.00 87.06    -0.189 NA
+BRANCH  33  34
+HETATM   34  CBF   D T1201      10.540   9.792   5.553  1.00 65.85     0.097 C 
+HETATM   35  CBH   D T1201      10.981  11.199   5.913  1.00 75.28     0.025 C 
+HETATM   36  CBI   D T1201      11.655   9.254   4.676  1.00 63.96     0.025 C 
+HETATM   37  CBG   D T1201      10.501   8.943   6.820  1.00 65.02     0.025 C 
+ENDBRANCH  33  34
+ENDBRANCH  30  33
+ENDBRANCH  26  30
+ENDBRANCH  23  24
+ENDBRANCH   7  23
+TORSDOF 11
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -7.949      3.742      8.535
+REMARK INTER + INTRA:         -14.913
+REMARK INTER:                 -12.794
+REMARK INTRA:                  -2.119
+REMARK UNBOUND:                -1.852
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NAP_5  and  CAO_6 
+REMARK    2  A    between atoms: CAO_6  and  CAN_7 
+REMARK    3  A    between atoms: CAN_7  and  OAM_8 
+REMARK    4  A    between atoms: OAM_8  and  CAJ_9 
+REMARK    5  A    between atoms: CAG_14  and  NAF_15 
+REMARK    6  A    between atoms: NAF_15  and  C2_16 
+REMARK    7  A    between atoms: C4_22  and  NAW_23 
+REMARK    8  A    between atoms: NAW_23  and  CAX_24 
+REMARK    9  A    between atoms: CBB_29  and  SBD_30 
+REMARK   10  A    between atoms: SBD_30  and  NBE_33 
+REMARK   11  A    between atoms: NBE_33  and  CBF_34 
+ROOT
+HETATM    1  C2    D T1201       7.780  13.795   1.107  1.00 59.36     0.751 A 
+HETATM    2  N3    D T1201       6.755  13.567   1.914  1.00 55.19    -0.041 NA
+HETATM    3  N1    D T1201       8.723  12.887   0.881  1.00 67.11    -0.058 NA
+HETATM    4  C6    D T1201       8.666  11.697   1.461  1.00 64.11     0.117 A 
+HETATM    5  C5    D T1201       7.608  11.409   2.316  1.00 65.49     0.034 A 
+HETATM    6  CAA   D T1201       7.484  10.061   3.023  1.00 49.68     0.036 C 
+HETATM    7  C4    D T1201       6.649  12.403   2.528  1.00 58.40     0.178 A 
+ENDROOT
+BRANCH   1   8
+HETATM    8  NAF   D T1201       7.907  15.063   0.421  1.00 62.85    -0.059 NA
+BRANCH   8   9
+HETATM    9  CAG   D T1201       7.369  15.438  -0.884  1.00 53.07     0.100 A 
+HETATM   10  CAL   D T1201       7.518  14.477  -1.861  1.00 60.66     0.022 A 
+HETATM   11  CAK   D T1201       7.060  14.704  -3.150  1.00 75.71     0.026 A 
+HETATM   12  CAJ   D T1201       6.447  15.903  -3.468  1.00 62.98     0.094 A 
+HETATM   13  CAI   D T1201       6.288  16.881  -2.483  1.00 62.12     0.026 A 
+HETATM   14  CAH   D T1201       6.748  16.650  -1.189  1.00 51.41     0.022 A 
+BRANCH  12  15
+HETATM   15  OAM   D T1201       5.992  16.066  -4.780  1.00 60.42    -0.329 OA
+BRANCH  15  16
+HETATM   16  CAN   D T1201       6.935  15.836  -5.794  1.00 90.12     0.184 C 
+BRANCH  16  17
+HETATM   17  CAO   D T1201       7.966  16.976  -5.730  1.00 96.40     0.283 C 
+BRANCH  17  18
+HETATM   18  NAP   D T1201       8.819  16.955  -6.585  1.00 98.57     0.140 N 
+HETATM   19  CAQ   D T1201       9.228  15.765  -6.804  1.00 96.89     0.250 C 
+HETATM   20  CAR   D T1201       9.731  15.757  -8.343  1.00 91.95     0.037 C 
+HETATM   21  CAS   D T1201       8.964  16.548  -8.961  1.00 99.10     0.037 C 
+HETATM   22  CAT   D T1201       8.404  17.544  -7.920  1.00 98.40     0.250 C 
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+BRANCH   7  23
+HETATM   23  NAW   D T1201       5.547  12.106   3.424  1.00 64.56    -0.227 NA
+BRANCH  23  24
+HETATM   24  CAX   D T1201       4.256  11.625   2.997  1.00 60.00     0.084 A 
+HETATM   25  CBC   D T1201       3.512  12.450   2.177  1.00 61.36     0.032 A 
+HETATM   26  CBB   D T1201       2.270  12.040   1.737  1.00 64.43     0.106 A 
+HETATM   27  CBA   D T1201       1.772  10.817   2.126  1.00 52.93     0.013 A 
+HETATM   28  CAZ   D T1201       2.517   9.981   2.951  1.00 65.17     0.002 A 
+HETATM   29  CAY   D T1201       3.770  10.386   3.392  1.00 59.73     0.019 A 
+BRANCH  26  30
+HETATM   30  SBD   D T1201       1.294  13.122   0.638  1.00107.25     0.281 S 
+HETATM   31  OBJ   D T1201      -0.080  12.621   0.649  1.00 84.83    -0.199 OA
+HETATM   32  OBK   D T1201       1.067  14.435   1.244  1.00 96.98    -0.199 OA
+BRANCH  30  33
+HETATM   33  NBE   D T1201       1.928  13.218  -0.986  1.00 87.06    -0.189 NA
+BRANCH  33  34
+HETATM   34  CBF   D T1201       3.031  14.065  -1.486  1.00 65.85     0.097 C 
+HETATM   35  CBH   D T1201       4.121  14.305  -0.458  1.00 75.28     0.025 C 
+HETATM   36  CBI   D T1201       2.515  15.450  -1.828  1.00 63.96     0.025 C 
+HETATM   37  CBG   D T1201       3.660  13.484  -2.750  1.00 65.02     0.025 C 
+ENDBRANCH  33  34
+ENDBRANCH  30  33
+ENDBRANCH  26  30
+ENDBRANCH  23  24
+ENDBRANCH   7  23
+TORSDOF 11
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -7.852      3.050      4.129
+REMARK INTER + INTRA:         -14.754
+REMARK INTER:                 -13.347
+REMARK INTRA:                  -1.407
+REMARK UNBOUND:                -1.852
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NAP_5  and  CAO_6 
+REMARK    2  A    between atoms: CAO_6  and  CAN_7 
+REMARK    3  A    between atoms: CAN_7  and  OAM_8 
+REMARK    4  A    between atoms: OAM_8  and  CAJ_9 
+REMARK    5  A    between atoms: CAG_14  and  NAF_15 
+REMARK    6  A    between atoms: NAF_15  and  C2_16 
+REMARK    7  A    between atoms: C4_22  and  NAW_23 
+REMARK    8  A    between atoms: NAW_23  and  CAX_24 
+REMARK    9  A    between atoms: CBB_29  and  SBD_30 
+REMARK   10  A    between atoms: SBD_30  and  NBE_33 
+REMARK   11  A    between atoms: NBE_33  and  CBF_34 
+ROOT
+HETATM    1  C2    D T1201       3.649  14.165  -1.051  1.00 59.36     0.751 A 
+HETATM    2  N3    D T1201       4.596  14.906  -1.605  1.00 55.19    -0.041 NA
+HETATM    3  N1    D T1201       2.381  14.558  -0.994  1.00 67.11    -0.058 NA
+HETATM    4  C6    D T1201       2.013  15.724  -1.505  1.00 64.11     0.117 A 
+HETATM    5  C5    D T1201       2.972  16.537  -2.099  1.00 65.49     0.034 A 
+HETATM    6  CAA   D T1201       2.619  17.896  -2.701  1.00 49.68     0.036 C 
+HETATM    7  C4    D T1201       4.293  16.082  -2.122  1.00 58.40     0.178 A 
+ENDROOT
+BRANCH   1   8
+HETATM    8  NAF   D T1201       3.964  12.870  -0.485  1.00 62.85    -0.059 NA
+BRANCH   8   9
+HETATM    9  CAG   D T1201       5.000  12.543   0.490  1.00 53.07     0.100 A 
+HETATM   10  CAL   D T1201       4.547  12.421   1.786  1.00 60.66     0.022 A 
+HETATM   11  CAK   D T1201       5.426  12.120   2.815  1.00 75.71     0.026 A 
+HETATM   12  CAJ   D T1201       6.772  11.938   2.549  1.00 62.98     0.094 A 
+HETATM   13  CAI   D T1201       7.239  12.056   1.239  1.00 62.12     0.026 A 
+HETATM   14  CAH   D T1201       6.354  12.357   0.206  1.00 51.41     0.022 A 
+BRANCH  12  15
+HETATM   15  OAM   D T1201       7.604  11.622   3.627  1.00 60.42    -0.329 OA
+BRANCH  15  16
+HETATM   16  CAN   D T1201       8.973  11.874   3.446  1.00 90.12     0.184 C 
+BRANCH  16  17
+HETATM   17  CAO   D T1201       9.667  10.518   3.230  1.00 96.40     0.283 C 
+BRANCH  17  18
+HETATM   18  NAP   D T1201      10.362  10.138   4.143  1.00 98.57     0.140 N 
+HETATM   19  CAQ   D T1201      10.714  11.109   4.894  1.00 96.89     0.250 C 
+HETATM   20  CAR   D T1201      10.948  10.460   6.358  1.00 91.95     0.037 C 
+HETATM   21  CAS   D T1201      10.096   9.534   6.466  1.00 99.10     0.037 C 
+HETATM   22  CAT   D T1201       9.733   9.083   5.033  1.00 98.40     0.250 C 
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+BRANCH   7  23
+HETATM   23  NAW   D T1201       5.295  16.932  -2.737  1.00 64.56    -0.227 NA
+BRANCH  23  24
+HETATM   24  CAX   D T1201       5.762  16.792  -4.094  1.00 60.00     0.084 A 
+HETATM   25  CBC   D T1201       6.816  17.593  -4.487  1.00 61.36     0.032 A 
+HETATM   26  CBB   D T1201       7.304  17.500  -5.774  1.00 64.43     0.106 A 
+HETATM   27  CBA   D T1201       6.733  16.619  -6.665  1.00 52.93     0.013 A 
+HETATM   28  CAZ   D T1201       5.673  15.809  -6.274  1.00 65.17     0.002 A 
+HETATM   29  CAY   D T1201       5.181  15.894  -4.978  1.00 59.73     0.019 A 
+BRANCH  26  30
+HETATM   30  SBD   D T1201       8.709  18.545  -6.289  1.00107.25     0.281 S 
+HETATM   31  OBJ   D T1201       8.435  18.995  -7.654  1.00 84.83    -0.199 OA
+HETATM   32  OBK   D T1201       8.689  19.842  -5.609  1.00 96.98    -0.199 OA
+BRANCH  30  33
+HETATM   33  NBE   D T1201      10.254  17.739  -6.179  1.00 87.06    -0.189 NA
+BRANCH  33  34
+HETATM   34  CBF   D T1201      10.574  16.333  -6.502  1.00 65.85     0.097 C 
+HETATM   35  CBH   D T1201      10.078  15.347  -5.460  1.00 75.28     0.025 C 
+HETATM   36  CBI   D T1201      12.077  16.131  -6.535  1.00 63.96     0.025 C 
+HETATM   37  CBG   D T1201      10.026  15.929  -7.868  1.00 65.02     0.025 C 
+ENDBRANCH  33  34
+ENDBRANCH  30  33
+ENDBRANCH  26  30
+ENDBRANCH  23  24
+ENDBRANCH   7  23
+TORSDOF 11
+ENDMDL

@@ -6,7 +6,7 @@ import json
 from pathlib import Path
 
 SELECTED_RECEPTOR_STEMS = [
-    "4NCT_2K2_O77239"
+    "2FUM_MIX_P62343"
 ]
 SELECTED_LIGAND_STEMS = [
     "6VNE_1OB3_2TA","1CET_CLQ_Q27743"
