@@ -6,18 +6,18 @@ import json
 from pathlib import Path
 
 SELECTED_RECEPTOR_STEMS = [
-    "1CTR_TFP_P24044"
+    "4NCT_2K2_O77239"
 ]
 SELECTED_LIGAND_STEMS = [
-    "1D7O_3AM3_TCL"
+    "6VNE_1OB3_2TA","1CET_CLQ_Q27743"
 ]
 
-vina_executable = r"C:\Program Files (x86)\PyRx\vina.exe"  # on Windows
-#vina_executable = r"/usr/local/bin/vina"  # on Mac
+#vina_executable = r"C:\Program Files (x86)\PyRx\vina.exe"  # on Windows
+vina_executable = r"/usr/local/bin/vina"  # on Mac
 
 base_dir = Path(__file__).resolve().parent
 lig_folder = base_dir / "ligand_pdbqt"   
-prot_folder = base_dir / "raw_malaria_pdbqt"
+prot_folder = base_dir / "malaria_pdbqt"
 results_root = base_dir / "results"
 results_root.mkdir(parents=True, exist_ok=True)
 

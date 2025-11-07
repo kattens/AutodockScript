@@ -20,7 +20,7 @@ import os
 import pandas as pd
 
 # ===== CONFIG =====
-main_csv = "COMPFULL.csv"     # your main CSV
+main_csv = "Data.csv"     # your main CSV
 results_folder = csv_folder           # folder containing files like 8TZE_1V0B_T3X.csv
 key_col = "3D Interaction"              # match this column (values like ... .pdb)
 # Source column(s) present in result CSVs; we'll pick the first that exists
@@ -29,9 +29,9 @@ source_aff_cols = ["Binding_Affinity", "Binding_Affinity_kcal/mol"]
 out_col = "Binding_Affinity_kcal/mol"
 out_csv = "Data_updated.csv"            # output file
 # ==================
-
+"""
 def normalize(name: str) -> str:
-    """Return base name without .pdb/.pdbqt/.csv (case-insensitive)."""
+    
     s = str(name).strip()
     for ext in (".pdbqt", ".pdb", ".csv"):
         if s.lower().endswith(ext):
@@ -76,3 +76,12 @@ for idx, val in df[key_col].items():
 
 df.to_csv(out_csv, index=False)
 print(f"[done] wrote {out_csv} | rows updated: {matched}")
+"""
+
+
+
+#check the column "Binding_Affinity_kcal/mol" if value >= -6 (higher than), remove row
+
+df = pd.read_csv("Comp_Data_updated.csv")  # your file
+df = df[df["Binding_Affinity_kcal/mol"] < -6]  # keep only rows with value < -6
+df.to_csv("Comp_Data_updated.csv", index=False)

@@ -18,17 +18,17 @@ AutoDock Vina v1.2.7
 #################################################################
 
 Scoring function : vina
-Rigid receptor: /Users/kattayunensafitakaldani/Downloads/AutodockScript/malaria_pdbqt/1A29_TFP_O15865.pdbqt
-Ligand: /Users/kattayunensafitakaldani/Downloads/AutodockScript/ligand_pdbqt/1A29_TFP_O15865.pdbqt
-Grid center: X 23.9325 Y 4.64202 Z -15.1565
-Grid size  : X 26.142 Y 26.142 Z 26.142
+Rigid receptor: /Users/kattayunensafitakaldani/Downloads/AutodockScript/malaria_pdbqt/4NCT_2K2_O77239.pdbqt
+Ligand: /Users/kattayunensafitakaldani/Downloads/AutodockScript/ligand_pdbqt/6VNE_1OB3_2TA.pdbqt
+Grid center: X -2.56456 Y -3.45607 Z 9.71103
+Grid size  : X 26.618 Y 26.618 Z 26.618
 Grid space : 0.375
 Exhaustiveness: 8
 CPU: 1
 Verbosity: 1
 
 Computing Vina grid ... done.
-Performing docking (random seed: 1097692623) ... 
+Performing docking (random seed: 2016381004) ... 
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
@@ -36,12 +36,12 @@ Performing docking (random seed: 1097692623) ...
 mode |   affinity | dist from best mode
      | (kcal/mol) | rmsd l.b.| rmsd u.b.
 -----+------------+----------+----------
-   1       -6.976          0          0
-   2       -6.614      2.102      2.825
-   3        -6.57      1.237      1.757
-   4       -6.541        2.5        4.4
-   5       -6.041      3.344        6.4
-   6       -5.905      2.393      6.303
-   7       -5.819        3.8      6.718
-   8       -5.776      1.855      2.637
-   9       -5.706      2.304      3.903
+   1       -9.678          0          0
+   2       -9.267      3.378      6.448
+   3       -9.246      3.202      6.882
+   4       -9.246      2.754      5.884
+   5       -9.073       2.58      7.012
+   6       -9.068      2.968      6.644
+   7       -9.015      1.521        2.6
+   8       -8.961      2.255      4.375
+   9       -8.834       2.74       4.32
