@@ -6,10 +6,10 @@ import json
 from pathlib import Path
 
 SELECTED_RECEPTOR_STEMS = [
-    "2FUM_MIX_P62343"
+    "3TI1_B49_O77239"
 ]
 SELECTED_LIGAND_STEMS = [
-    "6VNE_1OB3_2TA","1CET_CLQ_Q27743"
+    "2E2B_406_O15865","3TNE_RIT_P46925"
 ]
 
 #vina_executable = r"C:\Program Files (x86)\PyRx\vina.exe"  # on Windows
