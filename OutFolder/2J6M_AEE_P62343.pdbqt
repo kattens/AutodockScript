@@ -1,0 +1,567 @@
+MODEL 1
+REMARK VINA RESULT:    -9.749      0.000      0.000
+REMARK INTER + INTRA:         -13.933
+REMARK INTER:                 -13.169
+REMARK INTRA:                  -0.764
+REMARK UNBOUND:                -0.764
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NBF_3  and  CAN_4 
+REMARK    2  A    between atoms: NBG_8  and  CAS_9 
+REMARK    3  A    between atoms: CAS_9  and  CAX_10 
+REMARK    4  A    between atoms: CAY_15  and  CBA_16 
+REMARK    5  A    between atoms: NAV_25  and  CBE_26 
+REMARK    6  A    between atoms: CBE_26  and  CAZ_28 
+ROOT
+HETATM    1  CBA   D T2021       6.618  12.212   0.498  1.00 48.38     0.083 A 
+HETATM    2  NAW   D T2021       7.172  12.494  -0.671  1.00 46.46    -0.227 NA
+HETATM    3  CAM   D T2021       5.327  12.505   0.449  1.00 46.71     0.025 A 
+HETATM    4  C5    D T2021       5.060  12.978  -0.753  1.00 46.87     0.073 A 
+HETATM    5  C4    D T2021       6.228  12.967  -1.464  1.00 46.80     0.167 A 
+HETATM    6  N3    D T2021       6.230  13.403  -2.722  1.00 47.13    -0.205 NA
+HETATM    7  C2    D T2021       5.123  13.840  -3.284  1.00 45.54     0.202 A 
+HETATM    8  N1    D T2021       3.985  13.861  -2.629  1.00 45.28    -0.205 NA
+HETATM    9  C6    D T2021       3.920  13.436  -1.372  1.00 46.82     0.163 A 
+HETATM   10  NAV   D T2021       2.765  13.469  -0.742  1.00 49.40    -0.250 NA
+ENDROOT
+BRANCH   1  11
+HETATM   11  CAY   D T2021       7.282  11.684   1.591  1.00 49.55     0.018 A 
+HETATM   12  CAK   D T2021       8.535  11.126   1.428  1.00 50.94     0.001 A 
+HETATM   13  CAI   D T2021       9.205  10.584   2.512  1.00 52.56    -0.002 A 
+HETATM   14  CAX   D T2021       8.621  10.596   3.761  1.00 54.24     0.011 A 
+HETATM   15  CAJ   D T2021       7.369  11.156   3.924  1.00 51.77    -0.002 A 
+HETATM   16  CAL   D T2021       6.696  11.692   2.839  1.00 50.18     0.001 A 
+BRANCH  14  17
+HETATM   17  CAS   D T2021       9.364  10.009   4.955  1.00 59.34     0.277 C 
+BRANCH  17  18
+HETATM   18  NBG   D T2021      10.801  10.058   4.670  1.00 64.50     0.146 N 
+HETATM   19  CAQ   D T2021      11.516   8.870   5.145  1.00 65.86     0.286 C 
+HETATM   20  CAO   D T2021      11.657   8.904   6.664  1.00 66.93     0.285 C 
+HETATM   21  NBF   D T2021      12.343  10.127   7.079  1.00 66.06     0.141 N 
+HETATM   22  CAP   D T2021      11.519  11.265   6.677  1.00 65.57     0.285 C 
+HETATM   23  CAR   D T2021      11.418  11.294   5.160  1.00 65.21     0.286 C 
+BRANCH  21  24
+HETATM   24  CAN   D T2021      13.659  10.209   6.438  1.00 64.26     0.251 C 
+HETATM   25  CAA   D T2021      14.640   9.301   7.178  1.00 61.05     0.037 C 
+ENDBRANCH  21  24
+ENDBRANCH  17  18
+ENDBRANCH  14  17
+ENDBRANCH   1  11
+BRANCH  10  26
+HETATM   26  CBE   D T2021       1.658  14.181  -1.371  1.00 51.58     0.127 C 
+HETATM   27  CAB   D T2021       1.929  15.676  -1.344  1.00 54.00     0.031 C 
+BRANCH  26  28
+HETATM   28  CAZ   D T2021       0.379  13.902  -0.616  1.00 51.45    -0.000 A 
+HETATM   29  CAG   D T2021      -0.808  13.758  -1.306  1.00 51.44    -0.002 A 
+HETATM   30  CAD   D T2021      -1.977  13.505  -0.611  1.00 51.45    -0.000 A 
+HETATM   31  CAC   D T2021      -1.960  13.396   0.766  1.00 51.82    -0.000 A 
+HETATM   32  CAE   D T2021      -0.771  13.536   1.452  1.00 50.90    -0.000 A 
+HETATM   33  CAH   D T2021       0.401  13.790   0.762  1.00 51.08    -0.002 A 
+ENDBRANCH  26  28
+ENDBRANCH  10  26
+TORSDOF 6
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -9.665      1.978      3.572
+REMARK INTER + INTRA:         -13.820
+REMARK INTER:                 -12.790
+REMARK INTRA:                  -1.030
+REMARK UNBOUND:                -0.764
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NBF_3  and  CAN_4 
+REMARK    2  A    between atoms: NBG_8  and  CAS_9 
+REMARK    3  A    between atoms: CAS_9  and  CAX_10 
+REMARK    4  A    between atoms: CAY_15  and  CBA_16 
+REMARK    5  A    between atoms: NAV_25  and  CBE_26 
+REMARK    6  A    between atoms: CBE_26  and  CAZ_28 
+ROOT
+HETATM    1  CBA   D T2021       4.801  12.491   1.507  1.00 48.38     0.083 A 
+HETATM    2  NAW   D T2021       3.544  12.074   1.480  1.00 46.46    -0.227 NA
+HETATM    3  CAM   D T2021       4.956  13.459   0.617  1.00 46.71     0.025 A 
+HETATM    4  C5    D T2021       3.797  13.657   0.020  1.00 46.87     0.073 A 
+HETATM    5  C4    D T2021       2.901  12.782   0.570  1.00 46.80     0.167 A 
+HETATM    6  N3    D T2021       1.643  12.776   0.134  1.00 47.13    -0.205 NA
+HETATM    7  C2    D T2021       1.256  13.603  -0.815  1.00 45.54     0.202 A 
+HETATM    8  N1    D T2021       2.091  14.457  -1.361  1.00 45.28    -0.205 NA
+HETATM    9  C6    D T2021       3.359  14.511  -0.966  1.00 46.82     0.163 A 
+HETATM   10  NAV   D T2021       4.172  15.377  -1.532  1.00 49.40    -0.250 NA
+ENDROOT
+BRANCH   1  11
+HETATM   11  CAY   D T2021       5.788  11.998   2.342  1.00 49.55     0.018 A 
+HETATM   12  CAK   D T2021       7.103  12.373   2.144  1.00 50.94     0.001 A 
+HETATM   13  CAI   D T2021       8.101  11.877   2.965  1.00 52.56    -0.002 A 
+HETATM   14  CAX   D T2021       7.787  11.003   3.984  1.00 54.24     0.011 A 
+HETATM   15  CAJ   D T2021       6.473  10.630   4.182  1.00 51.77    -0.002 A 
+HETATM   16  CAL   D T2021       5.474  11.120   3.358  1.00 50.18     0.001 A 
+BRANCH  14  17
+HETATM   17  CAS   D T2021       8.887  10.468   4.893  1.00 59.34     0.277 C 
+BRANCH  17  18
+HETATM   18  NBG   D T2021      10.177  10.929   4.373  1.00 64.50     0.146 N 
+HETATM   19  CAQ   D T2021      11.002   9.837   3.847  1.00 65.86     0.286 C 
+HETATM   20  CAO   D T2021      11.581   9.008   4.990  1.00 66.93     0.285 C 
+HETATM   21  NBF   D T2021      12.357   9.863   5.889  1.00 66.06     0.141 N 
+HETATM   22  CAP   D T2021      11.450  10.852   6.466  1.00 65.57     0.285 C 
+HETATM   23  CAR   D T2021      10.909  11.737   5.353  1.00 65.21     0.286 C 
+BRANCH  21  24
+HETATM   24  CAN   D T2021      13.427  10.534   5.146  1.00 64.26     0.251 C 
+HETATM   25  CAA   D T2021      14.666  10.648   6.033  1.00 61.05     0.037 C 
+ENDBRANCH  21  24
+ENDBRANCH  17  18
+ENDBRANCH  14  17
+ENDBRANCH   1  11
+BRANCH  10  26
+HETATM   26  CBE   D T2021       3.707  16.080  -2.723  1.00 51.58     0.127 C 
+HETATM   27  CAB   D T2021       4.855  16.234  -3.707  1.00 54.00     0.031 C 
+BRANCH  26  28
+HETATM   28  CAZ   D T2021       3.202  17.452  -2.341  1.00 51.45    -0.000 A 
+HETATM   29  CAG   D T2021       2.456  18.185  -3.241  1.00 51.44    -0.002 A 
+HETATM   30  CAD   D T2021       1.998  19.441  -2.888  1.00 51.45    -0.000 A 
+HETATM   31  CAC   D T2021       2.283  19.962  -1.640  1.00 51.82    -0.000 A 
+HETATM   32  CAE   D T2021       3.026  19.224  -0.740  1.00 50.90    -0.000 A 
+HETATM   33  CAH   D T2021       3.488  17.968  -1.090  1.00 51.08    -0.002 A 
+ENDBRANCH  26  28
+ENDBRANCH  10  26
+TORSDOF 6
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -9.527      2.202      3.830
+REMARK INTER + INTRA:         -13.632
+REMARK INTER:                 -12.394
+REMARK INTRA:                  -1.238
+REMARK UNBOUND:                -0.764
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NBF_3  and  CAN_4 
+REMARK    2  A    between atoms: NBG_8  and  CAS_9 
+REMARK    3  A    between atoms: CAS_9  and  CAX_10 
+REMARK    4  A    between atoms: CAY_15  and  CBA_16 
+REMARK    5  A    between atoms: NAV_25  and  CBE_26 
+REMARK    6  A    between atoms: CBE_26  and  CAZ_28 
+ROOT
+HETATM    1  CBA   D T2021       6.329  11.763   2.904  1.00 48.38     0.083 A 
+HETATM    2  NAW   D T2021       5.154  11.458   3.435  1.00 46.46    -0.227 NA
+HETATM    3  CAM   D T2021       6.136  12.384   1.750  1.00 46.71     0.025 A 
+HETATM    4  C5    D T2021       4.836  12.472   1.545  1.00 46.87     0.073 A 
+HETATM    5  C4    D T2021       4.214  11.889   2.615  1.00 46.80     0.167 A 
+HETATM    6  N3    D T2021       2.884  11.843   2.650  1.00 47.13    -0.205 NA
+HETATM    7  C2    D T2021       2.167  12.354   1.672  1.00 45.54     0.202 A 
+HETATM    8  N1    D T2021       2.734  12.923   0.633  1.00 45.28    -0.205 NA
+HETATM    9  C6    D T2021       4.057  13.001   0.542  1.00 46.82     0.163 A 
+HETATM   10  NAV   D T2021       4.596  13.577  -0.511  1.00 49.40    -0.250 NA
+ENDROOT
+BRANCH   1  11
+HETATM   11  CAY   D T2021       7.560  11.485   3.473  1.00 49.55     0.018 A 
+HETATM   12  CAK   D T2021       8.643  12.293   3.191  1.00 50.94     0.001 A 
+HETATM   13  CAI   D T2021       9.882  12.019   3.745  1.00 52.56    -0.002 A 
+HETATM   14  CAX   D T2021      10.041  10.932   4.579  1.00 54.24     0.011 A 
+HETATM   15  CAJ   D T2021       8.957  10.125   4.861  1.00 51.77    -0.002 A 
+HETATM   16  CAL   D T2021       7.718  10.395   4.303  1.00 50.18     0.001 A 
+BRANCH  14  17
+HETATM   17  CAS   D T2021      11.403  10.638   5.195  1.00 59.34     0.277 C 
+BRANCH  17  18
+HETATM   18  NBG   D T2021      11.934   9.421   4.574  1.00 64.50     0.146 N 
+HETATM   19  CAQ   D T2021      12.557   8.514   5.543  1.00 65.86     0.286 C 
+HETATM   20  CAO   D T2021      13.908   9.062   5.994  1.00 66.93     0.285 C 
+HETATM   21  NBF   D T2021      14.779   9.270   4.837  1.00 66.06     0.141 N 
+HETATM   22  CAP   D T2021      14.154  10.269   3.975  1.00 65.57     0.285 C 
+HETATM   23  CAR   D T2021      12.833   9.720   3.456  1.00 65.21     0.286 C 
+BRANCH  21  24
+HETATM   24  CAN   D T2021      14.952   8.012   4.105  1.00 64.26     0.251 C 
+HETATM   25  CAA   D T2021      16.439   7.666   4.036  1.00 61.05     0.037 C 
+ENDBRANCH  21  24
+ENDBRANCH  17  18
+ENDBRANCH  14  17
+ENDBRANCH   1  11
+BRANCH  10  26
+HETATM   26  CBE   D T2021       3.728  13.900  -1.639  1.00 51.58     0.127 C 
+HETATM   27  CAB   D T2021       4.324  13.343  -2.920  1.00 54.00     0.031 C 
+BRANCH  26  28
+HETATM   28  CAZ   D T2021       3.600  15.400  -1.770  1.00 51.45    -0.000 A 
+HETATM   29  CAG   D T2021       2.349  15.980  -1.831  1.00 51.44    -0.002 A 
+HETATM   30  CAD   D T2021       2.237  17.353  -1.953  1.00 51.45    -0.000 A 
+HETATM   31  CAC   D T2021       3.368  18.142  -2.014  1.00 51.82    -0.000 A 
+HETATM   32  CAE   D T2021       4.618  17.560  -1.948  1.00 50.90    -0.000 A 
+HETATM   33  CAH   D T2021       4.736  16.187  -1.827  1.00 51.08    -0.002 A 
+ENDBRANCH  26  28
+ENDBRANCH  10  26
+TORSDOF 6
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -9.213      2.185      3.925
+REMARK INTER + INTRA:         -13.209
+REMARK INTER:                 -11.997
+REMARK INTRA:                  -1.212
+REMARK UNBOUND:                -0.764
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NBF_3  and  CAN_4 
+REMARK    2  A    between atoms: NBG_8  and  CAS_9 
+REMARK    3  A    between atoms: CAS_9  and  CAX_10 
+REMARK    4  A    between atoms: CAY_15  and  CBA_16 
+REMARK    5  A    between atoms: NAV_25  and  CBE_26 
+REMARK    6  A    between atoms: CBE_26  and  CAZ_28 
+ROOT
+HETATM    1  CBA   D T2021       6.663  11.660   2.977  1.00 48.38     0.083 A 
+HETATM    2  NAW   D T2021       5.505  11.390   3.560  1.00 46.46    -0.227 NA
+HETATM    3  CAM   D T2021       6.436  12.273   1.825  1.00 46.71     0.025 A 
+HETATM    4  C5    D T2021       5.132  12.391   1.673  1.00 46.87     0.073 A 
+HETATM    5  C4    D T2021       4.542  11.835   2.775  1.00 46.80     0.167 A 
+HETATM    6  N3    D T2021       3.214  11.822   2.868  1.00 47.13    -0.205 NA
+HETATM    7  C2    D T2021       2.468  12.340   1.914  1.00 45.54     0.202 A 
+HETATM    8  N1    D T2021       3.004  12.884   0.845  1.00 45.28    -0.205 NA
+HETATM    9  C6    D T2021       4.324  12.927   0.698  1.00 46.82     0.163 A 
+HETATM   10  NAV   D T2021       4.831  13.479  -0.384  1.00 49.40    -0.250 NA
+ENDROOT
+BRANCH   1  11
+HETATM   11  CAY   D T2021       7.910  11.358   3.496  1.00 49.55     0.018 A 
+HETATM   12  CAK   D T2021       8.978  12.198   3.248  1.00 50.94     0.001 A 
+HETATM   13  CAI   D T2021      10.232  11.900   3.753  1.00 52.56    -0.002 A 
+HETATM   14  CAX   D T2021      10.422  10.759   4.503  1.00 54.24     0.011 A 
+HETATM   15  CAJ   D T2021       9.354   9.921   4.752  1.00 51.77    -0.002 A 
+HETATM   16  CAL   D T2021       8.100  10.214   4.243  1.00 50.18     0.001 A 
+BRANCH  14  17
+HETATM   17  CAS   D T2021      11.802  10.440   5.066  1.00 59.34     0.277 C 
+BRANCH  17  18
+HETATM   18  NBG   D T2021      11.708  10.419   6.528  1.00 64.50     0.146 N 
+HETATM   19  CAQ   D T2021      12.463  11.505   7.162  1.00 65.86     0.286 C 
+HETATM   20  CAO   D T2021      13.961  11.220   7.098  1.00 66.93     0.285 C 
+HETATM   21  NBF   D T2021      14.257   9.937   7.734  1.00 66.06     0.141 N 
+HETATM   22  CAP   D T2021      13.568   8.891   6.982  1.00 65.57     0.285 C 
+HETATM   23  CAR   D T2021      12.067   9.112   7.086  1.00 65.21     0.286 C 
+BRANCH  21  24
+HETATM   24  CAN   D T2021      13.794   9.945   9.124  1.00 64.26     0.251 C 
+HETATM   25  CAA   D T2021      14.789  10.721   9.986  1.00 61.05     0.037 C 
+ENDBRANCH  21  24
+ENDBRANCH  17  18
+ENDBRANCH  14  17
+ENDBRANCH   1  11
+BRANCH  10  26
+HETATM   26  CBE   D T2021       3.924  13.811  -1.478  1.00 51.58     0.127 C 
+HETATM   27  CAB   D T2021       4.480  13.274  -2.785  1.00 54.00     0.031 C 
+BRANCH  26  28
+HETATM   28  CAZ   D T2021       3.783  15.312  -1.584  1.00 51.45    -0.000 A 
+HETATM   29  CAG   D T2021       4.893  16.118  -1.437  1.00 51.44    -0.002 A 
+HETATM   30  CAD   D T2021       4.759  17.491  -1.533  1.00 51.45    -0.000 A 
+HETATM   31  CAC   D T2021       3.521  18.056  -1.775  1.00 51.82    -0.000 A 
+HETATM   32  CAE   D T2021       2.413  17.246  -1.926  1.00 50.90    -0.000 A 
+HETATM   33  CAH   D T2021       2.542  15.872  -1.830  1.00 51.08    -0.002 A 
+ENDBRANCH  26  28
+ENDBRANCH  10  26
+TORSDOF 6
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -8.542      4.260      9.476
+REMARK INTER + INTRA:         -12.302
+REMARK INTER:                 -11.603
+REMARK INTRA:                  -0.699
+REMARK UNBOUND:                -0.764
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NBF_3  and  CAN_4 
+REMARK    2  A    between atoms: NBG_8  and  CAS_9 
+REMARK    3  A    between atoms: CAS_9  and  CAX_10 
+REMARK    4  A    between atoms: CAY_15  and  CBA_16 
+REMARK    5  A    between atoms: NAV_25  and  CBE_26 
+REMARK    6  A    between atoms: CBE_26  and  CAZ_28 
+ROOT
+HETATM    1  CBA   D T2021       6.820  14.252  -0.764  1.00 48.38     0.083 A 
+HETATM    2  NAW   D T2021       7.520  13.717   0.225  1.00 46.46    -0.227 NA
+HETATM    3  CAM   D T2021       5.529  14.075  -0.528  1.00 46.71     0.025 A 
+HETATM    4  C5    D T2021       5.406  13.422   0.611  1.00 46.87     0.073 A 
+HETATM    5  C4    D T2021       6.668  13.199   1.090  1.00 46.80     0.167 A 
+HETATM    6  N3    D T2021       6.822  12.547   2.241  1.00 47.13    -0.205 NA
+HETATM    7  C2    D T2021       5.777  12.120   2.918  1.00 45.54     0.202 A 
+HETATM    8  N1    D T2021       4.553  12.321   2.486  1.00 45.28    -0.205 NA
+HETATM    9  C6    D T2021       4.336  12.967   1.345  1.00 46.82     0.163 A 
+HETATM   10  NAV   D T2021       3.098  13.154   0.939  1.00 49.40    -0.250 NA
+ENDROOT
+BRANCH   1  11
+HETATM   11  CAY   D T2021       7.357  14.903  -1.861  1.00 49.55     0.018 A 
+HETATM   12  CAK   D T2021       7.129  14.409  -3.130  1.00 50.94     0.001 A 
+HETATM   13  CAI   D T2021       7.670  15.045  -4.235  1.00 52.56    -0.002 A 
+HETATM   14  CAX   D T2021       8.444  16.175  -4.071  1.00 54.24     0.011 A 
+HETATM   15  CAJ   D T2021       8.670  16.669  -2.802  1.00 51.77    -0.002 A 
+HETATM   16  CAL   D T2021       8.134  16.030  -1.696  1.00 50.18     0.001 A 
+BRANCH  14  17
+HETATM   17  CAS   D T2021       9.030  16.879  -5.289  1.00 59.34     0.277 C 
+BRANCH  17  18
+HETATM   18  NBG   D T2021       8.536  18.259  -5.304  1.00 64.50     0.146 N 
+HETATM   19  CAQ   D T2021       7.136  18.357  -5.727  1.00 65.86     0.286 C 
+HETATM   20  CAO   D T2021       7.017  18.134  -7.232  1.00 66.93     0.285 C 
+HETATM   21  NBF   D T2021       7.850  19.096  -7.952  1.00 66.06     0.141 N 
+HETATM   22  CAP   D T2021       9.241  18.864  -7.571  1.00 65.57     0.285 C 
+HETATM   23  CAR   D T2021       9.403  19.146  -6.085  1.00 65.21     0.286 C 
+BRANCH  21  24
+HETATM   24  CAN   D T2021       7.455  20.464  -7.602  1.00 64.26     0.251 C 
+HETATM   25  CAA   D T2021       7.403  21.316  -8.870  1.00 61.05     0.037 C 
+ENDBRANCH  21  24
+ENDBRANCH  17  18
+ENDBRANCH  14  17
+ENDBRANCH   1  11
+BRANCH  10  26
+HETATM   26  CBE   D T2021       2.030  12.445   1.636  1.00 51.58     0.127 C 
+HETATM   27  CAB   D T2021       2.190  10.949   1.432  1.00 54.00     0.031 C 
+BRANCH  26  28
+HETATM   28  CAZ   D T2021       0.690  12.875   1.086  1.00 51.45    -0.000 A 
+HETATM   29  CAG   D T2021      -0.268  13.390   1.936  1.00 51.44    -0.002 A 
+HETATM   30  CAD   D T2021      -1.494  13.780   1.428  1.00 51.45    -0.000 A 
+HETATM   31  CAC   D T2021      -1.761  13.656   0.079  1.00 51.82    -0.000 A 
+HETATM   32  CAE   D T2021      -0.800  13.144  -0.769  1.00 50.90    -0.000 A 
+HETATM   33  CAH   D T2021       0.428  12.752  -0.266  1.00 51.08    -0.002 A 
+ENDBRANCH  26  28
+ENDBRANCH  10  26
+TORSDOF 6
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -8.541      4.470      8.737
+REMARK INTER + INTRA:         -12.301
+REMARK INTER:                 -11.759
+REMARK INTRA:                  -0.542
+REMARK UNBOUND:                -0.764
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NBF_3  and  CAN_4 
+REMARK    2  A    between atoms: NBG_8  and  CAS_9 
+REMARK    3  A    between atoms: CAS_9  and  CAX_10 
+REMARK    4  A    between atoms: CAY_15  and  CBA_16 
+REMARK    5  A    between atoms: NAV_25  and  CBE_26 
+REMARK    6  A    between atoms: CBE_26  and  CAZ_28 
+ROOT
+HETATM    1  CBA   D T2021       6.745  14.539  -0.955  1.00 48.38     0.083 A 
+HETATM    2  NAW   D T2021       7.466  13.967  -0.002  1.00 46.46    -0.227 NA
+HETATM    3  CAM   D T2021       5.460  14.332  -0.711  1.00 46.71     0.025 A 
+HETATM    4  C5    D T2021       5.362  13.624   0.398  1.00 46.87     0.073 A 
+HETATM    5  C4    D T2021       6.634  13.396   0.849  1.00 46.80     0.167 A 
+HETATM    6  N3    D T2021       6.813  12.692   1.964  1.00 47.13    -0.205 NA
+HETATM    7  C2    D T2021       5.783  12.219   2.634  1.00 45.54     0.202 A 
+HETATM    8  N1    D T2021       4.551  12.423   2.229  1.00 45.28    -0.205 NA
+HETATM    9  C6    D T2021       4.309  13.120   1.124  1.00 46.82     0.163 A 
+HETATM   10  NAV   D T2021       3.063  13.308   0.743  1.00 49.40    -0.250 NA
+ENDROOT
+BRANCH   1  11
+HETATM   11  CAY   D T2021       7.257  15.249  -2.027  1.00 49.55     0.018 A 
+HETATM   12  CAK   D T2021       6.757  15.030  -3.296  1.00 50.94     0.001 A 
+HETATM   13  CAI   D T2021       7.269  15.727  -4.378  1.00 52.56    -0.002 A 
+HETATM   14  CAX   D T2021       8.286  16.640  -4.193  1.00 54.24     0.011 A 
+HETATM   15  CAJ   D T2021       8.785  16.858  -2.924  1.00 51.77    -0.002 A 
+HETATM   16  CAL   D T2021       8.278  16.158  -1.842  1.00 50.18     0.001 A 
+BRANCH  14  17
+HETATM   17  CAS   D T2021       8.841  17.411  -5.384  1.00 59.34     0.277 C 
+BRANCH  17  18
+HETATM   18  NBG   D T2021      10.291  17.204  -5.430  1.00 64.50     0.146 N 
+HETATM   19  CAQ   D T2021      10.993  18.259  -6.166  1.00 65.86     0.286 C 
+HETATM   20  CAO   D T2021      10.766  18.104  -7.667  1.00 66.93     0.285 C 
+HETATM   21  NBF   D T2021      11.202  16.780  -8.109  1.00 66.06     0.141 N 
+HETATM   22  CAP   D T2021      10.383  15.783  -7.424  1.00 65.57     0.285 C 
+HETATM   23  CAR   D T2021      10.641  15.870  -5.928  1.00 65.21     0.286 C 
+BRANCH  21  24
+HETATM   24  CAN   D T2021      12.616  16.580  -7.779  1.00 64.26     0.251 C 
+HETATM   25  CAA   D T2021      13.049  15.185  -8.227  1.00 61.05     0.037 C 
+ENDBRANCH  21  24
+ENDBRANCH  17  18
+ENDBRANCH  14  17
+ENDBRANCH   1  11
+BRANCH  10  26
+HETATM   26  CBE   D T2021       2.014  12.552   1.421  1.00 51.58     0.127 C 
+HETATM   27  CAB   D T2021       2.210  11.067   1.168  1.00 54.00     0.031 C 
+BRANCH  26  28
+HETATM   28  CAZ   D T2021       0.663  12.966   0.888  1.00 51.45    -0.000 A 
+HETATM   29  CAG   D T2021       0.426  12.949  -0.471  1.00 51.44    -0.002 A 
+HETATM   30  CAD   D T2021      -0.812  13.331  -0.955  1.00 51.45    -0.000 A 
+HETATM   31  CAC   D T2021      -1.808  13.729  -0.084  1.00 51.82    -0.000 A 
+HETATM   32  CAE   D T2021      -1.569  13.742   1.275  1.00 50.90    -0.000 A 
+HETATM   33  CAH   D T2021      -0.333  13.361   1.764  1.00 51.08    -0.002 A 
+ENDBRANCH  26  28
+ENDBRANCH  10  26
+TORSDOF 6
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -8.219      3.039     12.168
+REMARK INTER + INTRA:         -11.866
+REMARK INTER:                 -10.703
+REMARK INTRA:                  -1.163
+REMARK UNBOUND:                -0.764
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NBF_3  and  CAN_4 
+REMARK    2  A    between atoms: NBG_8  and  CAS_9 
+REMARK    3  A    between atoms: CAS_9  and  CAX_10 
+REMARK    4  A    between atoms: CAY_15  and  CBA_16 
+REMARK    5  A    between atoms: NAV_25  and  CBE_26 
+REMARK    6  A    between atoms: CBE_26  and  CAZ_28 
+ROOT
+HETATM    1  CBA   D T2021       9.662  10.097   4.274  1.00 48.38     0.083 A 
+HETATM    2  NAW   D T2021       9.441   9.842   5.555  1.00 46.46    -0.227 NA
+HETATM    3  CAM   D T2021      10.889   9.711   3.959  1.00 46.71     0.025 A 
+HETATM    4  C5    D T2021      11.453   9.214   5.042  1.00 46.87     0.073 A 
+HETATM    5  C4    D T2021      10.533   9.293   6.053  1.00 46.80     0.167 A 
+HETATM    6  N3    D T2021      10.859   8.854   7.267  1.00 47.13    -0.205 NA
+HETATM    7  C2    D T2021      12.051   8.345   7.501  1.00 45.54     0.202 A 
+HETATM    8  N1    D T2021      12.954   8.252   6.551  1.00 45.28    -0.205 NA
+HETATM    9  C6    D T2021      12.686   8.672   5.320  1.00 46.82     0.163 A 
+HETATM   10  NAV   D T2021      13.611   8.566   4.390  1.00 49.40    -0.250 NA
+ENDROOT
+BRANCH   1  11
+HETATM   11  CAY   D T2021       8.748  10.665   3.403  1.00 49.55     0.018 A 
+HETATM   12  CAK   D T2021       9.090  10.855   2.079  1.00 50.94     0.001 A 
+HETATM   13  CAI   D T2021       8.188  11.433   1.201  1.00 52.56    -0.002 A 
+HETATM   14  CAX   D T2021       6.944  11.825   1.647  1.00 54.24     0.011 A 
+HETATM   15  CAJ   D T2021       6.602  11.634   2.971  1.00 51.77    -0.002 A 
+HETATM   16  CAL   D T2021       7.505  11.062   3.851  1.00 50.18     0.001 A 
+BRANCH  14  17
+HETATM   17  CAS   D T2021       5.950  12.452   0.676  1.00 59.34     0.277 C 
+BRANCH  17  18
+HETATM   18  NBG   D T2021       6.704  13.056  -0.426  1.00 64.50     0.146 N 
+HETATM   19  CAQ   D T2021       6.831  14.510  -0.298  1.00 65.86     0.286 C 
+HETATM   20  CAO   D T2021       5.506  15.192  -0.623  1.00 66.93     0.285 C 
+HETATM   21  NBF   D T2021       5.066  14.823  -1.968  1.00 66.06     0.141 N 
+HETATM   22  CAP   D T2021       4.846  13.378  -1.991  1.00 65.57     0.285 C 
+HETATM   23  CAR   D T2021       6.169  12.671  -1.736  1.00 65.21     0.286 C 
+BRANCH  21  24
+HETATM   24  CAN   D T2021       6.089  15.191  -2.951  1.00 64.26     0.251 C 
+HETATM   25  CAA   D T2021       5.414  15.558  -4.272  1.00 61.05     0.037 C 
+ENDBRANCH  21  24
+ENDBRANCH  17  18
+ENDBRANCH  14  17
+ENDBRANCH   1  11
+BRANCH  10  26
+HETATM   26  CBE   D T2021      14.964   8.206   4.803  1.00 51.58     0.127 C 
+HETATM   27  CAB   D T2021      15.975   9.001   3.994  1.00 54.00     0.031 C 
+BRANCH  26  28
+HETATM   28  CAZ   D T2021      15.194   6.732   4.563  1.00 51.45    -0.000 A 
+HETATM   29  CAG   D T2021      14.728   6.144   3.405  1.00 51.44    -0.002 A 
+HETATM   30  CAD   D T2021      14.939   4.793   3.191  1.00 51.45    -0.000 A 
+HETATM   31  CAC   D T2021      15.612   4.035   4.129  1.00 51.82    -0.000 A 
+HETATM   32  CAE   D T2021      16.081   4.628   5.284  1.00 50.90    -0.000 A 
+HETATM   33  CAH   D T2021      15.872   5.977   5.503  1.00 51.08    -0.002 A 
+ENDBRANCH  26  28
+ENDBRANCH  10  26
+TORSDOF 6
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -8.155      6.226     10.836
+REMARK INTER + INTRA:         -11.779
+REMARK INTER:                 -11.072
+REMARK INTRA:                  -0.707
+REMARK UNBOUND:                -0.764
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NBF_3  and  CAN_4 
+REMARK    2  A    between atoms: NBG_8  and  CAS_9 
+REMARK    3  A    between atoms: CAS_9  and  CAX_10 
+REMARK    4  A    between atoms: CAY_15  and  CBA_16 
+REMARK    5  A    between atoms: NAV_25  and  CBE_26 
+REMARK    6  A    between atoms: CBE_26  and  CAZ_28 
+ROOT
+HETATM    1  CBA   D T2021       6.270  16.321  -4.995  1.00 48.38     0.083 A 
+HETATM    2  NAW   D T2021       6.950  15.485  -5.766  1.00 46.46    -0.227 NA
+HETATM    3  CAM   D T2021       6.634  17.563  -5.274  1.00 46.71     0.025 A 
+HETATM    4  C5    D T2021       7.551  17.519  -6.221  1.00 46.87     0.073 A 
+HETATM    5  C4    D T2021       7.748  16.202  -6.536  1.00 46.80     0.167 A 
+HETATM    6  N3    D T2021       8.637  15.882  -7.473  1.00 47.13    -0.205 NA
+HETATM    7  C2    D T2021       9.322  16.816  -8.099  1.00 45.54     0.202 A 
+HETATM    8  N1    D T2021       9.153  18.089  -7.821  1.00 45.28    -0.205 NA
+HETATM    9  C6    D T2021       8.279  18.470  -6.897  1.00 46.82     0.163 A 
+HETATM   10  NAV   D T2021       8.132  19.753  -6.642  1.00 49.40    -0.250 NA
+ENDROOT
+BRANCH   1  11
+HETATM   11  CAY   D T2021       5.322  15.951  -4.057  1.00 49.55     0.018 A 
+HETATM   12  CAK   D T2021       5.097  14.612  -3.801  1.00 50.94     0.001 A 
+HETATM   13  CAI   D T2021       4.143  14.230  -2.873  1.00 52.56    -0.002 A 
+HETATM   14  CAX   D T2021       3.408  15.186  -2.204  1.00 54.24     0.011 A 
+HETATM   15  CAJ   D T2021       3.634  16.524  -2.460  1.00 51.77    -0.002 A 
+HETATM   16  CAL   D T2021       4.584  16.907  -3.392  1.00 50.18     0.001 A 
+BRANCH  14  17
+HETATM   17  CAS   D T2021       2.366  14.762  -1.176  1.00 59.34     0.277 C 
+BRANCH  17  18
+HETATM   18  NBG   D T2021       2.370  13.299  -1.093  1.00 64.50     0.146 N 
+HETATM   19  CAQ   D T2021       1.096  12.752  -0.619  1.00 65.86     0.286 C 
+HETATM   20  CAO   D T2021       0.937  12.992   0.879  1.00 66.93     0.285 C 
+HETATM   21  NBF   D T2021       2.061  12.403   1.606  1.00 66.06     0.141 N 
+HETATM   22  CAP   D T2021       3.283  13.075   1.170  1.00 65.57     0.285 C 
+HETATM   23  CAR   D T2021       3.502  12.795  -0.309  1.00 65.21     0.286 C 
+BRANCH  21  24
+HETATM   24  CAN   D T2021       2.148  10.968   1.321  1.00 64.26     0.251 C 
+HETATM   25  CAA   D T2021       2.199  10.192   2.636  1.00 61.05     0.037 C 
+ENDBRANCH  21  24
+ENDBRANCH  17  18
+ENDBRANCH  14  17
+ENDBRANCH   1  11
+BRANCH  10  26
+HETATM   26  CBE   D T2021       9.096  20.684  -7.218  1.00 51.58     0.127 C 
+HETATM   27  CAB   D T2021       9.737  21.508  -6.114  1.00 54.00     0.031 C 
+BRANCH  26  28
+HETATM   28  CAZ   D T2021       8.393  21.615  -8.179  1.00 51.45    -0.000 A 
+HETATM   29  CAG   D T2021       7.042  21.466  -8.414  1.00 51.44    -0.002 A 
+HETATM   30  CAD   D T2021       6.402  22.319  -9.296  1.00 51.45    -0.000 A 
+HETATM   31  CAC   D T2021       7.110  23.315  -9.939  1.00 51.82    -0.000 A 
+HETATM   32  CAE   D T2021       8.462  23.464  -9.699  1.00 50.90    -0.000 A 
+HETATM   33  CAH   D T2021       9.105  22.613  -8.819  1.00 51.08    -0.002 A 
+ENDBRANCH  26  28
+ENDBRANCH  10  26
+TORSDOF 6
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -7.995      6.470     11.121
+REMARK INTER + INTRA:         -11.563
+REMARK INTER:                 -10.433
+REMARK INTRA:                  -1.131
+REMARK UNBOUND:                -0.764
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NBF_3  and  CAN_4 
+REMARK    2  A    between atoms: NBG_8  and  CAS_9 
+REMARK    3  A    between atoms: CAS_9  and  CAX_10 
+REMARK    4  A    between atoms: CAY_15  and  CBA_16 
+REMARK    5  A    between atoms: NAV_25  and  CBE_26 
+REMARK    6  A    between atoms: CBE_26  and  CAZ_28 
+ROOT
+HETATM    1  CBA   D T2021       7.760  15.863  -5.207  1.00 48.38     0.083 A 
+HETATM    2  NAW   D T2021       8.754  15.272  -5.852  1.00 46.46    -0.227 NA
+HETATM    3  CAM   D T2021       7.807  17.167  -5.437  1.00 46.71     0.025 A 
+HETATM    4  C5    D T2021       8.835  17.407  -6.227  1.00 46.87     0.073 A 
+HETATM    5  C4    D T2021       9.433  16.205  -6.494  1.00 46.80     0.167 A 
+HETATM    6  N3    D T2021      10.510  16.172  -7.276  1.00 47.13    -0.205 NA
+HETATM    7  C2    D T2021      11.000  17.278  -7.794  1.00 45.54     0.202 A 
+HETATM    8  N1    D T2021      10.447  18.447  -7.560  1.00 45.28    -0.205 NA
+HETATM    9  C6    D T2021       9.370  18.543  -6.788  1.00 46.82     0.163 A 
+HETATM   10  NAV   D T2021       8.838  19.728  -6.572  1.00 49.40    -0.250 NA
+ENDROOT
+BRANCH   1  11
+HETATM   11  CAY   D T2021       6.817  15.217  -4.428  1.00 49.55     0.018 A 
+HETATM   12  CAK   D T2021       7.199  14.161  -3.623  1.00 50.94     0.001 A 
+HETATM   13  CAI   D T2021       6.262  13.500  -2.847  1.00 52.56    -0.002 A 
+HETATM   14  CAX   D T2021       4.940  13.890  -2.878  1.00 54.24     0.011 A 
+HETATM   15  CAJ   D T2021       4.558  14.946  -3.682  1.00 51.77    -0.002 A 
+HETATM   16  CAL   D T2021       5.494  15.604  -4.463  1.00 50.18     0.001 A 
+BRANCH  14  17
+HETATM   17  CAS   D T2021       3.913  13.166  -2.016  1.00 59.34     0.277 C 
+BRANCH  17  18
+HETATM   18  NBG   D T2021       3.422  14.104  -1.002  1.00 64.50     0.146 N 
+HETATM   19  CAQ   D T2021       3.528  13.574   0.361  1.00 65.86     0.286 C 
+HETATM   20  CAO   D T2021       2.462  12.510   0.604  1.00 66.93     0.285 C 
+HETATM   21  NBF   D T2021       1.131  13.066   0.361  1.00 66.06     0.141 N 
+HETATM   22  CAP   D T2021       1.057  13.464  -1.042  1.00 65.57     0.285 C 
+HETATM   23  CAR   D T2021       2.065  14.574  -1.297  1.00 65.21     0.286 C 
+BRANCH  21  24
+HETATM   24  CAN   D T2021       0.905  14.227   1.226  1.00 64.26     0.251 C 
+HETATM   25  CAA   D T2021       0.413  13.753   2.593  1.00 61.05     0.037 C 
+ENDBRANCH  21  24
+ENDBRANCH  17  18
+ENDBRANCH  14  17
+ENDBRANCH   1  11
+BRANCH  10  26
+HETATM   26  CBE   D T2021       9.586  20.906  -6.999  1.00 51.58     0.127 C 
+HETATM   27  CAB   D T2021       9.841  21.810  -5.805  1.00 54.00     0.031 C 
+BRANCH  26  28
+HETATM   28  CAZ   D T2021       8.789  21.669  -8.031  1.00 51.45    -0.000 A 
+HETATM   29  CAG   D T2021       9.391  22.677  -8.756  1.00 51.44    -0.002 A 
+HETATM   30  CAD   D T2021       8.657  23.375  -9.698  1.00 51.45    -0.000 A 
+HETATM   31  CAC   D T2021       7.328  23.067  -9.913  1.00 51.82    -0.000 A 
+HETATM   32  CAE   D T2021       6.729  22.055  -9.189  1.00 50.90    -0.000 A 
+HETATM   33  CAH   D T2021       7.459  21.355  -8.246  1.00 51.08    -0.002 A 
+ENDBRANCH  26  28
+ENDBRANCH  10  26
+TORSDOF 6
+ENDMDL

@@ -8,7 +8,8 @@ import random
 from pathlib import Path
 
 # ---------------- Config ----------------
-vina_executable = r"/usr/local/bin/vina"  # on Mac / Linux
+#vina_executable = r"/usr/local/bin/vina"  # on Mac / Linux
+vina_executable = r"C:\Program Files (x86)\PyRx\vina.exe"  # on Windows
 RANDOM_SEED = 42              # set None for non-deterministic picks
 NUM_RECEPTORS = 20            # pick up to this many random receptors
 LIGANDS_PER_RECEPTOR = 2      # random ligands per receptor
@@ -18,7 +19,7 @@ HEAVY_ATOM_BUFFER = 5.0
 
 base_dir = Path(__file__).resolve().parent
 lig_folder = base_dir / "ligand_pdbqt"
-prot_folder = base_dir / "Malaria_Dataset_only"
+prot_folder = base_dir / "malaria_pdbqt"
 results_root = base_dir / "results"
 results_root.mkdir(parents=True, exist_ok=True)
 
